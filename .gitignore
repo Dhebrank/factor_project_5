@@ -36,13 +36,15 @@ venv.bak/
 # pyenv
 .python-version
 
-# Data files
+# Data files - Allow processed CSV, exclude raw Excel
 *.xlsx
 *.xls
-*.csv
 *.parquet
 *.hdf5
 *.h5
+
+# Keep raw MSCI Excel files private (potential licensing)
+data/msci_indexes/extracted_indexes/*.xlsx
 
 # IDE
 .vscode/
