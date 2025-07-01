@@ -1,0 +1,27 @@
+{
+  "processing_date": "2025-06-30T13:58:57.048216",
+  "data_source": "Sharadar",
+  "date_range": {
+    "start": "1998-12-31T00:00:00",
+    "end": "2025-05-30T00:00:00"
+  },
+  "observations": 318,
+  "columns": [
+    "VIX",
+    "SP500",
+    "SP500_Adj",
+    "Volume",
+    "VIX_1d_change",
+    "VIX_1w_change",
+    "VIX_1m_change",
+    "VIX_1y_percentile",
+    "VIX_1y_zscore",
+    "SP500_Monthly_Return"
+  ],
+  "vix_stats": {
+    "mean": 20.08931547929784,
+    "std": 7.938761514540244,
+    "min": 10.125454545454545,
+    "max": 62.66894736842105
+  }
+}

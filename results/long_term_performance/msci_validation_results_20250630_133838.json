@@ -1,0 +1,18 @@
+{
+  "static_original_static": {
+    "strategy": "Static_original_static",
+    "allocation": {
+      "Value": 0.25,
+      "Quality": 0.3,
+      "MinVol": 0.2,
+      "Momentum": 0.25
+    },
+    "total_return": 9.254322093886794,
+    "annual_return": 0.09181091639493721,
+    "annual_volatility": 0.14338678740608093,
+    "sharpe_ratio": 0.6403024857159438,
+    "max_drawdown": -0.476444409264193,
+    "win_rate": 0.6415094339622641,
+    "total_months": 318,
+    "portfolio_returns": {
+      

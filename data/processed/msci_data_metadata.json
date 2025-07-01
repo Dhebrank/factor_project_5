@@ -1,0 +1,53 @@
+{
+  "processing_date": "2025-06-30T13:36:57.252419",
+  "price_data": {
+    "file": "data/processed/msci_factor_prices.csv",
+    "start_date": "1998-11-30T00:00:00",
+    "end_date": "2025-05-30T00:00:00",
+    "observations": 319,
+    "factors": [
+      "Value",
+      "Quality",
+      "MinVol",
+      "Momentum"
+    ]
+  },
+  "returns_data": {
+    "file": "data/processed/msci_factor_returns.csv",
+    "start_date": "1998-12-31T00:00:00",
+    "end_date": "2025-05-30T00:00:00",
+    "observations": 318,
+    "factors": [
+      "Value",
+      "Quality",
+      "MinVol",
+      "Momentum"
+    ]
+  },
+  "source_files": {
+    "Value": {
+      "file": "705973 - MSCI USA Enhanced Value Index  - FULL - 1997-11-28 - 2025-06-27  - Monthly.xlsx",
+      "start_date": "1997-11-28 00:00:00",
+      "end_date": "2025-05-30 00:00:00",
+      "observations": 331
+    },
+    "Quality": {
+      "file": "705911 - MSCI USA Sector Neutral Quality Index  - FULL - 1998-11-30 - 2025-06-27  - Monthly.xlsx",
+      "start_date": "1998-11-30 00:00:00",
+      "end_date": "2025-05-30 00:00:00",
+      "observations": 319
+    },
+    "MinVol": {
+      "file": "139133 - MSCI USA Minimum Volatility Index (USD)  - FULL - 1997-01-31 - 2025-06-27  - Monthly.xlsx",
+      "start_date": "1997-01-31 00:00:00",
+      "end_date": "2025-05-30 00:00:00",
+      "observations": 341
+    },
+    "Momentum": {
+      "file": "703025 - MSCI USA Momentum Index  - FULL - 1997-01-31 - 2025-06-27  - Monthly.xlsx",
+      "start_date": "1997-01-31 00:00:00",
+      "end_date": "2025-05-30 00:00:00",
+      "observations": 341
+    }
+  }
+}

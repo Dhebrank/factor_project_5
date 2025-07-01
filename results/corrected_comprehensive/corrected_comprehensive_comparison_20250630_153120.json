@@ -1,0 +1,159 @@
+{
+  "analysis_date": "2025-06-30T15:31:19.962025",
+  "methodology": "CORRECTED - removed biased strategies, verified parameters",
+  "sp500_benchmark": {
+    "annual_return": 0.0822,
+    "sharpe_ratio": 0.541,
+    "max_drawdown": -0.508,
+    "annual_volatility": 0.152
+  },
+  "legitimate_strategies": {
+    "static_original": {
+      "strategy_name": "Static Original",
+      "performance": {
+        "annual_return": 0.09181091639493721,
+        "annual_volatility": 0.14338678740608093,
+        "sharpe_ratio": 0.6403024857159438,
+        "sortino_ratio": 0.8993888364074614,
+        "calmar_ratio": 0.19270016524430908,
+        "max_drawdown": -0.476444409264193,
+        "win_rate": 0.6415094339622641,
+        "alpha_vs_sp500": 0.009610916394937219
+      },
+      "methodology_status": "LEGITIMATE",
+      "description": "Equal-weight baseline (25/30/20/25)",
+      "reoptimization_required": 0.0
+    },
+    "static_optimized": {
+      "strategy_name": "Static Optimized",
+      "performance": {
+        "annual_return": 0.09201130404539448,
+        "annual_volatility": 0.13870656574368195,
+        "sharpe_ratio": 0.6633521892209747,
+        "sortino_ratio": 0.9397625162403076,
+        "calmar_ratio": 0.19753865424298434,
+        "max_drawdown": -0.46578885736568343,
+        "win_rate": 0.6383647798742138,
+        "alpha_vs_sp500": 0.009811304045394487
+      },
+      "methodology_status": "LEGITIMATE",
+      "description": "factor_project_4 allocation (15/27.5/30/27.5) - OOS",
+      "reoptimization_required": 0.0
+    },
+    "basic_dynamic": {
+      "strategy_name": "Basic Dynamic",
+      "performance": {
+        "annual_return": 0.09262755526902722,
+        "annual_volatility": 0.13924105617193133,
+        "sharpe_ratio": 0.6652316336544665,
+        "sortino_ratio": 0.9389275266108421,
+        "calmar_ratio": 0.19998427681519246,
+        "max_drawdown": -0.4631741892120114,
+        "win_rate": 0.6383647798742138,
+        "alpha_vs_sp500": 0.010427555269027222
+      },
+      "methodology_status": "LEGITIMATE",
+      "description": "VIX regime detection (predetermined thresholds 25/35/50)",
+      "reoptimization_required": 0.0
+    },
+    "enhanced_dynamic": {
+      "strategy_name": "Enhanced Dynamic",
+      "performance": {
+        "annual_return": 0.09884126194583853,
+        "annual_volatility": 0.13737525538173695,
+        "sharpe_ratio": 0.7194982944430527,
+        "sortino_ratio": 1.0028391947502746,
+        "calmar_ratio": 0.21500578220626457,
+        "max_drawdown": -0.45971443619602625,
+        "win_rate": 0.6257861635220126,
+        "alpha_vs_sp500": 0.016641261945838537
+      },
+      "methodology_status": "LEGITIMATE",
+      "description": "VIX regime + factor momentum (verified parameters)",
+      "reoptimization_required": 0.0
+    }
+  },
+  "biased_strategies": {
+    "basic_dynamic_v2_corrected": {
+      "strategy_name": "Basic Dynamic v2 (CORRECTED)",
+      "performance": {
+        "annual_return": 0.09262755526902722,
+        "annual_volatility": 0.13924105617193133,
+        "sharpe_ratio": 0.6652316336544665,
+        "sortino_ratio": 0.9389275266108421,
+        "calmar_ratio": 0.19998427681519246,
+        "max_drawdown": -0.4631741892120114,
+        "win_rate": 0.6383647798742138,
+        "alpha_vs_sp500": 0.010427555269027222
+      },
+      "methodology_status": "CORRECTED",
+      "description": "VIX threshold optimization provides minimal improvement",
+      "original_bias": "Applied optimized thresholds to full dataset",
+      "correction": "Should perform same as baseline Basic Dynamic (~9.26%)",
+      "reoptimization_required": 1.0
+    },
+    "true_optimized_static": {
+      "strategy_name": "TRUE Optimized Static",
+      "methodology_status": "BIASED",
+      "description": "Allocation optimized on full MSCI dataset",
+      "bias_issue": "In-sample optimization on test data",
+      "correction_needed": "Requires periodic reoptimization to be legitimate",
+      "reoptimization_required": 1.0
+    },
+    "enhanced_dynamic_v2": {
+      "strategy_name": "Enhanced Dynamic v2",
+      "methodology_status": "QUESTIONABLE",
+      "description": "Multi-signal framework with potentially optimized parameters",
+      "bias_issue": "Signal weights and allocation matrices may be optimized on MSCI data",
+      "correction_needed": "Verify parameter sources or exclude from comparison",
+      "reoptimization_required": 1.0
+    }
+  },
+  "performance_ranking": [
+    {
+      "strategy": "Enhanced Dynamic",
+      "annual_return": 0.09884126194583853,
+      "sharpe_ratio": 0.7194982944430527,
+      "max_drawdown": -0.45971443619602625,
+      "alpha_vs_sp500": 0.016641261945838537,
+      "methodology_status": "LEGITIMATE",
+      "reoptimization_required": 0.0
+    },
+    {
+      "strategy": "Basic Dynamic",
+      "annual_return": 0.09262755526902722,
+      "sharpe_ratio": 0.6652316336544665,
+      "max_drawdown": -0.4631741892120114,
+      "alpha_vs_sp500": 0.010427555269027222,
+      "methodology_status": "LEGITIMATE",
+      "reoptimization_required": 0.0
+    },
+    {
+      "strategy": "Static Optimized",
+      "annual_return": 0.09201130404539448,
+      "sharpe_ratio": 0.6633521892209747,
+      "max_drawdown": -0.46578885736568343,
+      "alpha_vs_sp500": 0.009811304045394487,
+      "methodology_status": "LEGITIMATE",
+      "reoptimization_required": 0.0
+    },
+    {
+      "strategy": "Static Original",
+      "annual_return": 0.09181091639493721,
+      "sharpe_ratio": 0.6403024857159438,
+      "max_drawdown": -0.476444409264193,
+      "alpha_vs_sp500": 0.009610916394937219,
+      "methodology_status": "LEGITIMATE",
+      "reoptimization_required": 0.0
+    },
+    {
+      "strategy": "S&P 500 Benchmark",
+      "annual_return": 0.0822,
+      "sharpe_ratio": 0.541,
+      "max_drawdown": -0.508,
+      "alpha_vs_sp500": 0.0,
+      "methodology_status": "BENCHMARK",
+      "reoptimization_required": 0.0
+    }
+  ]
+}

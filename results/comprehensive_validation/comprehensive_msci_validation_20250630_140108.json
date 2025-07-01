@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "validation_date": "2025-06-30T14:01:05.280960",
+    "data_period": [
+      "1998-12-31T00:00:00",
+      "2025-05-30T00:00:00"
+    ],
+    "total_observations": 318,
+    "methodology": "factor_project_4_replication"
+  },
+  "benchmark_performance": {
+    "total_return": 7.106595144763066,
+    "annual_return": 0.0821707516241601,
+    "annual_volatility": 0.1519682595602732,
+    "sharpe_ratio": 0.5407099605004674,
+    "sortino_ratio": 0.7730195124903785,
+    "calmar_ratio": 0.16176151209281303,
+    "max_drawdown": -0.507974675564441,
+    "win_rate": 0.6257861635220126,
+    "beta": null,
+    "alpha": null,
+    "tracking_error": null,
+    "information_ratio": null
+  },
+  "strategy_performance": {
+    "static_original": {
+      "metrics": {
+        "total_return": 9.254322093886794,
+        "annual_return": 0.09181091639493721,
+        "annual_volatility": 0.14338678740608093,
+        "sharpe_ratio": 0.6403024857159438,
+        "sortino_ratio": 0.8993888364074614,
+        "calmar_ratio": 0.19270016524430908,
+        "max_drawdown": -0.476444409264193,
+        "win_rate": 0.6415094339622641,
+        "beta": 0.9277651570792718,
+        "alpha": 0.007529624113835634,
+        "tracking_error": 0.030604055626435974,
+        "information_ratio": 0.03161571820854373
+      },
+      "returns": {
+        

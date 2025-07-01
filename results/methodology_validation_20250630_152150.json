@@ -1,0 +1,166 @@
+{
+  "validation_date": "2025-06-30T15:21:50.057150",
+  "purpose": "Detect in-sample bias and reoptimization requirements",
+  "basic_dynamic_v2": {
+    "strategy": "Basic Dynamic v2",
+    "bias_detected": true,
+    "issues": [
+      {
+        "problem": "Walk-forward optimization + full dataset validation",
+        "description": "The strategy optimizes VIX thresholds using walk-forward analysis (legitimate), but then applies the \"best\" thresholds to the ENTIRE 26.5-year dataset to calculate final performance metrics",
+        "bias_type": "Selection bias - cherry-picking best parameters based on full period performance",
+        "severity": "HIGH - Final performance metrics are biased"
+      },
+      {
+        "problem": "Final performance calculation",
+        "description": "Reported 9.27% return comes from applying optimized thresholds to full dataset, not from averaging walk-forward validation periods",
+        "correct_approach": "Should report average performance across walk-forward validation periods",
+        "bias_type": "In-sample optimization bias",
+        "severity": "HIGH - Results are not legitimate OOS"
+      }
+    ],
+    "methodology_problems": [
+      "Walk-forward optimization is legitimate",
+      "BUT final performance calculation uses full dataset",
+      "This is the same mistake as \"TRUE Optimized static\" allocation",
+      "Proper OOS performance should be ~9.26% (average of validation periods)"
+    ]
+  },
+  "enhanced_dynamic": {
+    "strategy": "Enhanced Dynamic",
+    "bias_detected": true,
+    "parameter_sources": {
+      "vix_thresholds": {
+        "values": [
+          25,
+          35,
+          50
+        ],
+        "source": "Academic literature / factor_project_4",
+        "legitimacy": "LEGITIMATE - predetermined, not optimized on MSCI data",
+        "bias_risk": "LOW"
+      },
+      "base_allocation": {
+        "values": [
+          15,
+          27.5,
+          30,
+          27.5
+        ],
+        "source": "factor_project_4 optimization (different dataset)",
+        "legitimacy": "LEGITIMATE - OOS from MSCI perspective",
+        "bias_risk": "LOW"
+      },
+      "factor_momentum_lookback": {
+        "values": "12 months",
+        "source": "UNKNOWN - needs verification",
+        "legitimacy": "QUESTIONABLE - may be optimized",
+        "bias_risk": "MEDIUM"
+      },
+      "zscore_window": {
+        "values": "36 months",
+        "source": "UNKNOWN - needs verification",
+        "legitimacy": "QUESTIONABLE - may be optimized",
+        "bias_risk": "MEDIUM"
+      },
+      "tilt_strength": {
+        "values": "5% maximum",
+        "source": "UNKNOWN - needs verification",
+        "legitimacy": "QUESTIONABLE - may be optimized",
+        "bias_risk": "MEDIUM"
+      },
+      "momentum_multiplier": {
+        "values": "0.02",
+        "source": "UNKNOWN - needs verification",
+        "legitimacy": "QUESTIONABLE - may be optimized",
+        "bias_risk": "MEDIUM"
+      }
+    },
+    "reoptimization_required": false,
+    "methodology_problems": [
+      "Factor momentum parameters may be optimized on full dataset: ['factor_momentum_lookback', 'zscore_window', 'tilt_strength', 'momentum_multiplier']",
+      "Need to verify if 12-month lookback, 36-month z-score window, 5% tilt, 0.02 multiplier came from factor_project_4 or were optimized on MSCI data",
+      "If optimized on MSCI data, this creates in-sample bias"
+    ]
+  },
+  "reoptimization_requirements": {
+    "Static Original": {
+      "reopt_required": false,
+      "reason": "Fixed equal-weight allocation",
+      "parameters": "None - no optimization"
+    },
+    "Static Optimized": {
+      "reopt_required": false,
+      "reason": "Uses factor_project_4 allocation (different dataset)",
+      "parameters": "Allocation weights only (15/27.5/30/27.5)"
+    },
+    "TRUE Optimized Static": {
+      "reopt_required": true,
+      "reason": "Optimized on MSCI dataset - needs periodic reoptimization",
+      "parameters": "Allocation weights (10/20/35/35)"
+    },
+    "Basic Dynamic": {
+      "reopt_required": false,
+      "reason": "Uses predetermined VIX thresholds from literature",
+      "parameters": "VIX thresholds (25/35/50)"
+    },
+    "Basic Dynamic v2": {
+      "reopt_required": true,
+      "reason": "VIX thresholds optimized on MSCI dataset",
+      "parameters": "VIX thresholds (optimized values)"
+    },
+    "Enhanced Dynamic": {
+      "reopt_required": "UNKNOWN",
+      "reason": "Depends on factor momentum parameter sources",
+      "parameters": "VIX thresholds + factor momentum parameters"
+    }
+  },
+  "performance_corrections": {
+    "Basic Dynamic v2": {
+      "reported_performance": {
+        "return": 9.27,
+        "sharpe": 0.666
+      },
+      "bias_type": "Full dataset application after walk-forward optimization",
+      "corrected_approach": "Use average performance across walk-forward validation periods",
+      "estimated_correction": "Should be similar to baseline Basic Dynamic (9.26% return)",
+      "corrected_performance": {
+        "return": 9.26,
+        "sharpe": 0.665
+      },
+      "performance_change": "Essentially no improvement vs baseline"
+    },
+    "Enhanced Dynamic": {
+      "reported_performance": {
+        "return": 9.88,
+        "sharpe": 0.719
+      },
+      "risk_assessment": "MEDIUM - depends on factor momentum parameter sources",
+      "validation_needed": "Verify factor momentum parameters came from factor_project_4",
+      "if_biased": "Performance could be overstated",
+      "if_legitimate": "Performance is valid"
+    }
+  },
+  "recommendations": {
+    "immediate_actions": [
+      "CORRECT Basic Dynamic v2 performance - use walk-forward validation averages, not full dataset application",
+      "VERIFY Enhanced Dynamic factor momentum parameter sources - if optimized on MSCI data, performance is biased"
+    ],
+    "strategy_rankings": {
+      "legitimate_strategies": [
+        "Enhanced Dynamic (if parameters verified)",
+        "Static Optimized (factor_project_4 allocation)",
+        "Basic Dynamic (predetermined thresholds)",
+        "Static Original (equal weights)"
+      ],
+      "biased_strategies": [
+        "Basic Dynamic v2 (VIX thresholds optimized on full dataset)",
+        "TRUE Optimized Static (allocation optimized on full dataset)"
+      ],
+      "questionable_strategies": [
+        "Enhanced Dynamic (if factor momentum parameters optimized on MSCI data)"
+      ]
+    },
+    "implementation_guidance": {}
+  }
+}

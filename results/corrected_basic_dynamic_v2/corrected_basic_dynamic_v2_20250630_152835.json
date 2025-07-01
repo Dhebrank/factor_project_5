@@ -1,0 +1,27 @@
+{
+  "analysis_date": "2025-06-30T15:27:47.707697",
+  "methodology": "CORRECTED - proper OOS walk-forward validation",
+  "baseline_performance": {
+    "annual_return": 0.09262755526902722,
+    "annual_volatility": 0.13924105617193133,
+    "sharpe_ratio": 0.6652316336544665,
+    "max_drawdown": -0.4631741892120114,
+    "win_rate": 0.6383647798742138
+  },
+  "corrected_oos_performance": {
+    "annual_return": 0.12096806926476043,
+    "sharpe_ratio": 1.409031313186839,
+    "max_drawdown": -0.08658559053793786,
+    "annual_volatility": 0.12549029225187586,
+    "validation_periods": 21.0,
+    "return_std_error": 0.02963548762134863,
+    "sharpe_std_error": 0.3419376033770233
+  },
+  "validation_results": 21.0,
+  "most_common_thresholds": "(20, 30, 45)",
+  "improvement_analysis": {
+    "return_improvement": 0.028340513995733216,
+    "sharpe_improvement": 0.7437996795323726,
+    "improvement_significant": 1.0
+  }
+}

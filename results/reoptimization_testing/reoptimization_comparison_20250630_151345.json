@@ -1,0 +1,20 @@
+{
+  "baseline": {
+    "strategy": "baseline_static_optimized",
+    "allocation_changes": 0.0,
+    "average_allocation": {
+      "Value": 0.15,
+      "Quality": 0.275,
+      "MinVol": 0.3,
+      "Momentum": 0.275
+    },
+    "performance": {
+      "annual_return": 0.09201130404539448,
+      "annual_volatility": 0.13870656574368195,
+      "sharpe_ratio": 0.6633521892209747,
+      "sortino_ratio": 0.9397625162403076,
+      "calmar_ratio": 0.19753865424298434,
+      "max_drawdown": -0.46578885736568343
+    },
+    "returns": {
+      
