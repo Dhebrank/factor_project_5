@@ -1,0 +1,40 @@
+
+COMPREHENSIVE PERFORMANCE ANALYSIS: STATIC OPTIMIZED OOS vs S&P 500
+========================================================================
+Analysis Period: December 1998 - May 2025
+Total Months: 318
+
+PERFORMANCE METRICS COMPARISON:
+------------------------------
+                        Static Optimized    S&P 500       Difference
+Annual Return             10.25%           9.47%         +0.78%
+Annual Volatility         13.87%          15.20%         -1.33%
+Sharpe Ratio               0.739           0.623         +0.116
+Max Drawdown             -46.58%         -50.80%         +4.22%
+
+ADDITIONAL METRICS:
+------------------
+Correlation with S&P 500:     0.975
+Information Ratio:            0.206
+Average Monthly Excess:       +0.0006 (+0.06%)
+Monthly Excess Volatility:    0.0101 (1.01%)
+
+CUMULATIVE PERFORMANCE:
+----------------------
+Static Optimized Final Value: $10.30
+S&P 500 Final Value:          $8.11
+Total Outperformance:         +27.1%
+
+WIN RATE ANALYSIS:
+-----------------
+Months Strategy Outperformed: 172 (54.1%)
+Months Strategy Underperformed: 146 (45.9%)
+
+RISK-ADJUSTED PERFORMANCE:
+-------------------------
+Strategy Risk-Adjusted Return: 0.739
+S&P 500 Risk-Adjusted Return:  0.623
+Improvement Factor:            1.19x
+
+========================================================================
+Generated: 2025-07-01 13:14:24
