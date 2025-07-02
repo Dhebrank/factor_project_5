@@ -758,8 +758,8 @@ class BusinessCycleFactorAnalyzer:
         Step 2.1b: Economic signal validation per regime
         """
         economic_indicators = [
-            'GDP_GROWTH_COMPOSITE', 'INFLATION_COMPOSITE', 'UNRATE',
-            'PAYEMS', 'DGS10', 'DGS2', 'TERM_SPREAD'
+            'GROWTH_COMPOSITE', 'GDPC1_YOY', 'INFLATION_COMPOSITE', 'UNRATE',
+            'PAYEMS', 'PAYEMS_YOY', 'DGS10', 'DGS2', 'T10Y2Y'
         ]
         
         # Filter to available indicators
@@ -866,8 +866,8 @@ class BusinessCycleFactorAnalyzer:
         factors = ['Value', 'Quality', 'MinVol', 'Momentum']
         
         # Add S&P 500 if available
-        if 'SP500_RETURN' in self.aligned_data.columns:
-            factors.append('SP500_RETURN')
+        if 'SP500_Monthly_Return' in self.aligned_data.columns:
+            factors.append('SP500_Monthly_Return')
         
         results = {}
         
@@ -947,8 +947,8 @@ class BusinessCycleFactorAnalyzer:
         import itertools
         
         factors = ['Value', 'Quality', 'MinVol', 'Momentum']
-        if 'SP500_RETURN' in self.aligned_data.columns:
-            factors.append('SP500_RETURN')
+        if 'SP500_Monthly_Return' in self.aligned_data.columns:
+            factors.append('SP500_Monthly_Return')
         
         results = {}
         
@@ -983,16 +983,16 @@ class BusinessCycleFactorAnalyzer:
         logger.info("Running pairwise t-tests...")
         pairwise_tests = {}
         
-        if 'SP500_RETURN' in self.aligned_data.columns:
+        if 'SP500_Monthly_Return' in self.aligned_data.columns:
             for regime in self.aligned_data['ECONOMIC_REGIME'].unique():
                 regime_data = self.aligned_data[self.aligned_data['ECONOMIC_REGIME'] == regime]
-                sp500_returns = regime_data['SP500_RETURN'].dropna()
+                sp500_returns = regime_data['SP500_Monthly_Return'].dropna()
                 
                 if len(sp500_returns) > 1:
                     regime_tests = {}
                     
                     for factor in factors:
-                        if factor != 'SP500_RETURN' and factor in regime_data.columns:
+                        if factor != 'SP500_Monthly_Return' and factor in regime_data.columns:
                             factor_returns = regime_data[factor].dropna()
                             
                             # Align the series for comparison

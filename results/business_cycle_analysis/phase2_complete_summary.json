@@ -1,6 +1,6 @@
 {
   "phase2_completion": {
-    "timestamp": "2025-07-02T09:35:39.570029",
+    "timestamp": "2025-07-02T09:54:14.245945",
     "status": "COMPLETED",
     "components_completed": [
       "2.1a: Regime duration and frequency analysis",
@@ -1081,6 +1081,22 @@
         "expected_shortfall_5_percent": -0.11880142571337034,
         "win_rate": 0.5714285714285714,
         "positive_months": 32
+      },
+      "SP500_Monthly_Return": {
+        "observations": 56,
+        "mean_monthly_return": 0.0012670353837978092,
+        "median_monthly_return": 0.01025147609666455,
+        "std_monthly_return": 0.0561649384674843,
+        "annualized_return": 0.015310828371454033,
+        "annualized_volatility": 0.19456105405932494,
+        "sharpe_ratio": 0.07869420961702595,
+        "sortino_ratio": 0.11545841036771466,
+        "calmar_ratio": 0.04590939696959657,
+        "max_drawdown": -0.3335009689104304,
+        "var_5_percent": -0.0817245517599245,
+        "expected_shortfall_5_percent": -0.12397890930022117,
+        "win_rate": 0.5892857142857143,
+        "positive_months": 33
       }
     },
     "Overheating": {
@@ -1147,6 +1163,22 @@
         "expected_shortfall_5_percent": -0.06946406123973765,
         "win_rate": 0.6048387096774194,
         "positive_months": 75
+      },
+      "SP500_Monthly_Return": {
+        "observations": 124,
+        "mean_monthly_return": 0.010996959923613329,
+        "median_monthly_return": 0.01280489344400015,
+        "std_monthly_return": 0.0384223406402961,
+        "annualized_return": 0.14024505110152807,
+        "annualized_volatility": 0.1330988922694227,
+        "sharpe_ratio": 1.0536905958438776,
+        "sortino_ratio": 1.8806373932760458,
+        "calmar_ratio": 0.5278261883401512,
+        "max_drawdown": -0.26570309355538996,
+        "var_5_percent": -0.048441375694740024,
+        "expected_shortfall_5_percent": -0.07081170506523334,
+        "win_rate": 0.6290322580645161,
+        "positive_months": 78
       }
     },
     "Goldilocks": {
@@ -1213,6 +1245,22 @@
         "expected_shortfall_5_percent": -0.0474161316264195,
         "win_rate": 0.7804878048780488,
         "positive_months": 32
+      },
+      "SP500_Monthly_Return": {
+        "observations": 41,
+        "mean_monthly_return": 0.019737944045557575,
+        "median_monthly_return": 0.0236106375724514,
+        "std_monthly_return": 0.031404259201015965,
+        "annualized_return": 0.2643373111585703,
+        "annualized_volatility": 0.10878754502044409,
+        "sharpe_ratio": 2.429849033810757,
+        "sortino_ratio": 2.702202591515853,
+        "calmar_ratio": 1.9618233742377296,
+        "max_drawdown": -0.1347406268218611,
+        "var_5_percent": -0.022869741389584,
+        "expected_shortfall_5_percent": -0.05412740234378414,
+        "win_rate": 0.8292682926829268,
+        "positive_months": 34
       }
     },
     "Stagflation": {
@@ -1279,6 +1327,22 @@
         "expected_shortfall_5_percent": -0.11042538276523532,
         "win_rate": 0.5670103092783505,
         "positive_months": 55
+      },
+      "SP500_Monthly_Return": {
+        "observations": 97,
+        "mean_monthly_return": 0.0016857317815573095,
+        "median_monthly_return": 0.0046169579953163,
+        "std_monthly_return": 0.04592081085939961,
+        "annualized_return": 0.020417390907496946,
+        "annualized_volatility": 0.15907435506648154,
+        "sharpe_ratio": 0.12835124114734872,
+        "sortino_ratio": 0.18187987272135026,
+        "calmar_ratio": 0.061268676737733674,
+        "max_drawdown": -0.3332435429427586,
+        "var_5_percent": -0.0843832203020939,
+        "expected_shortfall_5_percent": -0.09799670612473545,
+        "win_rate": 0.5567010309278351,
+        "positive_months": 54
       }
     }
   },
@@ -1327,96 +1391,248 @@
           "Goldilocks",
           "Stagflation"
         ]
+      },
+      "SP500_Monthly_Return": {
+        "f_statistic": 2.2985899007749686,
+        "p_value": 0.07745077881811163,
+        "significant": "False",
+        "regimes_tested": [
+          "Recession",
+          "Overheating",
+          "Goldilocks",
+          "Stagflation"
+        ]
       }
     },
-    "pairwise_tests": {},
-    "bootstrap_confidence_intervals": {
+    "pairwise_tests": {
       "Recession": {
         "Value": {
-          "mean": -0.0028445443081361477,
-          "ci_lower": -0.019282641433301266,
-          "ci_upper": 0.01264738511524837
+          "t_statistic": -1.740259359027459,
+          "p_value": 0.08740635209268707,
+          "significant": "False",
+          "outperforms_sp500": "False",
+          "observations": 56
         },
         "Quality": {
-          "mean": 0.005044928440899956,
-          "ci_lower": -0.009184975968487734,
-          "ci_upper": 0.018874813720575735
+          "t_statistic": 3.0892960748171254,
+          "p_value": 0.003143957261327499,
+          "significant": "True",
+          "outperforms_sp500": "True",
+          "observations": 56
         },
         "MinVol": {
-          "mean": 0.004577418596651066,
-          "ci_lower": -0.005890495955768586,
-          "ci_upper": 0.01507076643490227
+          "t_statistic": 1.0770857810194603,
+          "p_value": 0.2861436732000263,
+          "significant": "False",
+          "outperforms_sp500": "True",
+          "observations": 56
         },
         "Momentum": {
-          "mean": 0.006480952088039974,
-          "ci_lower": -0.009746807444770177,
-          "ci_upper": 0.022254276611128363
+          "t_statistic": 2.232737674693974,
+          "p_value": 0.029656181562422546,
+          "significant": "True",
+          "outperforms_sp500": "True",
+          "observations": 56
         }
       },
       "Overheating": {
         "Value": {
-          "mean": 0.01342028094694571,
-          "ci_lower": 0.005415478875890419,
-          "ci_upper": 0.021249766357232837
+          "t_statistic": 1.3801448922156005,
+          "p_value": 0.1700453793467609,
+          "significant": "False",
+          "outperforms_sp500": "True",
+          "observations": 124
         },
         "Quality": {
-          "mean": 0.010970779675179993,
-          "ci_lower": 0.004297008528536279,
-          "ci_upper": 0.017334276929809298
+          "t_statistic": -0.03018001323901496,
+          "p_value": 0.9759724038010094,
+          "significant": "False",
+          "outperforms_sp500": "False",
+          "observations": 124
         },
         "MinVol": {
-          "mean": 0.009545772332571392,
-          "ci_lower": 0.004070893401486058,
-          "ci_upper": 0.014711923798268486
+          "t_statistic": -0.8799205165157051,
+          "p_value": 0.3806183107398462,
+          "significant": "False",
+          "outperforms_sp500": "False",
+          "observations": 124
         },
         "Momentum": {
-          "mean": 0.012035158443161536,
-          "ci_lower": 0.004170851031565944,
-          "ci_upper": 0.019838867339045132
+          "t_statistic": 0.5986375870351537,
+          "p_value": 0.5505154467123067,
+          "significant": "False",
+          "outperforms_sp500": "True",
+          "observations": 124
         }
       },
       "Goldilocks": {
         "Value": {
-          "mean": 0.0239384281211645,
-          "ci_lower": 0.0126162829006684,
-          "ci_upper": 0.03432909673637616
+          "t_statistic": 1.90249940931733,
+          "p_value": 0.06432245098187973,
+          "significant": "False",
+          "outperforms_sp500": "True",
+          "observations": 41
         },
         "Quality": {
-          "mean": 0.018125277205919083,
-          "ci_lower": 0.008761485783179805,
-          "ci_upper": 0.026682029376094506
+          "t_statistic": -1.4915718517475633,
+          "p_value": 0.14365656766235874,
+          "significant": "False",
+          "outperforms_sp500": "False",
+          "observations": 41
         },
         "MinVol": {
-          "mean": 0.017182266166296933,
-          "ci_lower": 0.009825002915262674,
-          "ci_upper": 0.02490570155134159
+          "t_statistic": -1.169234893224571,
+          "p_value": 0.24922961522546147,
+          "significant": "False",
+          "outperforms_sp500": "False",
+          "observations": 41
         },
         "Momentum": {
-          "mean": 0.022410979687439023,
-          "ci_lower": 0.013062775274301202,
-          "ci_upper": 0.031679559451872445
+          "t_statistic": 1.1651622984971197,
+          "p_value": 0.2508548641449954,
+          "significant": "False",
+          "outperforms_sp500": "True",
+          "observations": 41
         }
       },
       "Stagflation": {
         "Value": {
-          "mean": 0.0010051321994256179,
-          "ci_lower": -0.009255214135328513,
-          "ci_upper": 0.010160833059912451
+          "t_statistic": -0.39753194211013704,
+          "p_value": 0.6918577773034116,
+          "significant": "False",
+          "outperforms_sp500": "False",
+          "observations": 97
         },
         "Quality": {
-          "mean": 0.0016640006139566226,
-          "ci_lower": -0.007112078238936572,
-          "ci_upper": 0.010716538846308623
+          "t_statistic": -0.06463506764793013,
+          "p_value": 0.9485989651087072,
+          "significant": "False",
+          "outperforms_sp500": "False",
+          "observations": 97
         },
         "MinVol": {
-          "mean": 0.0017394680724113604,
-          "ci_lower": -0.0053543680952480134,
-          "ci_upper": 0.008184998696505987
+          "t_statistic": 0.04365413039208855,
+          "p_value": 0.9652707749963216,
+          "significant": "False",
+          "outperforms_sp500": "True",
+          "observations": 97
         },
         "Momentum": {
-          "mean": 0.0021774936247386857,
-          "ci_lower": -0.007133032604041365,
-          "ci_upper": 0.011090350518418862
+          "t_statistic": 0.13958964392568415,
+          "p_value": 0.8892766595817003,
+          "significant": "False",
+          "outperforms_sp500": "True",
+          "observations": 97
+        }
+      }
+    },
+    "bootstrap_confidence_intervals": {
+      "Recession": {
+        "Value": {
+          "mean": -0.0030039889972240793,
+          "ci_lower": -0.019949959291213668,
+          "ci_upper": 0.0116380442676175
+        },
+        "Quality": {
+          "mean": 0.004893662298339756,
+          "ci_lower": -0.008559370226413066,
+          "ci_upper": 0.0181762704727839
+        },
+        "MinVol": {
+          "mean": 0.0046506663879124855,
+          "ci_lower": -0.006256699259662306,
+          "ci_upper": 0.014951621013041438
+        },
+        "Momentum": {
+          "mean": 0.005970638808685344,
+          "ci_lower": -0.009021540792188532,
+          "ci_upper": 0.02157890205617688
+        },
+        "SP500_Monthly_Return": {
+          "mean": 0.0012528815543624305,
+          "ci_lower": -0.013173445241750228,
+          "ci_upper": 0.015245775874789399
+        }
+      },
+      "Overheating": {
+        "Value": {
+          "mean": 0.013479691829154221,
+          "ci_lower": 0.0057969199142197045,
+          "ci_upper": 0.02167904559971768
+        },
+        "Quality": {
+          "mean": 0.011050726582503986,
+          "ci_lower": 0.003512888127500781,
+          "ci_upper": 0.017838319549282253
+        },
+        "MinVol": {
+          "mean": 0.009737887814328432,
+          "ci_lower": 0.004119943315967781,
+          "ci_upper": 0.015573187674057498
+        },
+        "Momentum": {
+          "mean": 0.012238365697916965,
+          "ci_lower": 0.0038593686461210336,
+          "ci_upper": 0.02002941375200946
+        },
+        "SP500_Monthly_Return": {
+          "mean": 0.011033643150668968,
+          "ci_lower": 0.004335442836264374,
+          "ci_upper": 0.01779202070064354
+        }
+      },
+      "Goldilocks": {
+        "Value": {
+          "mean": 0.023820611249115962,
+          "ci_lower": 0.011118909239525823,
+          "ci_upper": 0.03432086310481448
+        },
+        "Quality": {
+          "mean": 0.018340075924768842,
+          "ci_lower": 0.008378620400645688,
+          "ci_upper": 0.02774850074610353
+        },
+        "MinVol": {
+          "mean": 0.017235511084467837,
+          "ci_lower": 0.009932788034872022,
+          "ci_upper": 0.024444807558263507
+        },
+        "Momentum": {
+          "mean": 0.02250054653031328,
+          "ci_lower": 0.012837447173714494,
+          "ci_upper": 0.031624722754146795
+        },
+        "SP500_Monthly_Return": {
+          "mean": 0.019620656137726334,
+          "ci_lower": 0.009656694394951938,
+          "ci_upper": 0.02841198189818311
+        }
+      },
+      "Stagflation": {
+        "Value": {
+          "mean": 0.0005539671103543112,
+          "ci_lower": -0.009046224128353618,
+          "ci_upper": 0.010528590000565644
+        },
+        "Quality": {
+          "mean": 0.001858489844076678,
+          "ci_lower": -0.007234146839084192,
+          "ci_upper": 0.011035369997020865
+        },
+        "MinVol": {
+          "mean": 0.0016817754829863871,
+          "ci_lower": -0.005109298748552873,
+          "ci_upper": 0.008832156930430747
+        },
+        "Momentum": {
+          "mean": 0.002110121627424464,
+          "ci_lower": -0.00739983725117088,
+          "ci_upper": 0.01122390312849058
+        },
+        "SP500_Monthly_Return": {
+          "mean": 0.0017192441735303491,
+          "ci_lower": -0.007217168408222247,
+          "ci_upper": 0.010360051407229256
         }
       }
     },
