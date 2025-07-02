@@ -1,0 +1,47 @@
+{
+  "data_alignment": {
+    "master_timeline_observations": 318,
+    "date_range": "1998-12-31 00:00:00 to 2025-05-30 00:00:00",
+    "aligned_dataset_shape": [
+      318,
+      53
+    ],
+    "total_indicators": 53
+  },
+  "economic_regimes": {
+    "regime_distribution": {
+      "Recession": 318
+    },
+    "regime_statistics": {
+      "Recession": {
+        "count": 318,
+        "percentage": 100.0,
+        "avg_growth": -0.1341268418099787,
+        "avg_inflation": -0.6738318006683837,
+        "start_date": "1998-12-31",
+        "end_date": "2025-05-30"
+      }
+    },
+    "unique_regimes": [
+      "Recession"
+    ]
+  },
+  "vix_regimes": {
+    "vix_distribution": {
+      "Normal": 254,
+      "Elevated": 48,
+      "Stress": 11,
+      "Crisis": 5
+    },
+    "vix_stats": {
+      "mean": 20.31178470072377,
+      "std": 8.11241176487449,
+      "min": 10.125454545454543,
+      "max": 61.17739130434782
+    }
+  },
+  "data_quality": {
+    "missing_data_percentage": 30.265812270084254,
+    "complete_observations": 0
+  }
+}

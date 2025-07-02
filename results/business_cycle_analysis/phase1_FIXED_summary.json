@@ -1,0 +1,58 @@
+{
+  "fix_applied": "MODE_BASED_REGIME_RESAMPLING",
+  "original_issue": "resample().last() was capturing systematic end-of-month Recession bias",
+  "solution": "resample() with mode (most frequent regime) to capture true monthly regime",
+  "data_alignment": {
+    "master_timeline_observations": 318,
+    "date_range": "1998-12-31 00:00:00 to 2025-05-30 00:00:00",
+    "aligned_dataset_shape": [
+      318,
+      53
+    ],
+    "total_indicators": 53
+  },
+  "regime_diversity_validation": {
+    "daily_regimes_in_msci_period": {
+      "Recession": 3436,
+      "Overheating": 1590,
+      "Stagflation": 1170,
+      "Goldilocks": 599
+    },
+    "monthly_regimes_after_mode_resampling": {
+      "Overheating": 133,
+      "Stagflation": 92,
+      "Goldilocks": 47,
+      "Recession": 46
+    },
+    "final_aligned_regimes": {
+      "Overheating": 124,
+      "Stagflation": 97,
+      "Recession": 56,
+      "Goldilocks": 41
+    }
+  },
+  "vix_regimes": {
+    "distribution": {
+      "Normal": 254,
+      "Elevated": 50,
+      "Stress": 10,
+      "Crisis": 4
+    }
+  },
+  "hybrid_regimes": {
+    "distribution": {
+      "Overheating_Normal": 104,
+      "Stagflation_Normal": 73,
+      "Recession_Normal": 40,
+      "Goldilocks_Normal": 37,
+      "Overheating_Elevated": 19,
+      "Stagflation_Elevated": 19,
+      "Recession_Elevated": 8,
+      "Stagflation_Stress": 5,
+      "Goldilocks_Elevated": 4,
+      "Recession_Stress": 4,
+      "Crisis": 4,
+      "Overheating_Stress": 1
+    }
+  }
+}

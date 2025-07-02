@@ -1,0 +1,34 @@
+{
+  "data_sources": {
+    "economic_data": "FRED Economic Data (1990-2025, daily)",
+    "factor_data": "MSCI Factor Returns (1998-2025, monthly)",
+    "market_data": "Market data including VIX and S&P 500 (1998-2025, monthly)"
+  },
+  "alignment_approach": {
+    "master_timeline": "MSCI factor returns monthly end-of-month dates",
+    "alignment_method": "Forward-fill with groupby monthly aggregation",
+    "time_period": "1998-12-31 to 2025-05-30 (318 observations)"
+  },
+  "regime_frameworks": {
+    "economic_regimes": {
+      "original_source": "FRED ECONOMIC_REGIME classification",
+      "challenge": "All aligned data shows Recession due to 1998-2025 time period",
+      "solution": "Created synthetic regimes based on GDP growth and inflation trends"
+    },
+    "vix_regimes": {
+      "normal": "VIX < 25 (low volatility)",
+      "elevated": "VIX 25-35 (moderate stress)",
+      "stress": "VIX 35-50 (high volatility)",
+      "crisis": "VIX > 50 (extreme stress)"
+    },
+    "hybrid_regimes": {
+      "methodology": "Combine economic regimes with VIX stress levels",
+      "priority": "VIX crisis periods override economic classification",
+      "format": "EconomicRegime_VIXLevel (e.g., Goldilocks_Normal)"
+    }
+  },
+  "transition_analysis": {
+    "approach": "Calculate regime shifts using shift(1) comparison",
+    "metrics": "Transition frequency, average duration, stability measures"
+  }
+}

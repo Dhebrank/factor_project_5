@@ -1,0 +1,446 @@
+{
+  "performance_metrics": {
+    "Recession": {
+      "Value": {
+        "observations": 56,
+        "mean_monthly_return": -0.00308527175888193,
+        "median_monthly_return": 0.0065526481283252,
+        "std_monthly_return": 0.06258222315619516,
+        "annualized_return": -0.03640143000274698,
+        "annualized_volatility": 0.21679118031428704,
+        "sharpe_ratio": -0.16791010570621467,
+        "sortino_ratio": -0.2097716138310981,
+        "calmar_ratio": -0.08557313246279272,
+        "max_drawdown": -0.4253838670516632,
+        "var_5_percent": -0.096487356164356,
+        "expected_shortfall_5_percent": -0.15526478954184683,
+        "win_rate": 0.5535714285714286,
+        "positive_months": 31
+      },
+      "Quality": {
+        "observations": 56,
+        "mean_monthly_return": 0.004897806060026176,
+        "median_monthly_return": 0.00910908596124225,
+        "std_monthly_return": 0.053376252991946024,
+        "annualized_return": 0.060383049118631016,
+        "annualized_volatility": 0.18490076419940163,
+        "sharpe_ratio": 0.326570035446216,
+        "sortino_ratio": 0.4785380033260415,
+        "calmar_ratio": 0.24867686526443883,
+        "max_drawdown": -0.24281731657836642,
+        "var_5_percent": -0.07136570898461225,
+        "expected_shortfall_5_percent": -0.11558176450307035,
+        "win_rate": 0.625,
+        "positive_months": 35
+      },
+      "MinVol": {
+        "observations": 56,
+        "mean_monthly_return": 0.004426489943799711,
+        "median_monthly_return": 0.0084129293798704,
+        "std_monthly_return": 0.04211871077305543,
+        "annualized_return": 0.05443034339014674,
+        "annualized_volatility": 0.14590349401646124,
+        "sharpe_ratio": 0.37305716190734783,
+        "sortino_ratio": 0.4028578003722286,
+        "calmar_ratio": 0.20813806676800062,
+        "max_drawdown": -0.26151075694777676,
+        "var_5_percent": -0.06072268682864865,
+        "expected_shortfall_5_percent": -0.11781480443721933,
+        "win_rate": 0.6071428571428571,
+        "positive_months": 34
+      },
+      "Momentum": {
+        "observations": 56,
+        "mean_monthly_return": 0.006170581881806712,
+        "median_monthly_return": 0.01335205877790745,
+        "std_monthly_return": 0.058935633880040555,
+        "annualized_return": 0.07661241803970231,
+        "annualized_volatility": 0.20415902451301585,
+        "sharpe_ratio": 0.3752585428072419,
+        "sortino_ratio": 0.5512626645432714,
+        "calmar_ratio": 0.27658509652969104,
+        "max_drawdown": -0.2769940210118229,
+        "var_5_percent": -0.09403162491282267,
+        "expected_shortfall_5_percent": -0.11880142571337034,
+        "win_rate": 0.5714285714285714,
+        "positive_months": 32
+      }
+    },
+    "Overheating": {
+      "Value": {
+        "observations": 124,
+        "mean_monthly_return": 0.01346745674373924,
+        "median_monthly_return": 0.011420125457605151,
+        "std_monthly_return": 0.04484613079911713,
+        "annualized_return": 0.17413407614862786,
+        "annualized_volatility": 0.15535155413390064,
+        "sharpe_ratio": 1.1209033415818819,
+        "sortino_ratio": 1.9561878107640933,
+        "calmar_ratio": 0.855523016105686,
+        "max_drawdown": -0.2035410770610015,
+        "var_5_percent": -0.05617599393357003,
+        "expected_shortfall_5_percent": -0.07996702840569439,
+        "win_rate": 0.6451612903225806,
+        "positive_months": 80
+      },
+      "Quality": {
+        "observations": 124,
+        "mean_monthly_return": 0.01097299602454719,
+        "median_monthly_return": 0.01129606301338975,
+        "std_monthly_return": 0.038661343048205336,
+        "annualized_return": 0.13992076341620652,
+        "annualized_volatility": 0.1339268208966829,
+        "sharpe_ratio": 1.0447553557935016,
+        "sortino_ratio": 1.7979246035602596,
+        "calmar_ratio": 0.527109971211142,
+        "max_drawdown": -0.26544890261648857,
+        "var_5_percent": -0.049264311329050584,
+        "expected_shortfall_5_percent": -0.0714608904150842,
+        "win_rate": 0.6290322580645161,
+        "positive_months": 78
+      },
+      "MinVol": {
+        "observations": 124,
+        "mean_monthly_return": 0.009607752399060957,
+        "median_monthly_return": 0.013172989387251,
+        "std_monthly_return": 0.03226103623667574,
+        "annualized_return": 0.12158481387451281,
+        "annualized_volatility": 0.11175550773348605,
+        "sharpe_ratio": 1.0879536618854404,
+        "sortino_ratio": 1.984832822324368,
+        "calmar_ratio": 0.688770147390452,
+        "max_drawdown": -0.1765245116025455,
+        "var_5_percent": -0.041323387954892245,
+        "expected_shortfall_5_percent": -0.05594743316326055,
+        "win_rate": 0.6370967741935484,
+        "positive_months": 79
+      },
+      "Momentum": {
+        "observations": 124,
+        "mean_monthly_return": 0.012275432551539045,
+        "median_monthly_return": 0.013947598065999649,
+        "std_monthly_return": 0.04420318170657535,
+        "annualized_return": 0.15766888887611508,
+        "annualized_volatility": 0.1531243131439753,
+        "sharpe_ratio": 1.0296789950519925,
+        "sortino_ratio": 2.026910572221278,
+        "calmar_ratio": 0.6697518192197871,
+        "max_drawdown": -0.2354139016147624,
+        "var_5_percent": -0.052189364645696915,
+        "expected_shortfall_5_percent": -0.06946406123973765,
+        "win_rate": 0.6048387096774194,
+        "positive_months": 75
+      }
+    },
+    "Goldilocks": {
+      "Value": {
+        "observations": 41,
+        "mean_monthly_return": 0.023898816730261514,
+        "median_monthly_return": 0.0280517780456166,
+        "std_monthly_return": 0.0367467735767808,
+        "annualized_return": 0.3276527313482285,
+        "annualized_volatility": 0.12729455769842773,
+        "sharpe_ratio": 2.5739728176319,
+        "sortino_ratio": 2.662481402779383,
+        "calmar_ratio": 2.0254575670409922,
+        "max_drawdown": -0.16176726517499898,
+        "var_5_percent": -0.0167843199487992,
+        "expected_shortfall_5_percent": -0.061885683233891396,
+        "win_rate": 0.8048780487804879,
+        "positive_months": 33
+      },
+      "Quality": {
+        "observations": 41,
+        "mean_monthly_return": 0.018210909406790255,
+        "median_monthly_return": 0.0196308216111074,
+        "std_monthly_return": 0.031593913981282626,
+        "annualized_return": 0.2418037031167677,
+        "annualized_volatility": 0.10944452845108442,
+        "sharpe_ratio": 2.2093722412522467,
+        "sortino_ratio": 2.527030192610502,
+        "calmar_ratio": 1.7421788443693462,
+        "max_drawdown": -0.1387938465090813,
+        "var_5_percent": -0.029605060008216,
+        "expected_shortfall_5_percent": -0.057833977050523934,
+        "win_rate": 0.8048780487804879,
+        "positive_months": 33
+      },
+      "MinVol": {
+        "observations": 41,
+        "mean_monthly_return": 0.017102647669165753,
+        "median_monthly_return": 0.0201516253569322,
+        "std_monthly_return": 0.02524734975699615,
+        "annualized_return": 0.22568089914628642,
+        "annualized_volatility": 0.08745938507115815,
+        "sharpe_ratio": 2.5804080255385897,
+        "sortino_ratio": 3.8362521192728765,
+        "calmar_ratio": 2.760104117965594,
+        "max_drawdown": -0.08176535721146286,
+        "var_5_percent": -0.0244099308520614,
+        "expected_shortfall_5_percent": -0.03587431101203227,
+        "win_rate": 0.7560975609756098,
+        "positive_months": 31
+      },
+      "Momentum": {
+        "observations": 41,
+        "mean_monthly_return": 0.022417656953986592,
+        "median_monthly_return": 0.025352731431578,
+        "std_monthly_return": 0.030556748051642206,
+        "annualized_return": 0.30478841711137017,
+        "annualized_volatility": 0.10585168027905119,
+        "sharpe_ratio": 2.879391392823171,
+        "sortino_ratio": 3.9207314004396263,
+        "calmar_ratio": 2.732310851629837,
+        "max_drawdown": -0.11154968583811113,
+        "var_5_percent": -0.0275239604795267,
+        "expected_shortfall_5_percent": -0.0474161316264195,
+        "win_rate": 0.7804878048780488,
+        "positive_months": 32
+      }
+    },
+    "Stagflation": {
+      "Value": {
+        "observations": 97,
+        "mean_monthly_return": 0.0007991918608402448,
+        "median_monthly_return": 0.0074663799077032,
+        "std_monthly_return": 0.05138775912096787,
+        "annualized_return": 0.009632569534871571,
+        "annualized_volatility": 0.1780124193692547,
+        "sharpe_ratio": 0.05411178371150915,
+        "sortino_ratio": 0.0771403896454631,
+        "calmar_ratio": 0.0278854512439926,
+        "max_drawdown": -0.34543351838162306,
+        "var_5_percent": -0.09587773717099514,
+        "expected_shortfall_5_percent": -0.11939495216120473,
+        "win_rate": 0.5154639175257731,
+        "positive_months": 50
+      },
+      "Quality": {
+        "observations": 97,
+        "mean_monthly_return": 0.0016179141556354765,
+        "median_monthly_return": 0.0061950196446727,
+        "std_monthly_return": 0.04545134863804544,
+        "annualized_return": 0.019588669646297685,
+        "annualized_volatility": 0.15744809022724238,
+        "sharpe_ratio": 0.12441351062452179,
+        "sortino_ratio": 0.17386144404187626,
+        "calmar_ratio": 0.06171198626416436,
+        "max_drawdown": -0.31742082587402737,
+        "var_5_percent": -0.0830191465846986,
+        "expected_shortfall_5_percent": -0.09370552894339214,
+        "win_rate": 0.5463917525773195,
+        "positive_months": 53
+      },
+      "MinVol": {
+        "observations": 97,
+        "mean_monthly_return": 0.0017806367227564664,
+        "median_monthly_return": 0.008185743795503,
+        "std_monthly_return": 0.03499057164819525,
+        "annualized_return": 0.021578151772114973,
+        "annualized_volatility": 0.1212108957611065,
+        "sharpe_ratio": 0.17802155191265284,
+        "sortino_ratio": 0.25283820778409816,
+        "calmar_ratio": 0.10463503752556697,
+        "max_drawdown": -0.2062230040949952,
+        "var_5_percent": -0.06058784505800351,
+        "expected_shortfall_5_percent": -0.08223193817649492,
+        "win_rate": 0.5463917525773195,
+        "positive_months": 53
+      },
+      "Momentum": {
+        "observations": 97,
+        "mean_monthly_return": 0.00209254963113027,
+        "median_monthly_return": 0.0051157378843453,
+        "std_monthly_return": 0.04690080684236475,
+        "annualized_return": 0.025401619329413982,
+        "annualized_volatility": 0.16246916073389958,
+        "sharpe_ratio": 0.15634732902337123,
+        "sortino_ratio": 0.20320704321534588,
+        "calmar_ratio": 0.06732302408075432,
+        "max_drawdown": -0.377309541219429,
+        "var_5_percent": -0.08291729992112432,
+        "expected_shortfall_5_percent": -0.11042538276523532,
+        "win_rate": 0.5670103092783505,
+        "positive_months": 55
+      }
+    }
+  },
+  "statistical_tests": {
+    "anova_tests": {
+      "Value": {
+        "f_statistic": 3.5302386115714066,
+        "p_value": 0.015225519395390037,
+        "significant": "True",
+        "regimes_tested": [
+          "Recession",
+          "Overheating",
+          "Goldilocks",
+          "Stagflation"
+        ]
+      },
+      "Quality": {
+        "f_statistic": 1.7831426742473164,
+        "p_value": 0.15027429930182007,
+        "significant": "False",
+        "regimes_tested": [
+          "Recession",
+          "Overheating",
+          "Goldilocks",
+          "Stagflation"
+        ]
+      },
+      "MinVol": {
+        "f_statistic": 2.2764544345342017,
+        "p_value": 0.07971120929900571,
+        "significant": "False",
+        "regimes_tested": [
+          "Recession",
+          "Overheating",
+          "Goldilocks",
+          "Stagflation"
+        ]
+      },
+      "Momentum": {
+        "f_statistic": 2.1147371557032364,
+        "p_value": 0.09828203729484163,
+        "significant": "False",
+        "regimes_tested": [
+          "Recession",
+          "Overheating",
+          "Goldilocks",
+          "Stagflation"
+        ]
+      }
+    },
+    "pairwise_tests": {},
+    "bootstrap_confidence_intervals": {
+      "Recession": {
+        "Value": {
+          "mean": -0.0028445443081361477,
+          "ci_lower": -0.019282641433301266,
+          "ci_upper": 0.01264738511524837
+        },
+        "Quality": {
+          "mean": 0.005044928440899956,
+          "ci_lower": -0.009184975968487734,
+          "ci_upper": 0.018874813720575735
+        },
+        "MinVol": {
+          "mean": 0.004577418596651066,
+          "ci_lower": -0.005890495955768586,
+          "ci_upper": 0.01507076643490227
+        },
+        "Momentum": {
+          "mean": 0.006480952088039974,
+          "ci_lower": -0.009746807444770177,
+          "ci_upper": 0.022254276611128363
+        }
+      },
+      "Overheating": {
+        "Value": {
+          "mean": 0.01342028094694571,
+          "ci_lower": 0.005415478875890419,
+          "ci_upper": 0.021249766357232837
+        },
+        "Quality": {
+          "mean": 0.010970779675179993,
+          "ci_lower": 0.004297008528536279,
+          "ci_upper": 0.017334276929809298
+        },
+        "MinVol": {
+          "mean": 0.009545772332571392,
+          "ci_lower": 0.004070893401486058,
+          "ci_upper": 0.014711923798268486
+        },
+        "Momentum": {
+          "mean": 0.012035158443161536,
+          "ci_lower": 0.004170851031565944,
+          "ci_upper": 0.019838867339045132
+        }
+      },
+      "Goldilocks": {
+        "Value": {
+          "mean": 0.0239384281211645,
+          "ci_lower": 0.0126162829006684,
+          "ci_upper": 0.03432909673637616
+        },
+        "Quality": {
+          "mean": 0.018125277205919083,
+          "ci_lower": 0.008761485783179805,
+          "ci_upper": 0.026682029376094506
+        },
+        "MinVol": {
+          "mean": 0.017182266166296933,
+          "ci_lower": 0.009825002915262674,
+          "ci_upper": 0.02490570155134159
+        },
+        "Momentum": {
+          "mean": 0.022410979687439023,
+          "ci_lower": 0.013062775274301202,
+          "ci_upper": 0.031679559451872445
+        }
+      },
+      "Stagflation": {
+        "Value": {
+          "mean": 0.0010051321994256179,
+          "ci_lower": -0.009255214135328513,
+          "ci_upper": 0.010160833059912451
+        },
+        "Quality": {
+          "mean": 0.0016640006139566226,
+          "ci_lower": -0.007112078238936572,
+          "ci_upper": 0.010716538846308623
+        },
+        "MinVol": {
+          "mean": 0.0017394680724113604,
+          "ci_lower": -0.0053543680952480134,
+          "ci_upper": 0.008184998696505987
+        },
+        "Momentum": {
+          "mean": 0.0021774936247386857,
+          "ci_lower": -0.007133032604041365,
+          "ci_upper": 0.011090350518418862
+        }
+      }
+    },
+    "regime_transition_impact": {
+      "Value": {
+        "pre_transition_mean": 0.01014049330842064,
+        "post_transition_mean": 0.01036274740907251,
+        "pre_transition_volatility": 0.048734970926442675,
+        "post_transition_volatility": 0.04571600851920662,
+        "performance_change": 0.00022225410065187037,
+        "volatility_change": -0.0030189624072360574,
+        "total_transitions_analyzed": 147
+      },
+      "Quality": {
+        "pre_transition_mean": 0.010101886946185317,
+        "post_transition_mean": 0.009704298697001967,
+        "pre_transition_volatility": 0.03984681207223705,
+        "post_transition_volatility": 0.03837777376519589,
+        "performance_change": -0.0003975882491833501,
+        "volatility_change": -0.0014690383070411622,
+        "total_transitions_analyzed": 147
+      },
+      "MinVol": {
+        "pre_transition_mean": 0.00913872623906437,
+        "post_transition_mean": 0.009663166477171052,
+        "pre_transition_volatility": 0.032527205625728625,
+        "post_transition_volatility": 0.030168065859947725,
+        "performance_change": 0.0005244402381066812,
+        "volatility_change": -0.0023591397657809,
+        "total_transitions_analyzed": 147
+      },
+      "Momentum": {
+        "pre_transition_mean": 0.010964994865514461,
+        "post_transition_mean": 0.01212584781833211,
+        "pre_transition_volatility": 0.043615433429954165,
+        "post_transition_volatility": 0.042829164583399186,
+        "performance_change": 0.0011608529528176498,
+        "volatility_change": -0.0007862688465549786,
+        "total_transitions_analyzed": 147
+      }
+    }
+  },
+  "analysis_timestamp": "2025-07-02T09:35:39.569357"
+}

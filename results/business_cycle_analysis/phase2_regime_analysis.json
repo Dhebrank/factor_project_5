@@ -1,0 +1,1180 @@
+{
+  "duration_analysis": {
+    "regime_statistics": {
+      "Recession": {
+        "total_periods": 28,
+        "total_months": 55.58475689881734,
+        "avg_duration_months": 1.9851698892434764,
+        "median_duration_months": 2.0039421813403417,
+        "min_duration_months": 0.9855453350854139,
+        "max_duration_months": 5.026281208935611,
+        "std_duration_months": 1.05358144138118,
+        "frequency_percentage": 17.61006289308176
+      },
+      "Overheating": {
+        "total_periods": 51,
+        "total_months": 123.91590013140603,
+        "avg_duration_months": 2.4297235319883534,
+        "median_duration_months": 2.0039421813403417,
+        "min_duration_months": 0.9198423127463863,
+        "max_duration_months": 7.917214191852825,
+        "std_duration_months": 1.8100194194521608,
+        "frequency_percentage": 38.9937106918239
+      },
+      "Goldilocks": {
+        "total_periods": 22,
+        "total_months": 41.4257555847569,
+        "avg_duration_months": 1.8829888902162226,
+        "median_duration_months": 2.0039421813403417,
+        "min_duration_months": 0.9855453350854139,
+        "max_duration_months": 3.0223390275952693,
+        "std_duration_months": 0.7723274038602622,
+        "frequency_percentage": 12.89308176100629
+      },
+      "Stagflation": {
+        "total_periods": 47,
+        "total_months": 95.99211563731932,
+        "avg_duration_months": 2.0423854390919005,
+        "median_duration_months": 2.0039421813403417,
+        "min_duration_months": 0.9198423127463863,
+        "max_duration_months": 10.019710906701707,
+        "std_duration_months": 1.6972326565738154,
+        "frequency_percentage": 30.50314465408805
+      }
+    },
+    "transition_matrix_counts": {
+      "Goldilocks": {
+        "Goldilocks": 0,
+        "Overheating": 12,
+        "Recession": 6,
+        "Stagflation": 4
+      },
+      "Overheating": {
+        "Goldilocks": 9,
+        "Overheating": 0,
+        "Recession": 11,
+        "Stagflation": 31
+      },
+      "Recession": {
+        "Goldilocks": 9,
+        "Overheating": 7,
+        "Recession": 0,
+        "Stagflation": 11
+      },
+      "Stagflation": {
+        "Goldilocks": 4,
+        "Overheating": 32,
+        "Recession": 11,
+        "Stagflation": 0
+      }
+    },
+    "transition_probabilities": {
+      "Goldilocks": {
+        "Goldilocks": 0.0,
+        "Overheating": 0.23529411764705882,
+        "Recession": 0.21428571428571427,
+        "Stagflation": 0.08695652173913043
+      },
+      "Overheating": {
+        "Goldilocks": 0.4090909090909091,
+        "Overheating": 0.0,
+        "Recession": 0.39285714285714285,
+        "Stagflation": 0.6739130434782609
+      },
+      "Recession": {
+        "Goldilocks": 0.4090909090909091,
+        "Overheating": 0.13725490196078433,
+        "Recession": 0.0,
+        "Stagflation": 0.2391304347826087
+      },
+      "Stagflation": {
+        "Goldilocks": 0.18181818181818182,
+        "Overheating": 0.6274509803921569,
+        "Recession": 0.39285714285714285,
+        "Stagflation": 0.0
+      }
+    },
+    "total_transitions": 147,
+    "decade_transitions": {
+      "1990s": "8",
+      "2000s": "54",
+      "2010s": "59",
+      "2020s": "26"
+    },
+    "seasonal_transition_patterns": {
+      "1": "19",
+      "2": "14",
+      "3": "18",
+      "4": "20",
+      "5": "20",
+      "6": "20",
+      "7": "17",
+      "8": "19",
+      "9": "21",
+      "10": "20",
+      "11": "17",
+      "12": "20"
+    },
+    "regime_runs_detail": [
+      {
+        "regime": "Recession",
+        "start_date": "1998-12-31 00:00:00",
+        "end_date": "1999-02-26 00:00:00",
+        "duration_months": 1.8725361366622864
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "1999-02-26 00:00:00",
+        "end_date": "1999-03-31 00:00:00",
+        "duration_months": 1.0840998685939554
+      },
+      {
+        "regime": "Goldilocks",
+        "start_date": "1999-03-31 00:00:00",
+        "end_date": "1999-04-30 00:00:00",
+        "duration_months": 0.9855453350854139
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "1999-04-30 00:00:00",
+        "end_date": "1999-05-31 00:00:00",
+        "duration_months": 1.0183968462549278
+      },
+      {
+        "regime": "Goldilocks",
+        "start_date": "1999-05-31 00:00:00",
+        "end_date": "1999-06-30 00:00:00",
+        "duration_months": 0.9855453350854139
+      },
+      {
+        "regime": "Recession",
+        "start_date": "1999-06-30 00:00:00",
+        "end_date": "1999-08-31 00:00:00",
+        "duration_months": 2.0367936925098555
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "1999-08-31 00:00:00",
+        "end_date": "1999-09-30 00:00:00",
+        "duration_months": 0.9855453350854139
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "1999-09-30 00:00:00",
+        "end_date": "1999-11-30 00:00:00",
+        "duration_months": 2.0039421813403417
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "1999-11-30 00:00:00",
+        "end_date": "2000-06-30 00:00:00",
+        "duration_months": 6.9973718791064385
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2000-06-30 00:00:00",
+        "end_date": "2000-08-31 00:00:00",
+        "duration_months": 2.0367936925098555
+      },
+      {
+        "regime": "Recession",
+        "start_date": "2000-08-31 00:00:00",
+        "end_date": "2000-10-31 00:00:00",
+        "duration_months": 2.0039421813403417
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2000-10-31 00:00:00",
+        "end_date": "2000-11-30 00:00:00",
+        "duration_months": 0.9855453350854139
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2000-11-30 00:00:00",
+        "end_date": "2001-07-31 00:00:00",
+        "duration_months": 7.982917214191852
+      },
+      {
+        "regime": "Recession",
+        "start_date": "2001-07-31 00:00:00",
+        "end_date": "2001-11-30 00:00:00",
+        "duration_months": 4.0078843626806835
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2001-11-30 00:00:00",
+        "end_date": "2001-12-31 00:00:00",
+        "duration_months": 1.0183968462549278
+      },
+      {
+        "regime": "Recession",
+        "start_date": "2001-12-31 00:00:00",
+        "end_date": "2002-01-31 00:00:00",
+        "duration_months": 1.0183968462549278
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2002-01-31 00:00:00",
+        "end_date": "2002-02-28 00:00:00",
+        "duration_months": 0.9198423127463863
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2002-02-28 00:00:00",
+        "end_date": "2002-04-30 00:00:00",
+        "duration_months": 2.0039421813403417
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2002-04-30 00:00:00",
+        "end_date": "2002-09-30 00:00:00",
+        "duration_months": 5.026281208935611
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2002-09-30 00:00:00",
+        "end_date": "2003-01-31 00:00:00",
+        "duration_months": 4.040735873850197
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2003-01-31 00:00:00",
+        "end_date": "2003-02-28 00:00:00",
+        "duration_months": 0.9198423127463863
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2003-02-28 00:00:00",
+        "end_date": "2003-03-31 00:00:00",
+        "duration_months": 1.0183968462549278
+      },
+      {
+        "regime": "Recession",
+        "start_date": "2003-03-31 00:00:00",
+        "end_date": "2003-04-30 00:00:00",
+        "duration_months": 0.9855453350854139
+      },
+      {
+        "regime": "Goldilocks",
+        "start_date": "2003-04-30 00:00:00",
+        "end_date": "2003-06-30 00:00:00",
+        "duration_months": 2.0039421813403417
+      },
+      {
+        "regime": "Recession",
+        "start_date": "2003-06-30 00:00:00",
+        "end_date": "2003-07-31 00:00:00",
+        "duration_months": 1.0183968462549278
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2003-07-31 00:00:00",
+        "end_date": "2003-10-31 00:00:00",
+        "duration_months": 3.0223390275952693
+      },
+      {
+        "regime": "Goldilocks",
+        "start_date": "2003-10-31 00:00:00",
+        "end_date": "2003-12-31 00:00:00",
+        "duration_months": 2.0039421813403417
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2003-12-31 00:00:00",
+        "end_date": "2004-02-27 00:00:00",
+        "duration_months": 1.9053876478318001
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2004-02-27 00:00:00",
+        "end_date": "2004-03-31 00:00:00",
+        "duration_months": 1.0840998685939554
+      },
+      {
+        "regime": "Recession",
+        "start_date": "2004-03-31 00:00:00",
+        "end_date": "2004-04-30 00:00:00",
+        "duration_months": 0.9855453350854139
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2004-04-30 00:00:00",
+        "end_date": "2004-06-30 00:00:00",
+        "duration_months": 2.0039421813403417
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2004-06-30 00:00:00",
+        "end_date": "2004-08-31 00:00:00",
+        "duration_months": 2.0367936925098555
+      },
+      {
+        "regime": "Recession",
+        "start_date": "2004-08-31 00:00:00",
+        "end_date": "2004-09-30 00:00:00",
+        "duration_months": 0.9855453350854139
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2004-09-30 00:00:00",
+        "end_date": "2004-11-30 00:00:00",
+        "duration_months": 2.0039421813403417
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2004-11-30 00:00:00",
+        "end_date": "2004-12-31 00:00:00",
+        "duration_months": 1.0183968462549278
+      },
+      {
+        "regime": "Goldilocks",
+        "start_date": "2004-12-31 00:00:00",
+        "end_date": "2005-02-28 00:00:00",
+        "duration_months": 1.938239159001314
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2005-02-28 00:00:00",
+        "end_date": "2005-03-31 00:00:00",
+        "duration_months": 1.0183968462549278
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2005-03-31 00:00:00",
+        "end_date": "2005-05-31 00:00:00",
+        "duration_months": 2.0039421813403417
+      },
+      {
+        "regime": "Recession",
+        "start_date": "2005-05-31 00:00:00",
+        "end_date": "2005-06-30 00:00:00",
+        "duration_months": 0.9855453350854139
+      },
+      {
+        "regime": "Goldilocks",
+        "start_date": "2005-06-30 00:00:00",
+        "end_date": "2005-08-31 00:00:00",
+        "duration_months": 2.0367936925098555
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2005-08-31 00:00:00",
+        "end_date": "2005-09-30 00:00:00",
+        "duration_months": 0.9855453350854139
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2005-09-30 00:00:00",
+        "end_date": "2005-10-31 00:00:00",
+        "duration_months": 1.0183968462549278
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2005-10-31 00:00:00",
+        "end_date": "2005-11-30 00:00:00",
+        "duration_months": 0.9855453350854139
+      },
+      {
+        "regime": "Goldilocks",
+        "start_date": "2005-11-30 00:00:00",
+        "end_date": "2006-01-31 00:00:00",
+        "duration_months": 2.0367936925098555
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2006-01-31 00:00:00",
+        "end_date": "2006-05-31 00:00:00",
+        "duration_months": 3.9421813403416555
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2006-05-31 00:00:00",
+        "end_date": "2006-06-30 00:00:00",
+        "duration_months": 0.9855453350854139
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2006-06-30 00:00:00",
+        "end_date": "2006-10-31 00:00:00",
+        "duration_months": 4.040735873850197
+      },
+      {
+        "regime": "Goldilocks",
+        "start_date": "2006-10-31 00:00:00",
+        "end_date": "2006-11-30 00:00:00",
+        "duration_months": 0.9855453350854139
+      },
+      {
+        "regime": "Recession",
+        "start_date": "2006-11-30 00:00:00",
+        "end_date": "2007-01-31 00:00:00",
+        "duration_months": 2.0367936925098555
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2007-01-31 00:00:00",
+        "end_date": "2007-02-28 00:00:00",
+        "duration_months": 0.9198423127463863
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2007-02-28 00:00:00",
+        "end_date": "2007-05-31 00:00:00",
+        "duration_months": 3.0223390275952693
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2007-05-31 00:00:00",
+        "end_date": "2007-07-31 00:00:00",
+        "duration_months": 2.0039421813403417
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2007-07-31 00:00:00",
+        "end_date": "2007-08-31 00:00:00",
+        "duration_months": 1.0183968462549278
+      },
+      {
+        "regime": "Recession",
+        "start_date": "2007-08-31 00:00:00",
+        "end_date": "2007-10-31 00:00:00",
+        "duration_months": 2.0039421813403417
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2007-10-31 00:00:00",
+        "end_date": "2007-12-31 00:00:00",
+        "duration_months": 2.0039421813403417
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2007-12-31 00:00:00",
+        "end_date": "2008-10-31 00:00:00",
+        "duration_months": 10.019710906701707
+      },
+      {
+        "regime": "Recession",
+        "start_date": "2008-10-31 00:00:00",
+        "end_date": "2009-02-27 00:00:00",
+        "duration_months": 3.9093298291721417
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2009-02-27 00:00:00",
+        "end_date": "2009-03-31 00:00:00",
+        "duration_months": 1.0512483574244416
+      },
+      {
+        "regime": "Recession",
+        "start_date": "2009-03-31 00:00:00",
+        "end_date": "2009-04-30 00:00:00",
+        "duration_months": 0.9855453350854139
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2009-04-30 00:00:00",
+        "end_date": "2009-07-31 00:00:00",
+        "duration_months": 3.0223390275952693
+      },
+      {
+        "regime": "Goldilocks",
+        "start_date": "2009-07-31 00:00:00",
+        "end_date": "2009-08-31 00:00:00",
+        "duration_months": 1.0183968462549278
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2009-08-31 00:00:00",
+        "end_date": "2009-12-31 00:00:00",
+        "duration_months": 4.0078843626806835
+      },
+      {
+        "regime": "Recession",
+        "start_date": "2009-12-31 00:00:00",
+        "end_date": "2010-02-26 00:00:00",
+        "duration_months": 1.8725361366622864
+      },
+      {
+        "regime": "Goldilocks",
+        "start_date": "2010-02-26 00:00:00",
+        "end_date": "2010-03-31 00:00:00",
+        "duration_months": 1.0840998685939554
+      },
+      {
+        "regime": "Recession",
+        "start_date": "2010-03-31 00:00:00",
+        "end_date": "2010-04-30 00:00:00",
+        "duration_months": 0.9855453350854139
+      },
+      {
+        "regime": "Goldilocks",
+        "start_date": "2010-04-30 00:00:00",
+        "end_date": "2010-06-30 00:00:00",
+        "duration_months": 2.0039421813403417
+      },
+      {
+        "regime": "Recession",
+        "start_date": "2010-06-30 00:00:00",
+        "end_date": "2010-11-30 00:00:00",
+        "duration_months": 5.026281208935611
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2010-11-30 00:00:00",
+        "end_date": "2010-12-31 00:00:00",
+        "duration_months": 1.0183968462549278
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2010-12-31 00:00:00",
+        "end_date": "2011-01-31 00:00:00",
+        "duration_months": 1.0183968462549278
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2011-01-31 00:00:00",
+        "end_date": "2011-03-31 00:00:00",
+        "duration_months": 1.938239159001314
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2011-03-31 00:00:00",
+        "end_date": "2011-05-31 00:00:00",
+        "duration_months": 2.0039421813403417
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2011-05-31 00:00:00",
+        "end_date": "2011-06-30 00:00:00",
+        "duration_months": 0.9855453350854139
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2011-06-30 00:00:00",
+        "end_date": "2011-09-30 00:00:00",
+        "duration_months": 3.0223390275952693
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2011-09-30 00:00:00",
+        "end_date": "2011-10-31 00:00:00",
+        "duration_months": 1.0183968462549278
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2011-10-31 00:00:00",
+        "end_date": "2011-11-30 00:00:00",
+        "duration_months": 0.9855453350854139
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2011-11-30 00:00:00",
+        "end_date": "2012-01-31 00:00:00",
+        "duration_months": 2.0367936925098555
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2012-01-31 00:00:00",
+        "end_date": "2012-05-31 00:00:00",
+        "duration_months": 3.9750328515111693
+      },
+      {
+        "regime": "Goldilocks",
+        "start_date": "2012-05-31 00:00:00",
+        "end_date": "2012-08-31 00:00:00",
+        "duration_months": 3.0223390275952693
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2012-08-31 00:00:00",
+        "end_date": "2012-10-31 00:00:00",
+        "duration_months": 2.0039421813403417
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2012-10-31 00:00:00",
+        "end_date": "2012-11-30 00:00:00",
+        "duration_months": 0.9855453350854139
+      },
+      {
+        "regime": "Goldilocks",
+        "start_date": "2012-11-30 00:00:00",
+        "end_date": "2013-01-31 00:00:00",
+        "duration_months": 2.0367936925098555
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2013-01-31 00:00:00",
+        "end_date": "2013-04-30 00:00:00",
+        "duration_months": 2.923784494086728
+      },
+      {
+        "regime": "Goldilocks",
+        "start_date": "2013-04-30 00:00:00",
+        "end_date": "2013-07-31 00:00:00",
+        "duration_months": 3.0223390275952693
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2013-07-31 00:00:00",
+        "end_date": "2013-09-30 00:00:00",
+        "duration_months": 2.0039421813403417
+      },
+      {
+        "regime": "Goldilocks",
+        "start_date": "2013-09-30 00:00:00",
+        "end_date": "2013-12-31 00:00:00",
+        "duration_months": 3.0223390275952693
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2013-12-31 00:00:00",
+        "end_date": "2014-02-28 00:00:00",
+        "duration_months": 1.938239159001314
+      },
+      {
+        "regime": "Goldilocks",
+        "start_date": "2014-02-28 00:00:00",
+        "end_date": "2014-03-31 00:00:00",
+        "duration_months": 1.0183968462549278
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2014-03-31 00:00:00",
+        "end_date": "2014-09-30 00:00:00",
+        "duration_months": 6.011826544021025
+      },
+      {
+        "regime": "Goldilocks",
+        "start_date": "2014-09-30 00:00:00",
+        "end_date": "2014-12-31 00:00:00",
+        "duration_months": 3.0223390275952693
+      },
+      {
+        "regime": "Recession",
+        "start_date": "2014-12-31 00:00:00",
+        "end_date": "2015-02-27 00:00:00",
+        "duration_months": 1.9053876478318001
+      },
+      {
+        "regime": "Goldilocks",
+        "start_date": "2015-02-27 00:00:00",
+        "end_date": "2015-03-31 00:00:00",
+        "duration_months": 1.0512483574244416
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2015-03-31 00:00:00",
+        "end_date": "2015-04-30 00:00:00",
+        "duration_months": 0.9855453350854139
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2015-04-30 00:00:00",
+        "end_date": "2015-06-30 00:00:00",
+        "duration_months": 2.0039421813403417
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2015-06-30 00:00:00",
+        "end_date": "2015-07-31 00:00:00",
+        "duration_months": 1.0183968462549278
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2015-07-31 00:00:00",
+        "end_date": "2015-08-31 00:00:00",
+        "duration_months": 1.0183968462549278
+      },
+      {
+        "regime": "Recession",
+        "start_date": "2015-08-31 00:00:00",
+        "end_date": "2015-11-30 00:00:00",
+        "duration_months": 2.9894875164257555
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2015-11-30 00:00:00",
+        "end_date": "2015-12-31 00:00:00",
+        "duration_months": 1.0183968462549278
+      },
+      {
+        "regime": "Recession",
+        "start_date": "2015-12-31 00:00:00",
+        "end_date": "2016-03-31 00:00:00",
+        "duration_months": 2.9894875164257555
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2016-03-31 00:00:00",
+        "end_date": "2016-06-30 00:00:00",
+        "duration_months": 2.9894875164257555
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2016-06-30 00:00:00",
+        "end_date": "2016-08-31 00:00:00",
+        "duration_months": 2.0367936925098555
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2016-08-31 00:00:00",
+        "end_date": "2016-10-31 00:00:00",
+        "duration_months": 2.0039421813403417
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2016-10-31 00:00:00",
+        "end_date": "2016-11-30 00:00:00",
+        "duration_months": 0.9855453350854139
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2016-11-30 00:00:00",
+        "end_date": "2017-01-31 00:00:00",
+        "duration_months": 2.0367936925098555
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2017-01-31 00:00:00",
+        "end_date": "2017-02-28 00:00:00",
+        "duration_months": 0.9198423127463863
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2017-02-28 00:00:00",
+        "end_date": "2017-03-31 00:00:00",
+        "duration_months": 1.0183968462549278
+      },
+      {
+        "regime": "Goldilocks",
+        "start_date": "2017-03-31 00:00:00",
+        "end_date": "2017-05-31 00:00:00",
+        "duration_months": 2.0039421813403417
+      },
+      {
+        "regime": "Recession",
+        "start_date": "2017-05-31 00:00:00",
+        "end_date": "2017-06-30 00:00:00",
+        "duration_months": 0.9855453350854139
+      },
+      {
+        "regime": "Goldilocks",
+        "start_date": "2017-06-30 00:00:00",
+        "end_date": "2017-08-31 00:00:00",
+        "duration_months": 2.0367936925098555
+      },
+      {
+        "regime": "Recession",
+        "start_date": "2017-08-31 00:00:00",
+        "end_date": "2017-10-31 00:00:00",
+        "duration_months": 2.0039421813403417
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2017-10-31 00:00:00",
+        "end_date": "2018-05-31 00:00:00",
+        "duration_months": 6.964520367936925
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2018-05-31 00:00:00",
+        "end_date": "2018-07-31 00:00:00",
+        "duration_months": 2.0039421813403417
+      },
+      {
+        "regime": "Goldilocks",
+        "start_date": "2018-07-31 00:00:00",
+        "end_date": "2018-10-31 00:00:00",
+        "duration_months": 3.0223390275952693
+      },
+      {
+        "regime": "Recession",
+        "start_date": "2018-10-31 00:00:00",
+        "end_date": "2018-12-31 00:00:00",
+        "duration_months": 2.0039421813403417
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2018-12-31 00:00:00",
+        "end_date": "2019-01-31 00:00:00",
+        "duration_months": 1.0183968462549278
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2019-01-31 00:00:00",
+        "end_date": "2019-02-28 00:00:00",
+        "duration_months": 0.9198423127463863
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2019-02-28 00:00:00",
+        "end_date": "2019-04-30 00:00:00",
+        "duration_months": 2.0039421813403417
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2019-04-30 00:00:00",
+        "end_date": "2019-05-31 00:00:00",
+        "duration_months": 1.0183968462549278
+      },
+      {
+        "regime": "Recession",
+        "start_date": "2019-05-31 00:00:00",
+        "end_date": "2019-07-31 00:00:00",
+        "duration_months": 2.0039421813403417
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2019-07-31 00:00:00",
+        "end_date": "2019-09-30 00:00:00",
+        "duration_months": 2.0039421813403417
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2019-09-30 00:00:00",
+        "end_date": "2019-10-31 00:00:00",
+        "duration_months": 1.0183968462549278
+      },
+      {
+        "regime": "Recession",
+        "start_date": "2019-10-31 00:00:00",
+        "end_date": "2019-12-31 00:00:00",
+        "duration_months": 2.0039421813403417
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2019-12-31 00:00:00",
+        "end_date": "2020-03-31 00:00:00",
+        "duration_months": 2.9894875164257555
+      },
+      {
+        "regime": "Recession",
+        "start_date": "2020-03-31 00:00:00",
+        "end_date": "2020-06-30 00:00:00",
+        "duration_months": 2.9894875164257555
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2020-06-30 00:00:00",
+        "end_date": "2021-02-26 00:00:00",
+        "duration_months": 7.917214191852825
+      },
+      {
+        "regime": "Goldilocks",
+        "start_date": "2021-02-26 00:00:00",
+        "end_date": "2021-03-31 00:00:00",
+        "duration_months": 1.0840998685939554
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2021-03-31 00:00:00",
+        "end_date": "2021-09-30 00:00:00",
+        "duration_months": 6.011826544021025
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2021-09-30 00:00:00",
+        "end_date": "2021-11-30 00:00:00",
+        "duration_months": 2.0039421813403417
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2021-11-30 00:00:00",
+        "end_date": "2022-01-31 00:00:00",
+        "duration_months": 2.0367936925098555
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2022-01-31 00:00:00",
+        "end_date": "2022-02-28 00:00:00",
+        "duration_months": 0.9198423127463863
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2022-02-28 00:00:00",
+        "end_date": "2022-05-31 00:00:00",
+        "duration_months": 3.0223390275952693
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2022-05-31 00:00:00",
+        "end_date": "2022-08-31 00:00:00",
+        "duration_months": 3.0223390275952693
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2022-08-31 00:00:00",
+        "end_date": "2022-11-30 00:00:00",
+        "duration_months": 2.9894875164257555
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2022-11-30 00:00:00",
+        "end_date": "2023-01-31 00:00:00",
+        "duration_months": 2.0367936925098555
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2023-01-31 00:00:00",
+        "end_date": "2023-03-31 00:00:00",
+        "duration_months": 1.938239159001314
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2023-03-31 00:00:00",
+        "end_date": "2023-07-31 00:00:00",
+        "duration_months": 4.0078843626806835
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2023-07-31 00:00:00",
+        "end_date": "2023-08-31 00:00:00",
+        "duration_months": 1.0183968462549278
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2023-08-31 00:00:00",
+        "end_date": "2023-10-31 00:00:00",
+        "duration_months": 2.0039421813403417
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2023-10-31 00:00:00",
+        "end_date": "2024-01-31 00:00:00",
+        "duration_months": 3.0223390275952693
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2024-01-31 00:00:00",
+        "end_date": "2024-02-29 00:00:00",
+        "duration_months": 0.9526938239159001
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2024-02-29 00:00:00",
+        "end_date": "2024-05-31 00:00:00",
+        "duration_months": 3.0223390275952693
+      },
+      {
+        "regime": "Recession",
+        "start_date": "2024-05-31 00:00:00",
+        "end_date": "2024-07-31 00:00:00",
+        "duration_months": 2.0039421813403417
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2024-07-31 00:00:00",
+        "end_date": "2024-09-30 00:00:00",
+        "duration_months": 2.0039421813403417
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2024-09-30 00:00:00",
+        "end_date": "2024-10-31 00:00:00",
+        "duration_months": 1.0183968462549278
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2024-10-31 00:00:00",
+        "end_date": "2025-01-31 00:00:00",
+        "duration_months": 3.0223390275952693
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2025-01-31 00:00:00",
+        "end_date": "2025-02-28 00:00:00",
+        "duration_months": 0.9198423127463863
+      },
+      {
+        "regime": "Overheating",
+        "start_date": "2025-02-28 00:00:00",
+        "end_date": "2025-03-31 00:00:00",
+        "duration_months": 1.0183968462549278
+      },
+      {
+        "regime": "Recession",
+        "start_date": "2025-03-31 00:00:00",
+        "end_date": "2025-04-30 00:00:00",
+        "duration_months": 0.9855453350854139
+      },
+      {
+        "regime": "Stagflation",
+        "start_date": "2025-04-30 00:00:00",
+        "end_date": "2025-05-30 00:00:00",
+        "duration_months": 0.9855453350854139
+      }
+    ]
+  },
+  "economic_validation": {
+    "regime_validations": {
+      "Recession": {
+        "observations": 56,
+        "date_range": {
+          "start": "1998-12-31 00:00:00",
+          "end": "2025-03-31 00:00:00"
+        },
+        "INFLATION_COMPOSITE": {
+          "mean": -0.6738318006683837,
+          "median": -0.6738318006683836,
+          "std": 1.1202704966118149e-16,
+          "min": -0.6738318006683836,
+          "max": -0.6738318006683836,
+          "trend": 2.2628969856403438e-18
+        },
+        "DGS10": {
+          "mean": 3.3316071428571425,
+          "median": 3.3449999999999998,
+          "std": 1.3634805419629898,
+          "min": 0.64,
+          "max": 5.81,
+          "trend": -0.062207450444292565
+        },
+        "DGS2": {
+          "mean": 2.240178571428572,
+          "median": 1.52,
+          "std": 1.757011399633354,
+          "min": 0.2,
+          "max": 6.18,
+          "trend": -0.0519647983595352
+        },
+        "VIX": {
+          "mean": 24.26747222287084,
+          "median": 21.144296536796535,
+          "volatility_profile": "Elevated"
+        }
+      },
+      "Overheating": {
+        "observations": 124,
+        "date_range": {
+          "start": "1999-02-26 00:00:00",
+          "end": "2025-02-28 00:00:00"
+        },
+        "INFLATION_COMPOSITE": {
+          "mean": -0.6738318006683836,
+          "median": -0.6738318006683836,
+          "std": 1.226199689528423e-15,
+          "min": -0.6738318006683836,
+          "max": -0.6738318006683836,
+          "trend": 7.98611009378945e-18
+        },
+        "DGS10": {
+          "mean": 3.3830645161290316,
+          "median": 3.355,
+          "std": 1.5033632633182465,
+          "min": 0.55,
+          "max": 6.68,
+          "trend": -0.023458693941778175
+        },
+        "DGS2": {
+          "mean": 2.4691935483870973,
+          "median": 2.185,
+          "std": 2.040517070120701,
+          "min": 0.11,
+          "max": 6.69,
+          "trend": -0.01504956726986627
+        },
+        "VIX": {
+          "mean": 18.900473611152385,
+          "median": 18.04530952380952,
+          "volatility_profile": "Low"
+        }
+      },
+      "Goldilocks": {
+        "observations": 41,
+        "date_range": {
+          "start": "1999-03-31 00:00:00",
+          "end": "2021-02-26 00:00:00"
+        },
+        "INFLATION_COMPOSITE": {
+          "mean": -0.6738318006683836,
+          "median": -0.6738318006683836,
+          "std": 4.496060575246782e-16,
+          "min": -0.6738318006683836,
+          "max": -0.6738318006683836,
+          "trend": -7.412584239017162e-18
+        },
+        "DGS10": {
+          "mean": 3.0239024390243903,
+          "median": 2.66,
+          "std": 1.133897874697674,
+          "min": 1.11,
+          "max": 5.64,
+          "trend": -0.06988327526132394
+        },
+        "DGS2": {
+          "mean": 1.6280487804878052,
+          "median": 1.13,
+          "std": 1.57043659456884,
+          "min": 0.11,
+          "max": 5.42,
+          "trend": -0.06508362369337972
+        },
+        "VIX": {
+          "mean": 16.53876799875907,
+          "median": 15.407826086956522,
+          "volatility_profile": "Low"
+        }
+      },
+      "Stagflation": {
+        "observations": 97,
+        "date_range": {
+          "start": "1999-09-30 00:00:00",
+          "end": "2025-05-30 00:00:00"
+        },
+        "INFLATION_COMPOSITE": {
+          "mean": -0.6738318006683837,
+          "median": -0.6738318006683836,
+          "std": 8.927923646162438e-16,
+          "min": -0.6738318006683836,
+          "max": -0.6738318006683836,
+          "trend": -3.193229450196587e-18
+        },
+        "DGS10": {
+          "mean": 3.5475257731958765,
+          "median": 3.68,
+          "std": 1.2311267120405018,
+          "min": 1.51,
+          "max": 6.04,
+          "trend": -0.0279608931201346
+        },
+        "DGS2": {
+          "mean": 2.5580412371134016,
+          "median": 2.48,
+          "std": 1.6922935861177038,
+          "min": 0.22,
+          "max": 6.38,
+          "trend": -0.015226172943404134
+        },
+        "VIX": {
+          "mean": 20.69768723921576,
+          "median": 18.985,
+          "volatility_profile": "Elevated"
+        }
+      }
+    },
+    "cross_regime_comparisons": {
+      "INFLATION_COMPOSITE": {
+        "Recession": -0.6738318006683837,
+        "Overheating": -0.6738318006683836,
+        "Goldilocks": -0.6738318006683836,
+        "Stagflation": -0.6738318006683837
+      },
+      "UNRATE": {},
+      "PAYEMS": {},
+      "DGS10": {
+        "Recession": 3.3316071428571425,
+        "Overheating": 3.3830645161290316,
+        "Goldilocks": 3.0239024390243903,
+        "Stagflation": 3.5475257731958765
+      },
+      "DGS2": {
+        "Recession": 2.240178571428572,
+        "Overheating": 2.4691935483870973,
+        "Goldilocks": 1.6280487804878052,
+        "Stagflation": 2.5580412371134016
+      }
+    }
+  },
+  "analysis_timestamp": "2025-07-02T09:35:39.402191"
+}
