@@ -1,0 +1,18 @@
+{
+  "DEMO_intra_regime_evolution": {
+    "Goldilocks": {
+      "Value": {
+        "early_phase_performance": 0.012,
+        "middle_phase_performance": 0.008,
+        "late_phase_performance": 0.005,
+        "optimal_phase": "early",
+        "performance_trend_slope": -0.002
+      },
+      "regime_maturity_indicators": {
+        "vix_trend": 0.5,
+        "growth_trend": -0.1,
+        "regime_duration": 24
+      }
+    }
+  }
+}

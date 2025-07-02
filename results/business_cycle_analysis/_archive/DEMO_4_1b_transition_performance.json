@@ -1,0 +1,24 @@
+{
+  "DEMO_transition_performance": {
+    "Value": {
+      "average_pre_transition": 0.008,
+      "average_post_transition": 0.005,
+      "performance_change": -0.003,
+      "volatility_change": 0.015,
+      "statistical_significance": {
+        "p_value": 0.045,
+        "is_significant": true
+      }
+    },
+    "Quality": {
+      "average_pre_transition": 0.006,
+      "average_post_transition": 0.009,
+      "performance_change": 0.003,
+      "volatility_change": -0.008,
+      "statistical_significance": {
+        "p_value": 0.032,
+        "is_significant": true
+      }
+    }
+  }
+}

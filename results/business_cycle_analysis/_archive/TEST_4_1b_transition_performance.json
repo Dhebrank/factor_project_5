@@ -1,0 +1,46 @@
+{
+  "transition_performance": {
+    "Value": {
+      "pre_avg": 0.008349311627226373,
+      "post_avg": 0.00862072619901992,
+      "change": 0.0002714145717935476,
+      "volatility_change": -0.0020950077439465774,
+      "t_statistic": 0.11254167674309092,
+      "p_value": 0.9105485151424753,
+      "is_significant": "False",
+      "transitions_analyzed": 147
+    },
+    "Quality": {
+      "pre_avg": 0.008850422880194922,
+      "post_avg": 0.008508158964247474,
+      "change": -0.00034226391594744873,
+      "volatility_change": -0.001841903139991382,
+      "t_statistic": -0.18060794036352262,
+      "p_value": 0.8569257822442742,
+      "is_significant": "False",
+      "transitions_analyzed": 147
+    },
+    "MinVol": {
+      "pre_avg": 0.00801345708516123,
+      "post_avg": 0.008196625113762096,
+      "change": 0.00018316802860086565,
+      "volatility_change": -0.0024818023308989506,
+      "t_statistic": 0.11163170309800008,
+      "p_value": 0.9112687572882081,
+      "is_significant": "False",
+      "transitions_analyzed": 147
+    },
+    "Momentum": {
+      "pre_avg": 0.009829288970641059,
+      "post_avg": 0.011829764710879886,
+      "change": 0.0020004757402388267,
+      "volatility_change": -0.004381586894042614,
+      "t_statistic": 0.8908568368140005,
+      "p_value": 0.3744716920029726,
+      "is_significant": "False",
+      "transitions_analyzed": 147
+    }
+  },
+  "transition_dates_analyzed": 147,
+  "window_months": 6
+}

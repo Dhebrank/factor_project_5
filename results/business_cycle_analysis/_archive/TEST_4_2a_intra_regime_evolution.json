@@ -1,0 +1,158 @@
+{
+  "Recession": {
+    "Value": {
+      "early_phase_performance": 1.0751570584905143e-05,
+      "middle_phase_performance": -0.00810112384280091,
+      "late_phase_performance": -0.0010024944081420534,
+      "performance_trend_slope": 5.493322989300105e-05,
+      "optimal_phase": "early",
+      "early_to_late_change": -0.0010132459787269585
+    },
+    "Quality": {
+      "early_phase_performance": 0.00776984297263884,
+      "middle_phase_performance": -0.002572791054998616,
+      "late_phase_performance": 0.009647526099944239,
+      "performance_trend_slope": 8.886735692285325e-05,
+      "optimal_phase": "late",
+      "early_to_late_change": 0.0018776831273053986
+    },
+    "MinVol": {
+      "early_phase_performance": 0.0063865655050016,
+      "middle_phase_performance": -0.0033956720585200683,
+      "late_phase_performance": 0.010391738256559806,
+      "performance_trend_slope": 0.0001676243114989388,
+      "optimal_phase": "late",
+      "early_to_late_change": 0.004005172751558206
+    },
+    "Momentum": {
+      "early_phase_performance": 0.012468831650055918,
+      "middle_phase_performance": -0.004344127256117811,
+      "late_phase_performance": 0.010718528081389877,
+      "performance_trend_slope": -4.148967174798276e-06,
+      "optimal_phase": "early",
+      "early_to_late_change": -0.0017503035686660413
+    },
+    "regime_maturity_indicators": {
+      "vix_trend": -0.09640653401352753,
+      "growth_trend": 7.5751111353622265e-19,
+      "regime_duration": 56
+    }
+  },
+  "Overheating": {
+    "Value": {
+      "early_phase_performance": 0.006625024785984735,
+      "middle_phase_performance": 0.017293871211800486,
+      "late_phase_performance": 0.016411664293201705,
+      "performance_trend_slope": 7.679374952339693e-05,
+      "optimal_phase": "middle",
+      "early_to_late_change": 0.00978663950721697
+    },
+    "Quality": {
+      "early_phase_performance": 0.00044763311109866154,
+      "middle_phase_performance": 0.016773099845044985,
+      "late_phase_performance": 0.015585748948618139,
+      "performance_trend_slope": 0.00014895182951684655,
+      "optimal_phase": "middle",
+      "early_to_late_change": 0.015138115837519478
+    },
+    "MinVol": {
+      "early_phase_performance": 0.0006928053224253761,
+      "middle_phase_performance": 0.01472751498882104,
+      "late_phase_performance": 0.013312575350534653,
+      "performance_trend_slope": 0.0001274348101141806,
+      "optimal_phase": "middle",
+      "early_to_late_change": 0.012619770028109278
+    },
+    "Momentum": {
+      "early_phase_performance": 0.004924114774050697,
+      "middle_phase_performance": 0.017258586652205407,
+      "late_phase_performance": 0.014587211378912876,
+      "performance_trend_slope": 8.752187707248661e-05,
+      "optimal_phase": "middle",
+      "early_to_late_change": 0.009663096604862179
+    },
+    "regime_maturity_indicators": {
+      "vix_trend": -0.02111088414983922,
+      "growth_trend": 2.076250839599267e-18,
+      "regime_duration": 124
+    }
+  },
+  "Goldilocks": {
+    "Value": {
+      "early_phase_performance": 0.03497801515801434,
+      "middle_phase_performance": 0.013815682922836272,
+      "late_phase_performance": 0.023694123426201984,
+      "performance_trend_slope": -0.00032963568109650883,
+      "optimal_phase": "early",
+      "early_to_late_change": -0.011283891731812355
+    },
+    "Quality": {
+      "early_phase_performance": 0.025632131204932882,
+      "middle_phase_performance": 0.007066405048115015,
+      "late_phase_performance": 0.022464279238618767,
+      "performance_trend_slope": -7.261914714393114e-05,
+      "optimal_phase": "early",
+      "early_to_late_change": -0.003167851966314115
+    },
+    "MinVol": {
+      "early_phase_performance": 0.02296973775913478,
+      "middle_phase_performance": 0.009572770908427907,
+      "late_phase_performance": 0.019184512203503794,
+      "performance_trend_slope": -0.00017574735021259587,
+      "optimal_phase": "early",
+      "early_to_late_change": -0.0037852255556309854
+    },
+    "Momentum": {
+      "early_phase_performance": 0.0297390118419241,
+      "middle_phase_performance": 0.011386111026336314,
+      "late_phase_performance": 0.026650801914266335,
+      "performance_trend_slope": -0.00013010660747143161,
+      "optimal_phase": "early",
+      "early_to_late_change": -0.0030882099276577646
+    },
+    "regime_maturity_indicators": {
+      "vix_trend": -0.1600514497818894,
+      "growth_trend": -1.408763416690151e-18,
+      "regime_duration": 41
+    }
+  },
+  "Stagflation": {
+    "Value": {
+      "early_phase_performance": 0.005967649914891343,
+      "middle_phase_performance": -0.0030144644871475616,
+      "late_phase_performance": -0.0005145552480696152,
+      "performance_trend_slope": -3.744594658978237e-05,
+      "optimal_phase": "early",
+      "early_to_late_change": -0.006482205162960958
+    },
+    "Quality": {
+      "early_phase_performance": 0.0009206495999642909,
+      "middle_phase_performance": -0.0025829891657205943,
+      "late_phase_performance": 0.006367652703055844,
+      "performance_trend_slope": 0.00011935298003119401,
+      "optimal_phase": "late",
+      "early_to_late_change": 0.005447003103091553
+    },
+    "MinVol": {
+      "early_phase_performance": 0.0023779836975596808,
+      "middle_phase_performance": -0.0003577912737030113,
+      "late_phase_performance": 0.0032750183195140482,
+      "performance_trend_slope": 6.04766597008181e-05,
+      "optimal_phase": "late",
+      "early_to_late_change": 0.0008970346219543675
+    },
+    "Momentum": {
+      "early_phase_performance": 0.0028078859515979116,
+      "middle_phase_performance": -0.0033870193147679997,
+      "late_phase_performance": 0.0067124115709417875,
+      "performance_trend_slope": 0.00014508433289712192,
+      "optimal_phase": "late",
+      "early_to_late_change": 0.003904525619343876
+    },
+    "regime_maturity_indicators": {
+      "vix_trend": -0.0672456578710915,
+      "growth_trend": -5.10906679468758e-19,
+      "regime_duration": 97
+    }
+  }
+}

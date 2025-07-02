@@ -1,0 +1,83 @@
+{
+  "transition_counts": {
+    "Goldilocks": {
+      "Goldilocks": 19,
+      "Overheating": 12,
+      "Recession": 6,
+      "Stagflation": 4
+    },
+    "Overheating": {
+      "Goldilocks": 9,
+      "Overheating": 73,
+      "Recession": 11,
+      "Stagflation": 31
+    },
+    "Recession": {
+      "Goldilocks": 9,
+      "Overheating": 7,
+      "Recession": 28,
+      "Stagflation": 11
+    },
+    "Stagflation": {
+      "Goldilocks": 4,
+      "Overheating": 32,
+      "Recession": 11,
+      "Stagflation": 50
+    }
+  },
+  "transition_probabilities": {
+    "Goldilocks": {
+      "Goldilocks": 0.4634146341463415,
+      "Overheating": 0.0967741935483871,
+      "Recession": 0.10714285714285714,
+      "Stagflation": 0.041666666666666664
+    },
+    "Overheating": {
+      "Goldilocks": 0.21951219512195122,
+      "Overheating": 0.5887096774193549,
+      "Recession": 0.19642857142857142,
+      "Stagflation": 0.3229166666666667
+    },
+    "Recession": {
+      "Goldilocks": 0.21951219512195122,
+      "Overheating": 0.056451612903225805,
+      "Recession": 0.5,
+      "Stagflation": 0.11458333333333333
+    },
+    "Stagflation": {
+      "Goldilocks": 0.0975609756097561,
+      "Overheating": 0.25806451612903225,
+      "Recession": 0.19642857142857142,
+      "Stagflation": 0.5208333333333334
+    }
+  },
+  "expected_durations": {
+    "Goldilocks": 1.8636363636363635,
+    "Overheating": 2.431372549019608,
+    "Recession": 2.0,
+    "Stagflation": 2.0869565217391304
+  },
+  "early_warning_signals": {
+    "vix_threshold": 25.013852173913044,
+    "yield_curve_flat": 0.5
+  },
+  "regime_stability": {
+    "Goldilocks": {
+      "average_duration": 1.8636363636363635,
+      "total_periods": 22
+    },
+    "Overheating": {
+      "average_duration": 2.4313725490196076,
+      "total_periods": 51
+    },
+    "Recession": {
+      "average_duration": 2.0,
+      "total_periods": 28
+    },
+    "Stagflation": {
+      "average_duration": 2.0638297872340425,
+      "total_periods": 47
+    }
+  },
+  "total_transitions": 317
+}

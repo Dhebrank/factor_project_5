@@ -1,0 +1,126 @@
+{
+  "Recession": {
+    "total_months": 56,
+    "percentage_of_period": 17.61006289308176,
+    "date_range": {
+      "start": "1998-12-31",
+      "end": "2025-03-31"
+    },
+    "factor_performance": {
+      "Value": {
+        "monthly_return": -0.00308527175888193,
+        "annualized_return": -0.03640143000274698
+      },
+      "Quality": {
+        "monthly_return": 0.004897806060026176,
+        "annualized_return": 0.060383049118631016
+      },
+      "MinVol": {
+        "monthly_return": 0.004426489943799711,
+        "annualized_return": 0.05443034339014674
+      },
+      "Momentum": {
+        "monthly_return": 0.006170581881806712,
+        "annualized_return": 0.07661241803970231
+      }
+    },
+    "vix_statistics": {
+      "average_vix": 24.26747222287084,
+      "max_vix": 62.66894736842105,
+      "min_vix": 10.438
+    }
+  },
+  "Overheating": {
+    "total_months": 124,
+    "percentage_of_period": 38.9937106918239,
+    "date_range": {
+      "start": "1999-02-26",
+      "end": "2025-02-28"
+    },
+    "factor_performance": {
+      "Value": {
+        "monthly_return": 0.01346745674373924,
+        "annualized_return": 0.17413407614862786
+      },
+      "Quality": {
+        "monthly_return": 0.01097299602454719,
+        "annualized_return": 0.13992076341620652
+      },
+      "MinVol": {
+        "monthly_return": 0.009607752399060957,
+        "annualized_return": 0.12158481387451281
+      },
+      "Momentum": {
+        "monthly_return": 0.012275432551539045,
+        "annualized_return": 0.15766888887611508
+      }
+    },
+    "vix_statistics": {
+      "average_vix": 18.900473611152385,
+      "max_vix": 35.02913043478261,
+      "min_vix": 10.125454545454543
+    }
+  },
+  "Goldilocks": {
+    "total_months": 41,
+    "percentage_of_period": 12.89308176100629,
+    "date_range": {
+      "start": "1999-03-31",
+      "end": "2021-02-26"
+    },
+    "factor_performance": {
+      "Value": {
+        "monthly_return": 0.023898816730261514,
+        "annualized_return": 0.3276527313482285
+      },
+      "Quality": {
+        "monthly_return": 0.018210909406790255,
+        "annualized_return": 0.2418037031167677
+      },
+      "MinVol": {
+        "monthly_return": 0.017102647669165753,
+        "annualized_return": 0.22568089914628642
+      },
+      "Momentum": {
+        "monthly_return": 0.022417656953986592,
+        "annualized_return": 0.30478841711137017
+      }
+    },
+    "vix_statistics": {
+      "average_vix": 16.53876799875907,
+      "max_vix": 31.9295,
+      "min_vix": 10.2645
+    }
+  },
+  "Stagflation": {
+    "total_months": 97,
+    "percentage_of_period": 30.50314465408805,
+    "date_range": {
+      "start": "1999-09-30",
+      "end": "2025-05-30"
+    },
+    "factor_performance": {
+      "Value": {
+        "monthly_return": 0.0007991918608402448,
+        "annualized_return": 0.009632569534871571
+      },
+      "Quality": {
+        "monthly_return": 0.0016179141556354765,
+        "annualized_return": 0.019588669646297685
+      },
+      "MinVol": {
+        "monthly_return": 0.0017806367227564664,
+        "annualized_return": 0.021578151772114973
+      },
+      "Momentum": {
+        "monthly_return": 0.00209254963113027,
+        "annualized_return": 0.025401619329413982
+      }
+    },
+    "vix_statistics": {
+      "average_vix": 20.69768723921576,
+      "max_vix": 45.57052631578947,
+      "min_vix": 11.0425
+    }
+  }
+}

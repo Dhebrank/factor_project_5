@@ -1,0 +1,252 @@
+{
+  "allocation_frameworks": {
+    "regime_specific_allocations": {
+      "Recession": {
+        "risk_parity": {
+          "weights": {
+            "Value": 0.21185540784795276,
+            "Quality": 0.24839477609617674,
+            "MinVol": 0.31478604561821233,
+            "Momentum": 0.2249637704376583
+          },
+          "expected_return": 0.041655925148329324,
+          "expected_volatility": 0.17802101741185128
+        },
+        "sharpe_optimized": {
+          "weights": {
+            "Value": 0.0,
+            "Quality": 0.30381837179955545,
+            "MinVol": 0.3470668071673716,
+            "Momentum": 0.34911482103307306
+          },
+          "expected_return": 0.06398297577379859,
+          "expected_volatility": 0.17359403054451716
+        },
+        "equal_weight": {
+          "weights": {
+            "Value": 0.25,
+            "Quality": 0.25,
+            "MinVol": 0.25,
+            "Momentum": 0.25
+          },
+          "expected_return": 0.03875609513643327,
+          "expected_volatility": 0.18215228829995833
+        }
+      },
+      "Overheating": {
+        "risk_parity": {
+          "weights": {
+            "Value": 0.21907625128039024,
+            "Quality": 0.25412263116805245,
+            "MinVol": 0.3045383337293879,
+            "Momentum": 0.22226278382216946
+          },
+          "expected_return": 0.1457768359650799,
+          "expected_volatility": 0.12586436893144481
+        },
+        "sharpe_optimized": {
+          "weights": {
+            "Value": 0.2616920608151608,
+            "Quality": 0.2439141467090593,
+            "MinVol": 0.25399945319852857,
+            "Momentum": 0.2403943392772513
+          },
+          "expected_return": 0.14848334346834588,
+          "expected_volatility": 0.12784243622540015
+        },
+        "equal_weight": {
+          "weights": {
+            "Value": 0.25,
+            "Quality": 0.25,
+            "MinVol": 0.25,
+            "Momentum": 0.25
+          },
+          "expected_return": 0.14832713557886557,
+          "expected_volatility": 0.12784128322168276
+        }
+      },
+      "Goldilocks": {
+        "risk_parity": {
+          "weights": {
+            "Value": 0.2074197414940836,
+            "Quality": 0.24124919377045365,
+            "MinVol": 0.3018933214534886,
+            "Momentum": 0.24943774328197427
+          },
+          "expected_return": 0.27045388443833773,
+          "expected_volatility": 0.09898759658922023
+        },
+        "sharpe_optimized": {
+          "weights": {
+            "Value": 0.25128736818559144,
+            "Quality": 0.21569277346035098,
+            "MinVol": 0.25191561353749337,
+            "Momentum": 0.28110424481656415
+          },
+          "expected_return": 0.27702016389061346,
+          "expected_volatility": 0.1004227285595831
+        },
+        "equal_weight": {
+          "weights": {
+            "Value": 0.25,
+            "Quality": 0.25,
+            "MinVol": 0.25,
+            "Momentum": 0.25
+          },
+          "expected_return": 0.2749814376806632,
+          "expected_volatility": 0.1007014824011671
+        }
+      },
+      "Stagflation": {
+        "risk_parity": {
+          "weights": {
+            "Value": 0.2129972406206235,
+            "Quality": 0.2408168563183503,
+            "MinVol": 0.31281143401976913,
+            "Momentum": 0.23337446904125717
+          },
+          "expected_return": 0.019446974597815657,
+          "expected_volatility": 0.1405925407923704
+        },
+        "sharpe_optimized": {
+          "weights": {
+            "Value": 0.10550282362400894,
+            "Quality": 0.24257150231532457,
+            "MinVol": 0.3470921692924757,
+            "Momentum": 0.3048335047681907
+          },
+          "expected_return": 0.02100078846402293,
+          "expected_volatility": 0.13825489591427187
+        },
+        "equal_weight": {
+          "weights": {
+            "Value": 0.25,
+            "Quality": 0.25,
+            "MinVol": 0.25,
+            "Momentum": 0.25
+          },
+          "expected_return": 0.019050252570674553,
+          "expected_volatility": 0.1431965707326623
+        }
+      }
+    },
+    "dynamic_recommendations": {
+      "Goldilocks": {
+        "next_regime_probabilities": {
+          "Goldilocks": 0.4634146341463415,
+          "Recession": 0.10714285714285714,
+          "Overheating": 0.0967741935483871
+        },
+        "regime_transition_advice": "Most likely transition to Goldilocks (46.3%). Focus on Value and Momentum factors - growth environment"
+      },
+      "Overheating": {
+        "next_regime_probabilities": {
+          "Overheating": 0.5887096774193549,
+          "Stagflation": 0.3229166666666667,
+          "Goldilocks": 0.21951219512195122
+        },
+        "regime_transition_advice": "Most likely transition to Overheating (58.9%). Consider Quality and MinVol - late cycle positioning"
+      },
+      "Recession": {
+        "next_regime_probabilities": {
+          "Recession": 0.5,
+          "Goldilocks": 0.21951219512195122,
+          "Stagflation": 0.11458333333333333
+        },
+        "regime_transition_advice": "Most likely transition to Recession (50.0%). Defensive positioning with Quality and MinVol factors"
+      },
+      "Stagflation": {
+        "next_regime_probabilities": {
+          "Stagflation": 0.5208333333333334,
+          "Overheating": 0.25806451612903225,
+          "Recession": 0.19642857142857142
+        },
+        "regime_transition_advice": "Most likely transition to Stagflation (52.1%). Emphasize Value and Quality - inflation protection"
+      }
+    }
+  },
+  "timing_models": {
+    "momentum_signals": {
+      "Value": {
+        "3_month_momentum": -0.009725448897243194,
+        "6_month_momentum": -0.007957497286462029,
+        "12_month_momentum": 0.005462691759621409,
+        "momentum_consistency": 0.45031878533765807
+      },
+      "Quality": {
+        "3_month_momentum": -0.006194786046923087,
+        "6_month_momentum": -0.005614855169800536,
+        "12_month_momentum": 0.007131344254503516,
+        "momentum_consistency": 0.5085551654674153
+      },
+      "MinVol": {
+        "3_month_momentum": -0.0022132990596388873,
+        "6_month_momentum": 0.0002527010147254747,
+        "12_month_momentum": 0.012214598499765474,
+        "momentum_consistency": 0.47972340652078116
+      },
+      "Momentum": {
+        "3_month_momentum": 0.014992624756497755,
+        "6_month_momentum": 0.010190645543682595,
+        "12_month_momentum": 0.015603291626762402,
+        "momentum_consistency": 0.5023098847030107
+      }
+    },
+    "mean_reversion_signals": {
+      "Value": {
+        "deviation_from_longterm": -0.0059766631549788484,
+        "reversion_signal": "hold",
+        "signal_strength": 0.0059766631549788484
+      },
+      "Quality": {
+        "deviation_from_longterm": -0.008692059591554765,
+        "reversion_signal": "hold",
+        "signal_strength": 0.008692059591554765
+      },
+      "MinVol": {
+        "deviation_from_longterm": -0.0009037287502135349,
+        "reversion_signal": "hold",
+        "signal_strength": 0.0009037287502135349
+      },
+      "Momentum": {
+        "deviation_from_longterm": -0.007574023555235053,
+        "reversion_signal": "hold",
+        "signal_strength": 0.007574023555235053
+      }
+    },
+    "regime_persistence": {
+      "Recession": {
+        "persistence_1_month": 1.0,
+        "persistence_3_months": 0.2222222222222222,
+        "persistence_6_months": 0.0
+      },
+      "Overheating": {
+        "persistence_1_month": 1.0,
+        "persistence_3_months": 0.37254901960784315,
+        "persistence_6_months": 0.1
+      },
+      "Goldilocks": {
+        "persistence_1_month": 1.0,
+        "persistence_3_months": 0.22727272727272727,
+        "persistence_6_months": 0.0
+      },
+      "Stagflation": {
+        "persistence_1_month": 1.0,
+        "persistence_3_months": 0.17391304347826086,
+        "persistence_6_months": 0.044444444444444446
+      }
+    },
+    "current_regime": "Stagflation",
+    "strategy_performance": {
+      "buy_and_hold_sp500": {
+        "total_return": 7.106595144763066,
+        "annualized_return": 0.0821707516241601
+      },
+      "regime_rotation": {
+        "total_return": 12.65799371017852,
+        "annualized_return": 0.10368410755925273
+      }
+    }
+  },
+  "analysis_timestamp": "2025-07-02T12:39:41.755350"
+}

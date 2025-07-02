@@ -1,0 +1,610 @@
+{
+  "regime_specific_patterns": {
+    "Recession": {
+      "best_return_factor": "Momentum",
+      "best_risk_adjusted_factor": "Momentum",
+      "worst_factor": "Value",
+      "factor_rankings": {
+        "by_returns": [
+          {
+            "factor": "Momentum",
+            "annual_return": 0.07661241803970231,
+            "sharpe_ratio": 0.3752585428072419,
+            "win_rate": 0.5714285714285714,
+            "max_drawdown": 0.2769940210118229
+          },
+          {
+            "factor": "Quality",
+            "annual_return": 0.060383049118631016,
+            "sharpe_ratio": 0.326570035446216,
+            "win_rate": 0.625,
+            "max_drawdown": 0.24281731657836642
+          },
+          {
+            "factor": "MinVol",
+            "annual_return": 0.05443034339014674,
+            "sharpe_ratio": 0.37305716190734783,
+            "win_rate": 0.6071428571428571,
+            "max_drawdown": 0.26151075694777676
+          },
+          {
+            "factor": "Value",
+            "annual_return": -0.03640143000274698,
+            "sharpe_ratio": -0.16791010570621467,
+            "win_rate": 0.5535714285714286,
+            "max_drawdown": 0.4253838670516632
+          }
+        ],
+        "by_sharpe": [
+          {
+            "factor": "Momentum",
+            "annual_return": 0.07661241803970231,
+            "sharpe_ratio": 0.3752585428072419,
+            "win_rate": 0.5714285714285714,
+            "max_drawdown": 0.2769940210118229
+          },
+          {
+            "factor": "MinVol",
+            "annual_return": 0.05443034339014674,
+            "sharpe_ratio": 0.37305716190734783,
+            "win_rate": 0.6071428571428571,
+            "max_drawdown": 0.26151075694777676
+          },
+          {
+            "factor": "Quality",
+            "annual_return": 0.060383049118631016,
+            "sharpe_ratio": 0.326570035446216,
+            "win_rate": 0.625,
+            "max_drawdown": 0.24281731657836642
+          },
+          {
+            "factor": "Value",
+            "annual_return": -0.03640143000274698,
+            "sharpe_ratio": -0.16791010570621467,
+            "win_rate": 0.5535714285714286,
+            "max_drawdown": 0.4253838670516632
+          }
+        ],
+        "by_win_rate": [
+          {
+            "factor": "Quality",
+            "annual_return": 0.060383049118631016,
+            "sharpe_ratio": 0.326570035446216,
+            "win_rate": 0.625,
+            "max_drawdown": 0.24281731657836642
+          },
+          {
+            "factor": "MinVol",
+            "annual_return": 0.05443034339014674,
+            "sharpe_ratio": 0.37305716190734783,
+            "win_rate": 0.6071428571428571,
+            "max_drawdown": 0.26151075694777676
+          },
+          {
+            "factor": "Momentum",
+            "annual_return": 0.07661241803970231,
+            "sharpe_ratio": 0.3752585428072419,
+            "win_rate": 0.5714285714285714,
+            "max_drawdown": 0.2769940210118229
+          },
+          {
+            "factor": "Value",
+            "annual_return": -0.03640143000274698,
+            "sharpe_ratio": -0.16791010570621467,
+            "win_rate": 0.5535714285714286,
+            "max_drawdown": 0.4253838670516632
+          }
+        ],
+        "by_drawdown": [
+          {
+            "factor": "Quality",
+            "annual_return": 0.060383049118631016,
+            "sharpe_ratio": 0.326570035446216,
+            "win_rate": 0.625,
+            "max_drawdown": 0.24281731657836642
+          },
+          {
+            "factor": "MinVol",
+            "annual_return": 0.05443034339014674,
+            "sharpe_ratio": 0.37305716190734783,
+            "win_rate": 0.6071428571428571,
+            "max_drawdown": 0.26151075694777676
+          },
+          {
+            "factor": "Momentum",
+            "annual_return": 0.07661241803970231,
+            "sharpe_ratio": 0.3752585428072419,
+            "win_rate": 0.5714285714285714,
+            "max_drawdown": 0.2769940210118229
+          },
+          {
+            "factor": "Value",
+            "annual_return": -0.03640143000274698,
+            "sharpe_ratio": -0.16791010570621467,
+            "win_rate": 0.5535714285714286,
+            "max_drawdown": 0.4253838670516632
+          }
+        ]
+      },
+      "regime_recommendations": {
+        "primary_strategy": "Quality and defensive positioning",
+        "reasoning": "Falling growth requires defensive, high-quality positions",
+        "recommended_factors": [
+          "Quality",
+          "MinVol"
+        ],
+        "allocation_tilt": "Maximum defensive positioning, capital preservation focus",
+        "risk_level": "Low - capital preservation priority",
+        "specific_allocations": {
+          "Value": "10-20%",
+          "Quality": "10-20%",
+          "MinVol": "25-35%",
+          "Momentum": "25-35%"
+        }
+      },
+      "statistical_confidence": 0.22013808998940787
+    },
+    "Overheating": {
+      "best_return_factor": "Value",
+      "best_risk_adjusted_factor": "Value",
+      "worst_factor": "MinVol",
+      "factor_rankings": {
+        "by_returns": [
+          {
+            "factor": "Value",
+            "annual_return": 0.17413407614862786,
+            "sharpe_ratio": 1.1209033415818819,
+            "win_rate": 0.6451612903225806,
+            "max_drawdown": 0.2035410770610015
+          },
+          {
+            "factor": "Momentum",
+            "annual_return": 0.15766888887611508,
+            "sharpe_ratio": 1.0296789950519925,
+            "win_rate": 0.6048387096774194,
+            "max_drawdown": 0.2354139016147624
+          },
+          {
+            "factor": "Quality",
+            "annual_return": 0.13992076341620652,
+            "sharpe_ratio": 1.0447553557935016,
+            "win_rate": 0.6290322580645161,
+            "max_drawdown": 0.26544890261648857
+          },
+          {
+            "factor": "MinVol",
+            "annual_return": 0.12158481387451281,
+            "sharpe_ratio": 1.0879536618854404,
+            "win_rate": 0.6370967741935484,
+            "max_drawdown": 0.1765245116025455
+          }
+        ],
+        "by_sharpe": [
+          {
+            "factor": "Value",
+            "annual_return": 0.17413407614862786,
+            "sharpe_ratio": 1.1209033415818819,
+            "win_rate": 0.6451612903225806,
+            "max_drawdown": 0.2035410770610015
+          },
+          {
+            "factor": "MinVol",
+            "annual_return": 0.12158481387451281,
+            "sharpe_ratio": 1.0879536618854404,
+            "win_rate": 0.6370967741935484,
+            "max_drawdown": 0.1765245116025455
+          },
+          {
+            "factor": "Quality",
+            "annual_return": 0.13992076341620652,
+            "sharpe_ratio": 1.0447553557935016,
+            "win_rate": 0.6290322580645161,
+            "max_drawdown": 0.26544890261648857
+          },
+          {
+            "factor": "Momentum",
+            "annual_return": 0.15766888887611508,
+            "sharpe_ratio": 1.0296789950519925,
+            "win_rate": 0.6048387096774194,
+            "max_drawdown": 0.2354139016147624
+          }
+        ],
+        "by_win_rate": [
+          {
+            "factor": "Value",
+            "annual_return": 0.17413407614862786,
+            "sharpe_ratio": 1.1209033415818819,
+            "win_rate": 0.6451612903225806,
+            "max_drawdown": 0.2035410770610015
+          },
+          {
+            "factor": "MinVol",
+            "annual_return": 0.12158481387451281,
+            "sharpe_ratio": 1.0879536618854404,
+            "win_rate": 0.6370967741935484,
+            "max_drawdown": 0.1765245116025455
+          },
+          {
+            "factor": "Quality",
+            "annual_return": 0.13992076341620652,
+            "sharpe_ratio": 1.0447553557935016,
+            "win_rate": 0.6290322580645161,
+            "max_drawdown": 0.26544890261648857
+          },
+          {
+            "factor": "Momentum",
+            "annual_return": 0.15766888887611508,
+            "sharpe_ratio": 1.0296789950519925,
+            "win_rate": 0.6048387096774194,
+            "max_drawdown": 0.2354139016147624
+          }
+        ],
+        "by_drawdown": [
+          {
+            "factor": "MinVol",
+            "annual_return": 0.12158481387451281,
+            "sharpe_ratio": 1.0879536618854404,
+            "win_rate": 0.6370967741935484,
+            "max_drawdown": 0.1765245116025455
+          },
+          {
+            "factor": "Value",
+            "annual_return": 0.17413407614862786,
+            "sharpe_ratio": 1.1209033415818819,
+            "win_rate": 0.6451612903225806,
+            "max_drawdown": 0.2035410770610015
+          },
+          {
+            "factor": "Momentum",
+            "annual_return": 0.15766888887611508,
+            "sharpe_ratio": 1.0296789950519925,
+            "win_rate": 0.6048387096774194,
+            "max_drawdown": 0.2354139016147624
+          },
+          {
+            "factor": "Quality",
+            "annual_return": 0.13992076341620652,
+            "sharpe_ratio": 1.0447553557935016,
+            "win_rate": 0.6290322580645161,
+            "max_drawdown": 0.26544890261648857
+          }
+        ]
+      },
+      "regime_recommendations": {
+        "primary_strategy": "Mixed signals - transition preparation",
+        "reasoning": "Late cycle conditions suggest defensive preparation",
+        "recommended_factors": [
+          "Quality",
+          "Value"
+        ],
+        "allocation_tilt": "Begin defensive tilt while maintaining some growth exposure",
+        "risk_level": "Moderate-High - monitor for regime change signals",
+        "specific_allocations": {
+          "Value": "25-35%",
+          "Quality": "10-20%",
+          "MinVol": "25-35%",
+          "Momentum": "10-20%"
+        }
+      },
+      "statistical_confidence": 3.294967969644147
+    },
+    "Goldilocks": {
+      "best_return_factor": "Value",
+      "best_risk_adjusted_factor": "Momentum",
+      "worst_factor": "MinVol",
+      "factor_rankings": {
+        "by_returns": [
+          {
+            "factor": "Value",
+            "annual_return": 0.3276527313482285,
+            "sharpe_ratio": 2.5739728176319,
+            "win_rate": 0.8048780487804879,
+            "max_drawdown": 0.16176726517499898
+          },
+          {
+            "factor": "Momentum",
+            "annual_return": 0.30478841711137017,
+            "sharpe_ratio": 2.879391392823171,
+            "win_rate": 0.7804878048780488,
+            "max_drawdown": 0.11154968583811113
+          },
+          {
+            "factor": "Quality",
+            "annual_return": 0.2418037031167677,
+            "sharpe_ratio": 2.2093722412522467,
+            "win_rate": 0.8048780487804879,
+            "max_drawdown": 0.1387938465090813
+          },
+          {
+            "factor": "MinVol",
+            "annual_return": 0.22568089914628642,
+            "sharpe_ratio": 2.5804080255385897,
+            "win_rate": 0.7560975609756098,
+            "max_drawdown": 0.08176535721146286
+          }
+        ],
+        "by_sharpe": [
+          {
+            "factor": "Momentum",
+            "annual_return": 0.30478841711137017,
+            "sharpe_ratio": 2.879391392823171,
+            "win_rate": 0.7804878048780488,
+            "max_drawdown": 0.11154968583811113
+          },
+          {
+            "factor": "MinVol",
+            "annual_return": 0.22568089914628642,
+            "sharpe_ratio": 2.5804080255385897,
+            "win_rate": 0.7560975609756098,
+            "max_drawdown": 0.08176535721146286
+          },
+          {
+            "factor": "Value",
+            "annual_return": 0.3276527313482285,
+            "sharpe_ratio": 2.5739728176319,
+            "win_rate": 0.8048780487804879,
+            "max_drawdown": 0.16176726517499898
+          },
+          {
+            "factor": "Quality",
+            "annual_return": 0.2418037031167677,
+            "sharpe_ratio": 2.2093722412522467,
+            "win_rate": 0.8048780487804879,
+            "max_drawdown": 0.1387938465090813
+          }
+        ],
+        "by_win_rate": [
+          {
+            "factor": "Value",
+            "annual_return": 0.3276527313482285,
+            "sharpe_ratio": 2.5739728176319,
+            "win_rate": 0.8048780487804879,
+            "max_drawdown": 0.16176726517499898
+          },
+          {
+            "factor": "Quality",
+            "annual_return": 0.2418037031167677,
+            "sharpe_ratio": 2.2093722412522467,
+            "win_rate": 0.8048780487804879,
+            "max_drawdown": 0.1387938465090813
+          },
+          {
+            "factor": "Momentum",
+            "annual_return": 0.30478841711137017,
+            "sharpe_ratio": 2.879391392823171,
+            "win_rate": 0.7804878048780488,
+            "max_drawdown": 0.11154968583811113
+          },
+          {
+            "factor": "MinVol",
+            "annual_return": 0.22568089914628642,
+            "sharpe_ratio": 2.5804080255385897,
+            "win_rate": 0.7560975609756098,
+            "max_drawdown": 0.08176535721146286
+          }
+        ],
+        "by_drawdown": [
+          {
+            "factor": "MinVol",
+            "annual_return": 0.22568089914628642,
+            "sharpe_ratio": 2.5804080255385897,
+            "win_rate": 0.7560975609756098,
+            "max_drawdown": 0.08176535721146286
+          },
+          {
+            "factor": "Momentum",
+            "annual_return": 0.30478841711137017,
+            "sharpe_ratio": 2.879391392823171,
+            "win_rate": 0.7804878048780488,
+            "max_drawdown": 0.11154968583811113
+          },
+          {
+            "factor": "Quality",
+            "annual_return": 0.2418037031167677,
+            "sharpe_ratio": 2.2093722412522467,
+            "win_rate": 0.8048780487804879,
+            "max_drawdown": 0.1387938465090813
+          },
+          {
+            "factor": "Value",
+            "annual_return": 0.3276527313482285,
+            "sharpe_ratio": 2.5739728176319,
+            "win_rate": 0.8048780487804879,
+            "max_drawdown": 0.16176726517499898
+          }
+        ]
+      },
+      "regime_recommendations": {
+        "primary_strategy": "Growth and Momentum focus",
+        "reasoning": "Rising growth with controlled inflation favors cyclical factors",
+        "recommended_factors": [
+          "Value",
+          "Momentum"
+        ],
+        "allocation_tilt": "Overweight cyclical factors, reduce defensive positions",
+        "risk_level": "Moderate - favorable environment for risk-taking",
+        "specific_allocations": {
+          "Value": "10-20%",
+          "Quality": "10-20%",
+          "MinVol": "25-35%",
+          "Momentum": "25-35%"
+        }
+      },
+      "statistical_confidence": 29.89833672845812
+    },
+    "Stagflation": {
+      "best_return_factor": "Momentum",
+      "best_risk_adjusted_factor": "MinVol",
+      "worst_factor": "Value",
+      "factor_rankings": {
+        "by_returns": [
+          {
+            "factor": "Momentum",
+            "annual_return": 0.025401619329413982,
+            "sharpe_ratio": 0.15634732902337123,
+            "win_rate": 0.5670103092783505,
+            "max_drawdown": 0.377309541219429
+          },
+          {
+            "factor": "MinVol",
+            "annual_return": 0.021578151772114973,
+            "sharpe_ratio": 0.17802155191265284,
+            "win_rate": 0.5463917525773195,
+            "max_drawdown": 0.2062230040949952
+          },
+          {
+            "factor": "Quality",
+            "annual_return": 0.019588669646297685,
+            "sharpe_ratio": 0.12441351062452179,
+            "win_rate": 0.5463917525773195,
+            "max_drawdown": 0.31742082587402737
+          },
+          {
+            "factor": "Value",
+            "annual_return": 0.009632569534871571,
+            "sharpe_ratio": 0.05411178371150915,
+            "win_rate": 0.5154639175257731,
+            "max_drawdown": 0.34543351838162306
+          }
+        ],
+        "by_sharpe": [
+          {
+            "factor": "MinVol",
+            "annual_return": 0.021578151772114973,
+            "sharpe_ratio": 0.17802155191265284,
+            "win_rate": 0.5463917525773195,
+            "max_drawdown": 0.2062230040949952
+          },
+          {
+            "factor": "Momentum",
+            "annual_return": 0.025401619329413982,
+            "sharpe_ratio": 0.15634732902337123,
+            "win_rate": 0.5670103092783505,
+            "max_drawdown": 0.377309541219429
+          },
+          {
+            "factor": "Quality",
+            "annual_return": 0.019588669646297685,
+            "sharpe_ratio": 0.12441351062452179,
+            "win_rate": 0.5463917525773195,
+            "max_drawdown": 0.31742082587402737
+          },
+          {
+            "factor": "Value",
+            "annual_return": 0.009632569534871571,
+            "sharpe_ratio": 0.05411178371150915,
+            "win_rate": 0.5154639175257731,
+            "max_drawdown": 0.34543351838162306
+          }
+        ],
+        "by_win_rate": [
+          {
+            "factor": "Momentum",
+            "annual_return": 0.025401619329413982,
+            "sharpe_ratio": 0.15634732902337123,
+            "win_rate": 0.5670103092783505,
+            "max_drawdown": 0.377309541219429
+          },
+          {
+            "factor": "Quality",
+            "annual_return": 0.019588669646297685,
+            "sharpe_ratio": 0.12441351062452179,
+            "win_rate": 0.5463917525773195,
+            "max_drawdown": 0.31742082587402737
+          },
+          {
+            "factor": "MinVol",
+            "annual_return": 0.021578151772114973,
+            "sharpe_ratio": 0.17802155191265284,
+            "win_rate": 0.5463917525773195,
+            "max_drawdown": 0.2062230040949952
+          },
+          {
+            "factor": "Value",
+            "annual_return": 0.009632569534871571,
+            "sharpe_ratio": 0.05411178371150915,
+            "win_rate": 0.5154639175257731,
+            "max_drawdown": 0.34543351838162306
+          }
+        ],
+        "by_drawdown": [
+          {
+            "factor": "MinVol",
+            "annual_return": 0.021578151772114973,
+            "sharpe_ratio": 0.17802155191265284,
+            "win_rate": 0.5463917525773195,
+            "max_drawdown": 0.2062230040949952
+          },
+          {
+            "factor": "Quality",
+            "annual_return": 0.019588669646297685,
+            "sharpe_ratio": 0.12441351062452179,
+            "win_rate": 0.5463917525773195,
+            "max_drawdown": 0.31742082587402737
+          },
+          {
+            "factor": "Value",
+            "annual_return": 0.009632569534871571,
+            "sharpe_ratio": 0.05411178371150915,
+            "win_rate": 0.5154639175257731,
+            "max_drawdown": 0.34543351838162306
+          },
+          {
+            "factor": "Momentum",
+            "annual_return": 0.025401619329413982,
+            "sharpe_ratio": 0.15634732902337123,
+            "win_rate": 0.5670103092783505,
+            "max_drawdown": 0.377309541219429
+          }
+        ]
+      },
+      "regime_recommendations": {
+        "primary_strategy": "Value and real asset focus",
+        "reasoning": "High inflation with weak growth favors value and real assets",
+        "recommended_factors": [
+          "Value",
+          "Quality"
+        ],
+        "allocation_tilt": "Strong value tilt, avoid growth-sensitive factors",
+        "risk_level": "High - challenging environment for most assets",
+        "specific_allocations": {
+          "Value": "10-20%",
+          "Quality": "10-20%",
+          "MinVol": "25-35%",
+          "Momentum": "25-35%"
+        }
+      },
+      "statistical_confidence": 2.1674222889281616
+    }
+  },
+  "cross_regime_consistency": {
+    "Value": {
+      "average_rank": 3.0,
+      "rank_volatility": 1.224744871391589,
+      "best_rank": 1,
+      "worst_rank": 4,
+      "consistency_score": 0.7752551286084111
+    },
+    "Quality": {
+      "average_rank": 3.25,
+      "rank_volatility": 0.4330127018922193,
+      "best_rank": 3,
+      "worst_rank": 4,
+      "consistency_score": 1.3169872981077808
+    },
+    "MinVol": {
+      "average_rank": 1.75,
+      "rank_volatility": 0.4330127018922193,
+      "best_rank": 1,
+      "worst_rank": 2,
+      "consistency_score": 2.816987298107781
+    },
+    "Momentum": {
+      "average_rank": 2.0,
+      "rank_volatility": 1.224744871391589,
+      "best_rank": 1,
+      "worst_rank": 4,
+      "consistency_score": 1.775255128608411
+    }
+  }
+}

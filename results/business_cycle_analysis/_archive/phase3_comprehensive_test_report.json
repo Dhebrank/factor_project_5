@@ -1,0 +1,288 @@
+{
+  "timestamp": "2025-07-02T10:45:22.304740",
+  "total_tests": 50,
+  "passed_tests": 46,
+  "failed_tests": 4,
+  "success_rate": 92.0,
+  "detailed_results": {
+    "step_3_1": {
+      "3.1a": {
+        "file_exists": true,
+        "color_coded_bands": true,
+        "regime_transitions": false,
+        "hover_details": true,
+        "sp500_performance": true,
+        "factor_performance": true,
+        "vix_subplot": false,
+        "threshold_markers": true,
+        "individual_tests": [
+          {
+            "name": "Timeline file exists",
+            "passed": true
+          },
+          {
+            "name": "Color-coded regime bands present",
+            "passed": true
+          },
+          {
+            "name": "Regime transition indicators present",
+            "passed": false
+          },
+          {
+            "name": "Interactive hover details present",
+            "passed": true
+          },
+          {
+            "name": "S&P 500 performance line present",
+            "passed": true
+          },
+          {
+            "name": "All factor performance lines present",
+            "passed": true
+          },
+          {
+            "name": "VIX stress level subplot present",
+            "passed": false
+          },
+          {
+            "name": "VIX threshold markers present",
+            "passed": true
+          }
+        ]
+      },
+      "3.1b": {
+        "file_exists": true,
+        "regime_duration_stats": true,
+        "factor_performance": true,
+        "vix_statistics": true,
+        "percentage_calculations": true,
+        "individual_tests": [
+          {
+            "name": "Regime statistics file exists",
+            "passed": true
+          },
+          {
+            "name": "All regime duration statistics present",
+            "passed": true
+          },
+          {
+            "name": "Factor performance data present",
+            "passed": true
+          },
+          {
+            "name": "VIX statistics present",
+            "passed": true
+          },
+          {
+            "name": "Percentage calculations present",
+            "passed": true
+          }
+        ]
+      }
+    },
+    "step_3_2": {
+      "3.2a": {
+        "individual_tests": [
+          {
+            "name": "Primary heatmap file exists",
+            "passed": true
+          },
+          {
+            "name": "All factors present in heatmap",
+            "passed": true
+          },
+          {
+            "name": "All regimes present in heatmap",
+            "passed": true
+          },
+          {
+            "name": "Color coding present",
+            "passed": true
+          },
+          {
+            "name": "Data labels/annotations present",
+            "passed": true
+          },
+          {
+            "name": "Hover tooltips present",
+            "passed": true
+          }
+        ]
+      },
+      "3.2b": {
+        "individual_tests": [
+          {
+            "name": "Risk-adjusted heatmap file exists",
+            "passed": true
+          },
+          {
+            "name": "Sharpe ratio metrics present",
+            "passed": true
+          },
+          {
+            "name": "Risk metrics in hover details",
+            "passed": true
+          },
+          {
+            "name": "Appropriate color scale for ratios",
+            "passed": false
+          }
+        ]
+      },
+      "3.2c": {
+        "individual_tests": [
+          {
+            "name": "Relative performance heatmap file exists",
+            "passed": true
+          },
+          {
+            "name": "Excess return calculations present",
+            "passed": true
+          },
+          {
+            "name": "S&P 500 comparison present",
+            "passed": true
+          },
+          {
+            "name": "Outperformance indicators present",
+            "passed": true
+          }
+        ]
+      }
+    },
+    "step_3_3": {
+      "3.3a": {
+        "individual_tests": [
+          {
+            "name": "Factor rotation wheel file exists",
+            "passed": true
+          },
+          {
+            "name": "Polar chart structure present",
+            "passed": true
+          },
+          {
+            "name": "Regime subplot structure present",
+            "passed": false
+          },
+          {
+            "name": "Factor leadership indicators present",
+            "passed": true
+          }
+        ]
+      },
+      "3.3b": {
+        "individual_tests": [
+          {
+            "name": "Risk-return scatter file exists",
+            "passed": true
+          },
+          {
+            "name": "Regime clustering colors present",
+            "passed": true
+          },
+          {
+            "name": "Efficient frontier reference present",
+            "passed": true
+          },
+          {
+            "name": "Risk-return axes properly labeled",
+            "passed": true
+          }
+        ]
+      },
+      "3.3c": {
+        "individual_tests": [
+          {
+            "name": "Rolling analysis file exists",
+            "passed": true
+          },
+          {
+            "name": "12-month rolling windows present",
+            "passed": true
+          },
+          {
+            "name": "Regime transition markers present",
+            "passed": true
+          },
+          {
+            "name": "Multiple subplot structure present",
+            "passed": true
+          },
+          {
+            "name": "Rolling volatility analysis present",
+            "passed": true
+          }
+        ]
+      }
+    },
+    "step_3_4": {
+      "3.4a": {
+        "individual_tests": [
+          {
+            "name": "Correlation matrices file exists",
+            "passed": true
+          },
+          {
+            "name": "Correlation heatmap structure present",
+            "passed": true
+          },
+          {
+            "name": "All regime-specific matrices present",
+            "passed": true
+          },
+          {
+            "name": "Correlation color scale present",
+            "passed": true
+          },
+          {
+            "name": "All factors in correlation matrix",
+            "passed": true
+          }
+        ]
+      },
+      "3.4b": {
+        "individual_tests": [
+          {
+            "name": "Momentum persistence file exists",
+            "passed": true
+          },
+          {
+            "name": "Autocorrelation analysis present",
+            "passed": true
+          },
+          {
+            "name": "Lag period analysis present",
+            "passed": true
+          },
+          {
+            "name": "Statistical significance bounds present",
+            "passed": true
+          },
+          {
+            "name": "Momentum persistence analysis present",
+            "passed": true
+          }
+        ]
+      }
+    }
+  },
+  "failed_test_details": [
+    {
+      "name": "Regime transition indicators present",
+      "passed": false
+    },
+    {
+      "name": "VIX stress level subplot present",
+      "passed": false
+    },
+    {
+      "name": "Appropriate color scale for ratios",
+      "passed": false
+    },
+    {
+      "name": "Regime subplot structure present",
+      "passed": false
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "correlation_breakdown_analysis": {
+    "Recession": {
+      "average_correlation": 0.9186512555496019,
+      "correlation_volatility": 0.0170258531657399,
+      "max_correlation": 0.9408952526637625,
+      "min_correlation": 0.897144885285771,
+      "diversification_ratio": 0.08134874445039808
+    },
+    "Overheating": {
+      "average_correlation": 0.8063981702910848,
+      "correlation_volatility": 0.06545934969093851,
+      "max_correlation": 0.8883513725074988,
+      "min_correlation": 0.7043182891671461,
+      "diversification_ratio": 0.19360182970891515
+    },
+    "Goldilocks": {
+      "average_correlation": 0.837945953840454,
+      "correlation_volatility": 0.060432382789563886,
+      "max_correlation": 0.8931735118716276,
+      "min_correlation": 0.7471373149373599,
+      "diversification_ratio": 0.162054046159546
+    },
+    "Stagflation": {
+      "average_correlation": 0.8124295605048371,
+      "correlation_volatility": 0.0707374528835721,
+      "max_correlation": 0.9106037586633117,
+      "min_correlation": 0.6821719711262749,
+      "diversification_ratio": 0.18757043949516294
+    }
+  },
+  "tail_risk_by_regime": {
+    "Recession": {
+      "Value": {
+        "var_1_percent": -0.18409999226697701,
+        "var_5_percent": -0.096487356164356,
+        "expected_shortfall_1_percent": -0.1851451975534956,
+        "expected_shortfall_5_percent": -0.15526478954184683,
+        "skewness": -0.7472235435270707,
+        "excess_kurtosis": 1.0359596999402774
+      },
+      "Quality": {
+        "var_1_percent": -0.13377216229701824,
+        "var_5_percent": -0.07136570898461225,
+        "expected_shortfall_1_percent": -0.1577273045726115,
+        "expected_shortfall_5_percent": -0.11558176450307035,
+        "skewness": -0.49302583942162975,
+        "excess_kurtosis": 0.6423278933800223
+      },
+      "MinVol": {
+        "var_1_percent": -0.13079659045325187,
+        "var_5_percent": -0.06072268682864865,
+        "expected_shortfall_1_percent": -0.1452649120918566,
+        "expected_shortfall_5_percent": -0.11781480443721933,
+        "skewness": -1.2040190036319607,
+        "excess_kurtosis": 3.08415294237615
+      },
+      "Momentum": {
+        "var_1_percent": -0.1276982840991395,
+        "var_5_percent": -0.09403162491282267,
+        "expected_shortfall_1_percent": -0.1443635202741604,
+        "expected_shortfall_5_percent": -0.11880142571337034,
+        "skewness": -0.418936113950471,
+        "excess_kurtosis": -0.25176386020534736
+      }
+    },
+    "Overheating": {
+      "Value": {
+        "var_1_percent": -0.08901833946444467,
+        "var_5_percent": -0.05617599393357003,
+        "expected_shortfall_1_percent": -0.0984523004318304,
+        "expected_shortfall_5_percent": -0.07996702840569439,
+        "skewness": 0.307585194846924,
+        "excess_kurtosis": 1.1237036706739714
+      },
+      "Quality": {
+        "var_1_percent": -0.07887191829119938,
+        "var_5_percent": -0.049264311329050584,
+        "expected_shortfall_1_percent": -0.08930596123989035,
+        "expected_shortfall_5_percent": -0.0714608904150842,
+        "skewness": -0.02733068862172194,
+        "excess_kurtosis": 0.34399585616133477
+      },
+      "MinVol": {
+        "var_1_percent": -0.062311460876472956,
+        "var_5_percent": -0.041323387954892245,
+        "expected_shortfall_1_percent": -0.06797721200220275,
+        "expected_shortfall_5_percent": -0.05594743316326055,
+        "skewness": -0.07814081228852758,
+        "excess_kurtosis": -0.13480291347075557
+      },
+      "Momentum": {
+        "var_1_percent": -0.06695359611238867,
+        "var_5_percent": -0.052189364645696915,
+        "expected_shortfall_1_percent": -0.09717644848548515,
+        "expected_shortfall_5_percent": -0.06946406123973765,
+        "skewness": 0.17361006409974175,
+        "excess_kurtosis": 0.4165034782805366
+      }
+    },
+    "Goldilocks": {
+      "Value": {
+        "var_1_percent": -0.08541687771512632,
+        "var_5_percent": -0.0167843199487992,
+        "expected_shortfall_1_percent": -0.0893389290698816,
+        "expected_shortfall_5_percent": -0.061885683233891396,
+        "skewness": -0.9068689130446813,
+        "excess_kurtosis": 2.420282148929188
+      },
+      "Quality": {
+        "var_1_percent": -0.0736636935340568,
+        "var_5_percent": -0.029605060008216,
+        "expected_shortfall_1_percent": -0.0805247253835724,
+        "expected_shortfall_5_percent": -0.057833977050523934,
+        "skewness": -1.0763775463567566,
+        "excess_kurtosis": 1.788874594960642
+      },
+      "MinVol": {
+        "var_1_percent": -0.044973731173537784,
+        "var_5_percent": -0.0244099308520614,
+        "expected_shortfall_1_percent": -0.0584426514996181,
+        "expected_shortfall_5_percent": -0.03587431101203227,
+        "skewness": -0.5372282324420183,
+        "excess_kurtosis": 0.8148505507683477
+      },
+      "Momentum": {
+        "var_1_percent": -0.0595132671803538,
+        "var_5_percent": -0.0275239604795267,
+        "expected_shortfall_1_percent": -0.0681174671023054,
+        "expected_shortfall_5_percent": -0.0474161316264195,
+        "skewness": -0.8345086619949322,
+        "excess_kurtosis": 0.8423564978021871
+      }
+    },
+    "Stagflation": {
+      "Value": {
+        "var_1_percent": -0.1302874964039962,
+        "var_5_percent": -0.09587773717099514,
+        "expected_shortfall_1_percent": -0.1481621136245356,
+        "expected_shortfall_5_percent": -0.11939495216120473,
+        "skewness": -0.3722333014676597,
+        "excess_kurtosis": 0.7083867251820561
+      },
+      "Quality": {
+        "var_1_percent": -0.09690601518862003,
+        "var_5_percent": -0.0830191465846986,
+        "expected_shortfall_1_percent": -0.1110140878495467,
+        "expected_shortfall_5_percent": -0.09370552894339214,
+        "skewness": -0.28605981972935685,
+        "excess_kurtosis": -0.11912303354094611
+      },
+      "MinVol": {
+        "var_1_percent": -0.09581432337186645,
+        "var_5_percent": -0.06058784505800351,
+        "expected_shortfall_1_percent": -0.0962148064962845,
+        "expected_shortfall_5_percent": -0.08223193817649492,
+        "skewness": -0.5070845608860187,
+        "excess_kurtosis": 0.24455876978043456
+      },
+      "Momentum": {
+        "var_1_percent": -0.11743282850657033,
+        "var_5_percent": -0.08291729992112432,
+        "expected_shortfall_1_percent": -0.155073589188339,
+        "expected_shortfall_5_percent": -0.11042538276523532,
+        "skewness": -0.7075895252534503,
+        "excess_kurtosis": 0.6456461410297791
+      }
+    }
+  },
+  "stress_testing_scenarios": {
+    "regime_transition_stress": {
+      "description": "Rapid regime transition from Goldilocks to Recession",
+      "expected_impact": "High correlation spike, diversification breakdown",
+      "risk_factors": [
+        "Correlation increases to 0.8+",
+        "Value and Momentum underperform severely"
+      ],
+      "mitigation": "Increase Quality and MinVol allocations during transitions"
+    },
+    "volatility_spike_stress": {
+      "description": "VIX spikes above 50 (Crisis level)",
+      "expected_impact": "All factors negative, MinVol provides best defense",
+      "risk_factors": [
+        "Universal factor underperformance",
+        "Liquidity constraints"
+      ],
+      "mitigation": "Maintain minimum 20% MinVol allocation, cash reserves"
+    },
+    "prolonged_stagflation_stress": {
+      "description": "Extended stagflation period (6+ months)",
+      "expected_impact": "Value outperforms but absolute returns low",
+      "risk_factors": [
+        "Low absolute returns across factors",
+        "High inflation erodes real returns"
+      ],
+      "mitigation": "Maximum Value allocation, consider real asset exposure"
+    },
+    "economic_expansion_stress": {
+      "description": "Overheating transitions to bubble conditions",
+      "expected_impact": "Momentum and growth factors become extremely expensive",
+      "risk_factors": [
+        "Valuation extremes",
+        "Potential sharp reversal"
+      ],
+      "mitigation": "Begin defensive rotation early, monitor valuation metrics"
+    }
+  },
+  "regime_risk_budgets": {
+    "Goldilocks": {
+      "target_volatility": "12-15%",
+      "max_drawdown_limit": "15%",
+      "factor_concentration_limit": "40%",
+      "risk_allocation": {
+        "factor_risk": "70%",
+        "regime_transition_risk": "20%",
+        "tail_risk_buffer": "10%"
+      }
+    },
+    "Overheating": {
+      "target_volatility": "10-13%",
+      "max_drawdown_limit": "12%",
+      "factor_concentration_limit": "35%",
+      "risk_allocation": {
+        "factor_risk": "60%",
+        "regime_transition_risk": "30%",
+        "tail_risk_buffer": "10%"
+      }
+    },
+    "Stagflation": {
+      "target_volatility": "8-12%",
+      "max_drawdown_limit": "10%",
+      "factor_concentration_limit": "50%",
+      "risk_allocation": {
+        "factor_risk": "50%",
+        "regime_transition_risk": "25%",
+        "tail_risk_buffer": "25%"
+      }
+    },
+    "Recession": {
+      "target_volatility": "6-10%",
+      "max_drawdown_limit": "8%",
+      "factor_concentration_limit": "45%",
+      "risk_allocation": {
+        "factor_risk": "40%",
+        "regime_transition_risk": "20%",
+        "tail_risk_buffer": "40%"
+      }
+    }
+  },
+  "diversification_effectiveness": {
+    "Recession": {
+      "diversification_ratio": 1.0317664275032576,
+      "portfolio_volatility": 0.18215228829995833,
+      "average_factor_volatility": 0.18793861576079143,
+      "volatility_reduction": 3.0788390333777644,
+      "effectiveness_rating": "Low"
+    },
+    "Overheating": {
+      "diversification_ratio": 1.08368396722659,
+      "portfolio_volatility": 0.1278412832216827,
+      "average_factor_volatility": 0.1385395489770112,
+      "volatility_reduction": 7.722174522961484,
+      "effectiveness_rating": "Low"
+    },
+    "Goldilocks": {
+      "diversification_ratio": 1.0676360994034813,
+      "portfolio_volatility": 0.10070148240116711,
+      "average_factor_volatility": 0.10751253787493037,
+      "volatility_reduction": 6.335126682328513,
+      "effectiveness_rating": "Low"
+    },
+    "Stagflation": {
+      "diversification_ratio": 1.0809277116827645,
+      "portfolio_volatility": 0.1431965707326623,
+      "average_factor_volatility": 0.15478514152287579,
+      "volatility_reduction": 7.486875468922717,
+      "effectiveness_rating": "Low"
+    }
+  }
+}

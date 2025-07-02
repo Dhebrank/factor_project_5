@@ -1,0 +1,347 @@
+{
+  "dynamic_allocation_framework": {
+    "base_allocations": {
+      "Recession": {
+        "risk_parity": {
+          "weights": {
+            "Value": 0.21185540784795276,
+            "Quality": 0.24839477609617674,
+            "MinVol": 0.31478604561821233,
+            "Momentum": 0.2249637704376583
+          },
+          "expected_return": 0.041655925148329324,
+          "expected_volatility": 0.17802101741185128
+        },
+        "sharpe_optimized": {
+          "weights": {
+            "Value": 0.0,
+            "Quality": 0.30381837179955545,
+            "MinVol": 0.3470668071673716,
+            "Momentum": 0.34911482103307306
+          },
+          "expected_return": 0.06398297577379859,
+          "expected_volatility": 0.17359403054451716
+        },
+        "equal_weight": {
+          "weights": {
+            "Value": 0.25,
+            "Quality": 0.25,
+            "MinVol": 0.25,
+            "Momentum": 0.25
+          },
+          "expected_return": 0.03875609513643327,
+          "expected_volatility": 0.18215228829995833
+        }
+      },
+      "Overheating": {
+        "risk_parity": {
+          "weights": {
+            "Value": 0.21907625128039024,
+            "Quality": 0.25412263116805245,
+            "MinVol": 0.3045383337293879,
+            "Momentum": 0.22226278382216946
+          },
+          "expected_return": 0.1457768359650799,
+          "expected_volatility": 0.12586436893144481
+        },
+        "sharpe_optimized": {
+          "weights": {
+            "Value": 0.2616920608151608,
+            "Quality": 0.2439141467090593,
+            "MinVol": 0.25399945319852857,
+            "Momentum": 0.2403943392772513
+          },
+          "expected_return": 0.14848334346834588,
+          "expected_volatility": 0.12784243622540015
+        },
+        "equal_weight": {
+          "weights": {
+            "Value": 0.25,
+            "Quality": 0.25,
+            "MinVol": 0.25,
+            "Momentum": 0.25
+          },
+          "expected_return": 0.14832713557886557,
+          "expected_volatility": 0.12784128322168276
+        }
+      },
+      "Goldilocks": {
+        "risk_parity": {
+          "weights": {
+            "Value": 0.2074197414940836,
+            "Quality": 0.24124919377045365,
+            "MinVol": 0.3018933214534886,
+            "Momentum": 0.24943774328197427
+          },
+          "expected_return": 0.27045388443833773,
+          "expected_volatility": 0.09898759658922023
+        },
+        "sharpe_optimized": {
+          "weights": {
+            "Value": 0.25128736818559144,
+            "Quality": 0.21569277346035098,
+            "MinVol": 0.25191561353749337,
+            "Momentum": 0.28110424481656415
+          },
+          "expected_return": 0.27702016389061346,
+          "expected_volatility": 0.1004227285595831
+        },
+        "equal_weight": {
+          "weights": {
+            "Value": 0.25,
+            "Quality": 0.25,
+            "MinVol": 0.25,
+            "Momentum": 0.25
+          },
+          "expected_return": 0.2749814376806632,
+          "expected_volatility": 0.1007014824011671
+        }
+      },
+      "Stagflation": {
+        "risk_parity": {
+          "weights": {
+            "Value": 0.2129972406206235,
+            "Quality": 0.2408168563183503,
+            "MinVol": 0.31281143401976913,
+            "Momentum": 0.23337446904125717
+          },
+          "expected_return": 0.019446974597815657,
+          "expected_volatility": 0.1405925407923704
+        },
+        "sharpe_optimized": {
+          "weights": {
+            "Value": 0.10550282362400894,
+            "Quality": 0.24257150231532457,
+            "MinVol": 0.3470921692924757,
+            "Momentum": 0.3048335047681907
+          },
+          "expected_return": 0.02100078846402293,
+          "expected_volatility": 0.13825489591427187
+        },
+        "equal_weight": {
+          "weights": {
+            "Value": 0.25,
+            "Quality": 0.25,
+            "MinVol": 0.25,
+            "Momentum": 0.25
+          },
+          "expected_return": 0.019050252570674553,
+          "expected_volatility": 0.1431965707326623
+        }
+      }
+    },
+    "regime_confidence_tilts": {
+      "high_confidence": {
+        "description": "Strong regime signals, full allocation tilts",
+        "tilt_magnitude": 1.0,
+        "risk_adjustment": "Normal risk budget"
+      },
+      "moderate_confidence": {
+        "description": "Moderate regime signals, partial tilts",
+        "tilt_magnitude": 0.6,
+        "risk_adjustment": "Reduced risk budget by 20%"
+      },
+      "low_confidence": {
+        "description": "Weak regime signals, minimal tilts",
+        "tilt_magnitude": 0.3,
+        "risk_adjustment": "Reduced risk budget by 40%"
+      },
+      "transition_period": {
+        "description": "Regime transition detected, defensive positioning",
+        "tilt_magnitude": 0.2,
+        "risk_adjustment": "Maximum defensive allocation"
+      }
+    },
+    "risk_overlay_adjustments": {
+      "normal_vol": {
+        "description": "VIX < 25, normal market conditions",
+        "allocation_adjustment": "No adjustment to base allocation",
+        "max_factor_weight": 0.4
+      },
+      "elevated_vol": {
+        "description": "VIX 25-35, elevated volatility",
+        "allocation_adjustment": "Increase MinVol by 5%, reduce others proportionally",
+        "max_factor_weight": 0.35
+      },
+      "high_vol": {
+        "description": "VIX 35-50, high stress",
+        "allocation_adjustment": "Increase MinVol by 10%, increase Quality by 5%",
+        "max_factor_weight": 0.3
+      },
+      "crisis_vol": {
+        "description": "VIX > 50, crisis conditions",
+        "allocation_adjustment": "Maximum defensive: 40% MinVol, 30% Quality, 15% each Value/Momentum",
+        "max_factor_weight": 0.4
+      }
+    },
+    "optimization_framework": {
+      "rebalancing_frequency": {
+        "normal_conditions": "Monthly",
+        "high_volatility": "Bi-weekly",
+        "regime_transitions": "Weekly monitoring with trigger-based rebalancing"
+      },
+      "transaction_cost_considerations": {
+        "cost_threshold": "0.1% of portfolio value",
+        "minimum_trade_size": "2% allocation change",
+        "trading_implementation": "Gradual implementation over 3-5 days for large changes"
+      },
+      "risk_management_rules": {
+        "stop_loss": "No factor allocation below 10% or above 50%",
+        "concentration_limit": "Maximum 40% in any single factor during normal conditions",
+        "drawdown_trigger": "Reduce risk by 25% if portfolio drawdown exceeds 15%"
+      }
+    },
+    "current_recommendations": {
+      "current_economic_regime": "Stagflation",
+      "current_volatility_regime": "normal_vol",
+      "current_vix_level": 20.46227272727273,
+      "recommended_allocation_approach": {
+        "allocation": {
+          "Value": 0.4,
+          "Quality": 0.25,
+          "MinVol": 0.2,
+          "Momentum": 0.15
+        },
+        "rationale": "Base Stagflation allocation adjusted for normal_vol conditions",
+        "confidence_level": "High"
+      },
+      "next_review_triggers": [
+        "VIX moves above/below key thresholds (25, 35, 50)",
+        "Economic regime change signals",
+        "Factor momentum shifts (3-month rolling)",
+        "Monthly portfolio review"
+      ]
+    }
+  },
+  "monitoring_and_alerts_system": {
+    "regime_change_monitoring": {
+      "current_regime_stability": {
+        "metric": "Rolling 3-month regime consistency",
+        "calculation": "Percentage of recent observations in current regime",
+        "alert_threshold": "Below 70% consistency",
+        "action": "Prepare for potential regime transition"
+      },
+      "transition_probability_tracking": {
+        "metric": "Estimated probability of regime change in next 3 months",
+        "calculation": "Based on historical transition patterns and current indicators",
+        "alert_threshold": "Above 40% transition probability",
+        "action": "Begin defensive positioning"
+      },
+      "economic_indicator_divergence": {
+        "metric": "Current indicators vs regime expectations",
+        "calculation": "Z-score of current indicators vs regime historical average",
+        "alert_threshold": "Z-score above 2.0 or below -2.0",
+        "action": "Investigate regime classification accuracy"
+      }
+    },
+    "factor_momentum_monitoring": {
+      "factor_momentum_persistence": {
+        "metric": "3-month vs 12-month factor momentum alignment",
+        "calculation": "Correlation between short and long-term momentum",
+        "alert_threshold": "Correlation below 0.3",
+        "action": "Review factor allocation weights"
+      },
+      "relative_factor_performance": {
+        "metric": "Factor performance vs regime expectations",
+        "calculation": "Current factor ranking vs historical regime ranking",
+        "alert_threshold": "Ranking change of 2+ positions",
+        "action": "Investigate factor-specific issues"
+      },
+      "factor_volatility_spike": {
+        "metric": "Individual factor volatility vs historical average",
+        "calculation": "Rolling 1-month volatility vs regime average",
+        "alert_threshold": "Volatility 50% above regime average",
+        "action": "Consider temporary allocation reduction"
+      }
+    },
+    "risk_threshold_monitoring": {
+      "portfolio_drawdown": {
+        "metric": "Current portfolio drawdown from peak",
+        "calculation": "Peak-to-current portfolio value",
+        "alert_threshold": "Drawdown exceeds 10%",
+        "action": "Implement risk reduction measures"
+      },
+      "vix_threshold_breach": {
+        "metric": "VIX level relative to regime thresholds",
+        "calculation": "Current VIX vs threshold levels (25, 35, 50)",
+        "alert_threshold": "VIX crosses major threshold",
+        "action": "Adjust volatility overlay allocations"
+      },
+      "correlation_spike": {
+        "metric": "Factor correlation vs regime average",
+        "calculation": "Rolling 1-month factor correlations",
+        "alert_threshold": "Average correlation 20% above regime norm",
+        "action": "Reduce concentration, increase diversification"
+      }
+    },
+    "performance_attribution_monitoring": {
+      "regime_attribution": {
+        "metric": "Performance attribution to regime vs factor selection",
+        "calculation": "Decompose returns into regime timing and factor selection",
+        "review_frequency": "Monthly",
+        "action": "Adjust strategy based on attribution results"
+      },
+      "factor_contribution": {
+        "metric": "Individual factor contribution to portfolio returns",
+        "calculation": "Weight \u00d7 performance for each factor",
+        "review_frequency": "Monthly",
+        "action": "Rebalance if contributions deviate significantly from expectations"
+      },
+      "risk_adjusted_performance": {
+        "metric": "Portfolio Sharpe ratio vs benchmark",
+        "calculation": "Rolling 12-month Sharpe ratio comparison",
+        "review_frequency": "Quarterly",
+        "action": "Strategy review if underperforming for 2+ quarters"
+      }
+    },
+    "automated_alert_system": {
+      "immediate_alerts": [
+        "VIX spikes above 50 (Crisis threshold)",
+        "Portfolio drawdown exceeds 15%",
+        "Factor correlation spike above 0.8"
+      ],
+      "daily_alerts": [
+        "VIX crosses 25 or 35 thresholds",
+        "Factor momentum reversal signals",
+        "Economic indicator regime divergence"
+      ],
+      "weekly_alerts": [
+        "Regime transition probability above 40%",
+        "Factor ranking changes",
+        "Risk budget utilization above 90%"
+      ],
+      "monthly_reviews": [
+        "Comprehensive performance attribution",
+        "Strategy effectiveness review",
+        "Risk management assessment"
+      ]
+    },
+    "monitoring_dashboard_specifications": {
+      "real_time_indicators": [
+        "Current regime and confidence level",
+        "VIX level with threshold indicators",
+        "Factor momentum scores",
+        "Portfolio allocation vs targets"
+      ],
+      "performance_metrics": [
+        "Portfolio vs benchmark performance",
+        "Individual factor contributions",
+        "Risk-adjusted returns",
+        "Drawdown analysis"
+      ],
+      "risk_metrics": [
+        "Current portfolio volatility",
+        "Factor correlations",
+        "Tail risk indicators",
+        "Risk budget utilization"
+      ],
+      "forward_looking": [
+        "Regime transition probabilities",
+        "Factor momentum trends",
+        "Stress test scenarios",
+        "Rebalancing recommendations"
+      ]
+    }
+  },
+  "analysis_timestamp": "2025-07-02T12:39:44.125926"
+}

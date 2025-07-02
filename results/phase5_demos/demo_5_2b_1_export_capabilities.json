@@ -1,0 +1,10 @@
+{
+  "export_formats": [
+    "HTML",
+    "PNG",
+    "SVG",
+    "PDF"
+  ],
+  "resolution": "High (300 DPI)",
+  "status": "Export functionality verified"
+}

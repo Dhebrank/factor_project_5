@@ -1,0 +1,26 @@
+{
+  "DEMO_timing_models": {
+    "momentum_signals": {
+      "Value": {
+        "3_month_momentum": 0.015,
+        "6_month_momentum": 0.012,
+        "12_month_momentum": 0.008,
+        "momentum_consistency": 0.65
+      }
+    },
+    "mean_reversion_signals": {
+      "Value": {
+        "deviation_from_longterm": -0.008,
+        "reversion_signal": "buy",
+        "signal_strength": 0.008
+      }
+    },
+    "regime_persistence": {
+      "Goldilocks": {
+        "persistence_3_months": 0.75,
+        "persistence_6_months": 0.6
+      }
+    },
+    "current_regime": "Goldilocks"
+  }
+}

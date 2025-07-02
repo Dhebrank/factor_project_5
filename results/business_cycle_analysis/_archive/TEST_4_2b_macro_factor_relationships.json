@@ -1,0 +1,854 @@
+{
+  "regime_specific_relationships": {
+    "Recession": {
+      "Value": {
+        "DGS10": {
+          "correlation": -0.03717434231437245,
+          "beta_sensitivity": -0.001737283414547228,
+          "lag_correlations": {
+            "lag_1": -0.15692016503134035,
+            "lag_2": -0.13748937394072758,
+            "lag_3": -0.12576395747932326
+          },
+          "observations": 56
+        },
+        "T10Y2Y": {
+          "correlation": -0.0911447327431945,
+          "beta_sensitivity": -0.006124561275625933,
+          "lag_correlations": {
+            "lag_1": 0.05956360315637979,
+            "lag_2": 0.11593973476599354,
+            "lag_3": 0.16680794890712783
+          },
+          "observations": 56
+        },
+        "INFLATION_COMPOSITE": {
+          "correlation": 2.3974256531336443e-17,
+          "beta_sensitivity": 0.013636363636363636,
+          "lag_correlations": {
+            "lag_1": 8.076368698819915e-18,
+            "lag_2": -1.020650103597113e-18,
+            "lag_3": -2.8937447291694134e-17
+          },
+          "observations": 56
+        },
+        "GROWTH_COMPOSITE": {
+          "correlation": 0,
+          "beta_sensitivity": 0.0,
+          "lag_correlations": {
+            "lag_1": 8.076368698819915e-18,
+            "lag_2": -1.020650103597113e-18,
+            "lag_3": -2.8937447291694134e-17
+          },
+          "observations": 56
+        }
+      },
+      "Quality": {
+        "DGS10": {
+          "correlation": -0.04925028158319319,
+          "beta_sensitivity": -0.0019630582828022687,
+          "lag_correlations": {
+            "lag_1": -0.21059610142929353,
+            "lag_2": -0.22189454943134226,
+            "lag_3": -0.17540473360670544
+          },
+          "observations": 56
+        },
+        "T10Y2Y": {
+          "correlation": -0.1538929486809236,
+          "beta_sensitivity": -0.008819809920157956,
+          "lag_correlations": {
+            "lag_1": -0.002048595471024478,
+            "lag_2": 0.09130941515315519,
+            "lag_3": 0.15980608492967857
+          },
+          "observations": 56
+        },
+        "INFLATION_COMPOSITE": {
+          "correlation": 9.369723976155694e-18,
+          "beta_sensitivity": 0.004545454545454545,
+          "lag_correlations": {
+            "lag_1": -4.304067172926482e-17,
+            "lag_2": -6.332872612736889e-17,
+            "lag_3": 4.9697807874686605e-18
+          },
+          "observations": 56
+        },
+        "GROWTH_COMPOSITE": {
+          "correlation": 0,
+          "beta_sensitivity": 0.0,
+          "lag_correlations": {
+            "lag_1": -4.304067172926482e-17,
+            "lag_2": -6.332872612736889e-17,
+            "lag_3": 4.9697807874686605e-18
+          },
+          "observations": 56
+        }
+      },
+      "MinVol": {
+        "DGS10": {
+          "correlation": -0.019149138469921688,
+          "beta_sensitivity": -0.0006022831342549105,
+          "lag_correlations": {
+            "lag_1": -0.15873286787250346,
+            "lag_2": -0.18179892204815634,
+            "lag_3": -0.18898747234811863
+          },
+          "observations": 56
+        },
+        "T10Y2Y": {
+          "correlation": -0.1749978687230514,
+          "beta_sensitivity": -0.00791407661204968,
+          "lag_correlations": {
+            "lag_1": 0.0002840463267026784,
+            "lag_2": 0.07792242569211394,
+            "lag_3": 0.17811561237616472
+          },
+          "observations": 56
+        },
+        "INFLATION_COMPOSITE": {
+          "correlation": -5.194908090811499e-18,
+          "beta_sensitivity": -0.0019886363636363634,
+          "lag_correlations": {
+            "lag_1": -2.0360885239605462e-17,
+            "lag_2": 1.9801144686301467e-17,
+            "lag_3": -3.0783871043704904e-18
+          },
+          "observations": 56
+        },
+        "GROWTH_COMPOSITE": {
+          "correlation": 0,
+          "beta_sensitivity": 0.0,
+          "lag_correlations": {
+            "lag_1": -2.0360885239605462e-17,
+            "lag_2": 1.9801144686301467e-17,
+            "lag_3": -3.0783871043704904e-18
+          },
+          "observations": 56
+        }
+      },
+      "Momentum": {
+        "DGS10": {
+          "correlation": -0.015667198769551405,
+          "beta_sensitivity": -0.0006895181543606487,
+          "lag_correlations": {
+            "lag_1": -0.1842244786448583,
+            "lag_2": -0.1909827835379495,
+            "lag_3": -0.18457596676722016
+          },
+          "observations": 56
+        },
+        "T10Y2Y": {
+          "correlation": -0.17536306663147355,
+          "beta_sensitivity": -0.011097074759810893,
+          "lag_correlations": {
+            "lag_1": -0.016077757815222922,
+            "lag_2": 0.07124530571721774,
+            "lag_3": 0.1308328953986901
+          },
+          "observations": 56
+        },
+        "INFLATION_COMPOSITE": {
+          "correlation": -2.1214701721625254e-17,
+          "beta_sensitivity": -0.011363636363636364,
+          "lag_correlations": {
+            "lag_1": -3.073610788469786e-17,
+            "lag_2": -4.449970336009423e-18,
+            "lag_3": 2.2849139165125576e-17
+          },
+          "observations": 56
+        },
+        "GROWTH_COMPOSITE": {
+          "correlation": 0,
+          "beta_sensitivity": 0.0,
+          "lag_correlations": {
+            "lag_1": -3.073610788469786e-17,
+            "lag_2": -4.449970336009423e-18,
+            "lag_3": 2.2849139165125576e-17
+          },
+          "observations": 56
+        }
+      }
+    },
+    "Overheating": {
+      "Value": {
+        "DGS10": {
+          "correlation": -0.11363310910144865,
+          "beta_sensitivity": -0.003417295298090796,
+          "lag_correlations": {
+            "lag_1": -0.0926118916503578,
+            "lag_2": -0.08917865844597005,
+            "lag_3": -0.10747888117568197
+          },
+          "observations": 124
+        },
+        "T10Y2Y": {
+          "correlation": -0.01982635732091202,
+          "beta_sensitivity": -0.0008835146734792786,
+          "lag_correlations": {
+            "lag_1": -0.03913248736566718,
+            "lag_2": -0.01395370663649195,
+            "lag_3": -0.012082788876631079
+          },
+          "observations": 124
+        },
+        "INFLATION_COMPOSITE": {
+          "correlation": 0,
+          "beta_sensitivity": 0.0,
+          "lag_correlations": {
+            "lag_1": 0,
+            "lag_2": 0,
+            "lag_3": 0
+          },
+          "observations": 124
+        },
+        "GROWTH_COMPOSITE": {
+          "correlation": -8.247982196366684e-18,
+          "beta_sensitivity": -0.0011150632339656731,
+          "lag_correlations": {
+            "lag_1": -7.872936739944308e-17,
+            "lag_2": 3.31584399632787e-17,
+            "lag_3": 5.822817285970641e-18
+          },
+          "observations": 124
+        }
+      },
+      "Quality": {
+        "DGS10": {
+          "correlation": -0.1802519547157171,
+          "beta_sensitivity": -0.0046731482651979055,
+          "lag_correlations": {
+            "lag_1": -0.1620496055415811,
+            "lag_2": -0.14857282256013507,
+            "lag_3": -0.1593304747087804
+          },
+          "observations": 124
+        },
+        "T10Y2Y": {
+          "correlation": -0.0036135701782320524,
+          "beta_sensitivity": -0.00013882231701436523,
+          "lag_correlations": {
+            "lag_1": -0.008656877966200141,
+            "lag_2": 0.0214882685351332,
+            "lag_3": 0.03425771355994403
+          },
+          "observations": 124
+        },
+        "INFLATION_COMPOSITE": {
+          "correlation": 0,
+          "beta_sensitivity": 0.0,
+          "lag_correlations": {
+            "lag_1": 0,
+            "lag_2": 0,
+            "lag_3": 0
+          },
+          "observations": 124
+        },
+        "GROWTH_COMPOSITE": {
+          "correlation": -1.55016752918416e-17,
+          "beta_sensitivity": -0.001806684733514002,
+          "lag_correlations": {
+            "lag_1": 2.371448786437754e-17,
+            "lag_2": -2.6033370375878214e-17,
+            "lag_3": -4.440593594611201e-18
+          },
+          "observations": 124
+        }
+      },
+      "MinVol": {
+        "DGS10": {
+          "correlation": -0.19367665316048735,
+          "beta_sensitivity": -0.004189944061380502,
+          "lag_correlations": {
+            "lag_1": -0.17213374482960236,
+            "lag_2": -0.16125699212916048,
+            "lag_3": -0.17071466105438354
+          },
+          "observations": 124
+        },
+        "T10Y2Y": {
+          "correlation": 0.017583191953358734,
+          "beta_sensitivity": 0.0005636660641946176,
+          "lag_correlations": {
+            "lag_1": 0.02313705888354686,
+            "lag_2": 0.03803716348505141,
+            "lag_3": 0.05078861713548784
+          },
+          "observations": 124
+        },
+        "INFLATION_COMPOSITE": {
+          "correlation": 0,
+          "beta_sensitivity": 0.0,
+          "lag_correlations": {
+            "lag_1": 0,
+            "lag_2": 0,
+            "lag_3": 0
+          },
+          "observations": 124
+        },
+        "GROWTH_COMPOSITE": {
+          "correlation": -7.546935415836701e-17,
+          "beta_sensitivity": -0.007339656729900634,
+          "lag_correlations": {
+            "lag_1": -6.91240738445944e-17,
+            "lag_2": -3.664569707721769e-17,
+            "lag_3": 1.7855369300765872e-18
+          },
+          "observations": 124
+        }
+      },
+      "Momentum": {
+        "DGS10": {
+          "correlation": -0.1240572460469682,
+          "beta_sensitivity": -0.0036772936082137718,
+          "lag_correlations": {
+            "lag_1": -0.10958087722556602,
+            "lag_2": -0.09659478522562122,
+            "lag_3": -0.09586750129216606
+          },
+          "observations": 124
+        },
+        "T10Y2Y": {
+          "correlation": 0.021372239119236632,
+          "beta_sensitivity": 0.0009387488405509349,
+          "lag_correlations": {
+            "lag_1": 0.030569076403745617,
+            "lag_2": 0.01690941446491415,
+            "lag_3": 0.03156656707243989
+          },
+          "observations": 124
+        },
+        "INFLATION_COMPOSITE": {
+          "correlation": 0,
+          "beta_sensitivity": 0.0,
+          "lag_correlations": {
+            "lag_1": 0,
+            "lag_2": 0,
+            "lag_3": 0
+          },
+          "observations": 124
+        },
+        "GROWTH_COMPOSITE": {
+          "correlation": -8.304397611761938e-17,
+          "beta_sensitivity": -0.011065943992773263,
+          "lag_correlations": {
+            "lag_1": -1.4932207800709524e-18,
+            "lag_2": -7.005372744973835e-17,
+            "lag_3": -1.8080646585739226e-17
+          },
+          "observations": 124
+        }
+      }
+    },
+    "Goldilocks": {
+      "Value": {
+        "DGS10": {
+          "correlation": 0.1314991952983126,
+          "beta_sensitivity": 0.004368096584849374,
+          "lag_correlations": {
+            "lag_1": 0.15386105104847303,
+            "lag_2": 0.23278498113603993,
+            "lag_3": 0.16076136213052336
+          },
+          "observations": 41
+        },
+        "T10Y2Y": {
+          "correlation": 0.11481210884961993,
+          "beta_sensitivity": 0.0049395832546510745,
+          "lag_correlations": {
+            "lag_1": -0.2628317806523289,
+            "lag_2": -0.4773348025893057,
+            "lag_3": -0.49203585231523456
+          },
+          "observations": 41
+        },
+        "INFLATION_COMPOSITE": {
+          "correlation": 0,
+          "beta_sensitivity": 0.0,
+          "lag_correlations": {
+            "lag_1": 0,
+            "lag_2": -8.630055500088318e-17,
+            "lag_3": -1.0032746216463994e-16
+          },
+          "observations": 41
+        },
+        "GROWTH_COMPOSITE": {
+          "correlation": 0,
+          "beta_sensitivity": 0.0,
+          "lag_correlations": {
+            "lag_1": 0,
+            "lag_2": 8.630055500088318e-17,
+            "lag_3": 1.0032746216463994e-16
+          },
+          "observations": 41
+        }
+      },
+      "Quality": {
+        "DGS10": {
+          "correlation": 0.1000452908001734,
+          "beta_sensitivity": 0.002857261612234026,
+          "lag_correlations": {
+            "lag_1": 0.06420680563734435,
+            "lag_2": 0.17854234249673642,
+            "lag_3": 0.1193552045623181
+          },
+          "observations": 41
+        },
+        "T10Y2Y": {
+          "correlation": 0.07507797099909397,
+          "beta_sensitivity": 0.002777150148606284,
+          "lag_correlations": {
+            "lag_1": -0.19615014816615095,
+            "lag_2": -0.35246285636507513,
+            "lag_3": -0.3812753229189727
+          },
+          "observations": 41
+        },
+        "INFLATION_COMPOSITE": {
+          "correlation": 0,
+          "beta_sensitivity": 0.0,
+          "lag_correlations": {
+            "lag_1": 0,
+            "lag_2": 5.042133061364405e-17,
+            "lag_3": 3.5053195687976573e-17
+          },
+          "observations": 41
+        },
+        "GROWTH_COMPOSITE": {
+          "correlation": 0,
+          "beta_sensitivity": 0.0,
+          "lag_correlations": {
+            "lag_1": 0,
+            "lag_2": -5.042133061364405e-17,
+            "lag_3": -3.5053195687976573e-17
+          },
+          "observations": 41
+        }
+      },
+      "MinVol": {
+        "DGS10": {
+          "correlation": 0.13545738508212304,
+          "beta_sensitivity": 0.0030914940013707353,
+          "lag_correlations": {
+            "lag_1": 0.15163839435488238,
+            "lag_2": 0.24398715955865743,
+            "lag_3": 0.20861074385496603
+          },
+          "observations": 41
+        },
+        "T10Y2Y": {
+          "correlation": 0.11060709824298412,
+          "beta_sensitivity": 0.003269506443102635,
+          "lag_correlations": {
+            "lag_1": -0.15602903130172843,
+            "lag_2": -0.29615827520522825,
+            "lag_3": -0.24483554035693336
+          },
+          "observations": 41
+        },
+        "INFLATION_COMPOSITE": {
+          "correlation": 0,
+          "beta_sensitivity": 0.0,
+          "lag_correlations": {
+            "lag_1": 0,
+            "lag_2": -1.728376526824e-16,
+            "lag_3": -1.7750492473719427e-16
+          },
+          "observations": 41
+        },
+        "GROWTH_COMPOSITE": {
+          "correlation": 0,
+          "beta_sensitivity": 0.0,
+          "lag_correlations": {
+            "lag_1": 0,
+            "lag_2": 1.728376526824e-16,
+            "lag_3": 1.7750492473719427e-16
+          },
+          "observations": 41
+        }
+      },
+      "Momentum": {
+        "DGS10": {
+          "correlation": 0.16584010922087394,
+          "beta_sensitivity": 0.004580855922815766,
+          "lag_correlations": {
+            "lag_1": 0.06645566185077965,
+            "lag_2": 0.1837904533055292,
+            "lag_3": 0.16505651071595176
+          },
+          "observations": 41
+        },
+        "T10Y2Y": {
+          "correlation": 0.039990892050375086,
+          "beta_sensitivity": 0.001430710048300652,
+          "lag_correlations": {
+            "lag_1": -0.1837658312955466,
+            "lag_2": -0.3783988973084036,
+            "lag_3": -0.3379584458161478
+          },
+          "observations": 41
+        },
+        "INFLATION_COMPOSITE": {
+          "correlation": 0,
+          "beta_sensitivity": 0.0,
+          "lag_correlations": {
+            "lag_1": 0,
+            "lag_2": -1.939966437654693e-16,
+            "lag_3": -6.595757248710876e-17
+          },
+          "observations": 41
+        },
+        "GROWTH_COMPOSITE": {
+          "correlation": 0,
+          "beta_sensitivity": 0.0,
+          "lag_correlations": {
+            "lag_1": 0,
+            "lag_2": 1.939966437654693e-16,
+            "lag_3": 6.595757248710876e-17
+          },
+          "observations": 41
+        }
+      }
+    },
+    "Stagflation": {
+      "Value": {
+        "DGS10": {
+          "correlation": 0.03276849437382426,
+          "beta_sensitivity": 0.0013820186815418029,
+          "lag_correlations": {
+            "lag_1": -0.052283328507354586,
+            "lag_2": -0.010254587289810707,
+            "lag_3": 0.033922594646373656
+          },
+          "observations": 97
+        },
+        "T10Y2Y": {
+          "correlation": 0.11601565270944345,
+          "beta_sensitivity": 0.006181926915620233,
+          "lag_correlations": {
+            "lag_1": 0.06401494205201827,
+            "lag_2": 0.06979475059636395,
+            "lag_3": 0.01473148665465673
+          },
+          "observations": 97
+        },
+        "INFLATION_COMPOSITE": {
+          "correlation": -3.498235901001353e-17,
+          "beta_sensitivity": -0.00025431315104166663,
+          "lag_correlations": {
+            "lag_1": -1.1408029921396613e-17,
+            "lag_2": -3.443789792541092e-17,
+            "lag_3": 0
+          },
+          "observations": 97
+        },
+        "GROWTH_COMPOSITE": {
+          "correlation": -3.498235901001353e-17,
+          "beta_sensitivity": -0.0013286564625850338,
+          "lag_correlations": {
+            "lag_1": -1.1408029921396613e-17,
+            "lag_2": 0,
+            "lag_3": 0
+          },
+          "observations": 97
+        }
+      },
+      "Quality": {
+        "DGS10": {
+          "correlation": 0.034607185344170836,
+          "beta_sensitivity": 0.0012909540962758597,
+          "lag_correlations": {
+            "lag_1": -0.05575363765667835,
+            "lag_2": -0.049170318839501306,
+            "lag_3": -0.0623494833694009
+          },
+          "observations": 97
+        },
+        "T10Y2Y": {
+          "correlation": 0.010171535175254034,
+          "beta_sensitivity": 0.0004793810678370112,
+          "lag_correlations": {
+            "lag_1": -0.018867431549330495,
+            "lag_2": -0.003536180209217205,
+            "lag_3": -0.004207704507821302
+          },
+          "observations": 97
+        },
+        "INFLATION_COMPOSITE": {
+          "correlation": 1.5820564996701062e-18,
+          "beta_sensitivity": 1.0172526041666666e-05,
+          "lag_correlations": {
+            "lag_1": -6.696613234387059e-17,
+            "lag_2": -2.1208310098654627e-17,
+            "lag_3": 0
+          },
+          "observations": 97
+        },
+        "GROWTH_COMPOSITE": {
+          "correlation": 1.5820564996701062e-18,
+          "beta_sensitivity": 5.314625850340136e-05,
+          "lag_correlations": {
+            "lag_1": -6.696613234387059e-17,
+            "lag_2": 0,
+            "lag_3": 0
+          },
+          "observations": 97
+        }
+      },
+      "MinVol": {
+        "DGS10": {
+          "correlation": 0.03621846205307405,
+          "beta_sensitivity": 0.001040108844579596,
+          "lag_correlations": {
+            "lag_1": -0.04160667775626544,
+            "lag_2": -0.0511195936802062,
+            "lag_3": -0.029525786365933306
+          },
+          "observations": 97
+        },
+        "T10Y2Y": {
+          "correlation": 0.04276604029572603,
+          "beta_sensitivity": 0.0015516639759588363,
+          "lag_correlations": {
+            "lag_1": 0.022474389870829965,
+            "lag_2": 0.03882872415619578,
+            "lag_3": 0.03588216020716948
+          },
+          "observations": 97
+        },
+        "INFLATION_COMPOSITE": {
+          "correlation": -7.552227591063942e-17,
+          "beta_sensitivity": -0.00037384033203125,
+          "lag_correlations": {
+            "lag_1": -5.766655232867784e-17,
+            "lag_2": -3.021534353652381e-17,
+            "lag_3": 0
+          },
+          "observations": 97
+        },
+        "GROWTH_COMPOSITE": {
+          "correlation": -7.552227591063942e-17,
+          "beta_sensitivity": -0.001953125,
+          "lag_correlations": {
+            "lag_1": -5.766655232867784e-17,
+            "lag_2": 0,
+            "lag_3": 0
+          },
+          "observations": 97
+        }
+      },
+      "Momentum": {
+        "DGS10": {
+          "correlation": 0.05337421795526978,
+          "beta_sensitivity": 0.002054516273533221,
+          "lag_correlations": {
+            "lag_1": -0.017711854516840764,
+            "lag_2": -0.047281383720819845,
+            "lag_3": -0.07610672222834373
+          },
+          "observations": 97
+        },
+        "T10Y2Y": {
+          "correlation": -0.01875921583429084,
+          "beta_sensitivity": -0.0009123103317491989,
+          "lag_correlations": {
+            "lag_1": -0.015452100191802225,
+            "lag_2": -0.007779351400452169,
+            "lag_3": 0.007399426200023417
+          },
+          "observations": 97
+        },
+        "INFLATION_COMPOSITE": {
+          "correlation": -3.37295952927205e-17,
+          "beta_sensitivity": -0.00022379557291666666,
+          "lag_correlations": {
+            "lag_1": -1.232960787537621e-17,
+            "lag_2": 2.2036111429923627e-17,
+            "lag_3": 0
+          },
+          "observations": 97
+        },
+        "GROWTH_COMPOSITE": {
+          "correlation": -3.37295952927205e-17,
+          "beta_sensitivity": -0.00116921768707483,
+          "lag_correlations": {
+            "lag_1": -1.232960787537621e-17,
+            "lag_2": 0,
+            "lag_3": 0
+          },
+          "observations": 97
+        }
+      }
+    }
+  },
+  "cross_regime_sensitivity": {
+    "Value": {
+      "DGS10": {
+        "regime_correlations": {
+          "Recession": -0.03717434231437245,
+          "Overheating": -0.11363310910144865,
+          "Goldilocks": 0.1314991952983126,
+          "Stagflation": 0.03276849437382426
+        },
+        "sensitivity_stability": 0.09029802502646415,
+        "average_sensitivity": 0.00336505956407894
+      },
+      "T10Y2Y": {
+        "regime_correlations": {
+          "Recession": -0.0911447327431945,
+          "Overheating": -0.01982635732091202,
+          "Goldilocks": 0.11481210884961993,
+          "Stagflation": 0.11601565270944345
+        },
+        "sensitivity_stability": 0.08909334057335248,
+        "average_sensitivity": 0.029964167873739213
+      },
+      "INFLATION_COMPOSITE": {
+        "regime_correlations": {
+          "Recession": 2.3974256531336443e-17,
+          "Overheating": 0,
+          "Goldilocks": 0,
+          "Stagflation": -3.498235901001353e-17
+        },
+        "sensitivity_stability": 2.102519820412247e-17,
+        "average_sensitivity": -2.752025619669272e-18
+      },
+      "GROWTH_COMPOSITE": {
+        "regime_correlations": {
+          "Recession": 0,
+          "Overheating": -8.247982196366684e-18,
+          "Goldilocks": 0,
+          "Stagflation": -3.498235901001353e-17
+        },
+        "sensitivity_stability": 1.4357742266909888e-17,
+        "average_sensitivity": -1.0807585301595054e-17
+      }
+    },
+    "Quality": {
+      "DGS10": {
+        "regime_correlations": {
+          "Recession": -0.04925028158319319,
+          "Overheating": -0.1802519547157171,
+          "Goldilocks": 0.1000452908001734,
+          "Stagflation": 0.034607185344170836
+        },
+        "sensitivity_stability": 0.10473055386711788,
+        "average_sensitivity": -0.023712440038641508
+      },
+      "T10Y2Y": {
+        "regime_correlations": {
+          "Recession": -0.1538929486809236,
+          "Overheating": -0.0036135701782320524,
+          "Goldilocks": 0.07507797099909397,
+          "Stagflation": 0.010171535175254034
+        },
+        "sensitivity_stability": 0.08386147868624114,
+        "average_sensitivity": -0.018064253171201913
+      },
+      "INFLATION_COMPOSITE": {
+        "regime_correlations": {
+          "Recession": 9.369723976155694e-18,
+          "Overheating": 0,
+          "Goldilocks": 0,
+          "Stagflation": 1.5820564996701062e-18
+        },
+        "sensitivity_stability": 3.882951720657414e-18,
+        "average_sensitivity": 2.73794511895645e-18
+      },
+      "GROWTH_COMPOSITE": {
+        "regime_correlations": {
+          "Recession": 0,
+          "Overheating": -1.55016752918416e-17,
+          "Goldilocks": 0,
+          "Stagflation": 1.5820564996701062e-18
+        },
+        "sensitivity_stability": 6.970758437788482e-18,
+        "average_sensitivity": -3.4799046980428735e-18
+      }
+    },
+    "MinVol": {
+      "DGS10": {
+        "regime_correlations": {
+          "Recession": -0.019149138469921688,
+          "Overheating": -0.19367665316048735,
+          "Goldilocks": 0.13545738508212304,
+          "Stagflation": 0.03621846205307405
+        },
+        "sensitivity_stability": 0.11949318617328639,
+        "average_sensitivity": -0.010287486123802987
+      },
+      "T10Y2Y": {
+        "regime_correlations": {
+          "Recession": -0.1749978687230514,
+          "Overheating": 0.017583191953358734,
+          "Goldilocks": 0.11060709824298412,
+          "Stagflation": 0.04276604029572603
+        },
+        "sensitivity_stability": 0.10605682860307684,
+        "average_sensitivity": -0.0010103845577456305
+      },
+      "INFLATION_COMPOSITE": {
+        "regime_correlations": {
+          "Recession": -5.194908090811499e-18,
+          "Overheating": 0,
+          "Goldilocks": 0,
+          "Stagflation": -7.552227591063942e-17
+        },
+        "sensitivity_stability": 3.202259077789345e-17,
+        "average_sensitivity": -2.0179296000362732e-17
+      },
+      "GROWTH_COMPOSITE": {
+        "regime_correlations": {
+          "Recession": 0,
+          "Overheating": -7.546935415836701e-17,
+          "Goldilocks": 0,
+          "Stagflation": -7.552227591063942e-17
+        },
+        "sensitivity_stability": 3.774791215444854e-17,
+        "average_sensitivity": -3.774790751725161e-17
+      }
+    },
+    "Momentum": {
+      "DGS10": {
+        "regime_correlations": {
+          "Recession": -0.015667198769551405,
+          "Overheating": -0.1240572460469682,
+          "Goldilocks": 0.16584010922087394,
+          "Stagflation": 0.05337421795526978
+        },
+        "sensitivity_stability": 0.10536573213500673,
+        "average_sensitivity": 0.01987247058990603
+      },
+      "T10Y2Y": {
+        "regime_correlations": {
+          "Recession": -0.17536306663147355,
+          "Overheating": 0.021372239119236632,
+          "Goldilocks": 0.039990892050375086,
+          "Stagflation": -0.01875921583429084
+        },
+        "sensitivity_stability": 0.08478488855015384,
+        "average_sensitivity": -0.03318978782403817
+      },
+      "INFLATION_COMPOSITE": {
+        "regime_correlations": {
+          "Recession": -2.1214701721625254e-17,
+          "Overheating": 0,
+          "Goldilocks": 0,
+          "Stagflation": -3.37295952927205e-17
+        },
+        "sensitivity_stability": 1.4431131488453026e-17,
+        "average_sensitivity": -1.373607425358644e-17
+      },
+      "GROWTH_COMPOSITE": {
+        "regime_correlations": {
+          "Recession": 0,
+          "Overheating": -8.304397611761938e-17,
+          "Goldilocks": 0,
+          "Stagflation": -3.37295952927205e-17
+        },
+        "sensitivity_stability": 3.400356901507919e-17,
+        "average_sensitivity": -2.9193392852584973e-17
+      }
+    }
+  }
+}

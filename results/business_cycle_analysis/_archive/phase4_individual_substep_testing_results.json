@@ -1,0 +1,109 @@
+{
+  "timestamp": "2025-07-02T11:29:15.469803",
+  "testing_type": "INDIVIDUAL_SUBSTEP_TESTING",
+  "individual_test_results": {
+    "4.1a": {
+      "step": "4.1a",
+      "tests": {
+        "transition_count": 317,
+        "transition_count_pass": true,
+        "matrix_dimensions": [
+          4,
+          4
+        ],
+        "matrix_dimensions_pass": true,
+        "expected_durations_count": 4,
+        "expected_durations_pass": true,
+        "early_warning_signals": 2,
+        "early_warning_pass": true,
+        "regime_stability_count": 4,
+        "regime_stability_pass": true
+      },
+      "success": true,
+      "pass_rate": "5/5"
+    },
+    "4.1b": {
+      "step": "4.1b",
+      "tests": {
+        "transition_dates_count": 147,
+        "transition_dates_pass": true,
+        "factors_analyzed": 4,
+        "factors_analyzed_pass": true,
+        "significant_factors": 0,
+        "statistical_testing_pass": true,
+        "volatility_analysis": 4,
+        "volatility_analysis_pass": true
+      },
+      "success": true,
+      "pass_rate": "4/4"
+    },
+    "4.2a": {
+      "step": "4.2a",
+      "tests": {
+        "regimes_analyzed": 4,
+        "regimes_analyzed_pass": true,
+        "factors_with_phase_analysis": 4,
+        "phase_analysis_pass": true,
+        "regimes_with_maturity": 4,
+        "maturity_indicators_pass": true
+      },
+      "success": true,
+      "pass_rate": "3/3"
+    },
+    "4.2b": {
+      "step": "4.2b",
+      "tests": {
+        "available_macro_indicators": 4,
+        "macro_indicators_pass": true,
+        "regimes_with_macro_analysis": 4,
+        "regime_coverage_pass": true,
+        "factors_with_cross_regime": 4,
+        "cross_regime_analysis_pass": true,
+        "correlation_calculations": 64,
+        "correlation_analysis_pass": true
+      },
+      "success": true,
+      "pass_rate": "4/4"
+    },
+    "4.3a": {
+      "step": "4.3a",
+      "tests": {
+        "regimes_with_allocations": 4,
+        "allocation_coverage_pass": true,
+        "regimes_with_all_methods": 4,
+        "allocation_methods_pass": true,
+        "consistent_weights": 12,
+        "weight_consistency_pass": true,
+        "expected_returns_calculated": 12,
+        "expected_returns_pass": true
+      },
+      "success": true,
+      "pass_rate": "4/4"
+    },
+    "4.3b": {
+      "step": "4.3b",
+      "tests": {
+        "factors_with_momentum": 4,
+        "momentum_signals_pass": true,
+        "factors_with_reversion": 4,
+        "mean_reversion_pass": true,
+        "regimes_with_persistence": 4,
+        "regime_persistence_pass": true,
+        "strategy_performance_metrics": 1,
+        "strategy_performance_pass": true,
+        "current_regime": "Stagflation",
+        "current_regime_pass": true
+      },
+      "success": true,
+      "pass_rate": "5/5"
+    }
+  },
+  "overall_assessment": {
+    "total_substeps": 6,
+    "passed_substeps": 6,
+    "failed_substeps": 0,
+    "success_rate": 1.0,
+    "overall_success": true,
+    "ready_for_phase5": true
+  }
+}

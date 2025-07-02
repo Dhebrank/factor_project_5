@@ -1,0 +1,41 @@
+{
+  "DEMO_transition_matrix": {
+    "demo_transition_counts": {
+      "Goldilocks": {
+        "Goldilocks": 50,
+        "Overheating": 10,
+        "Stagflation": 5,
+        "Recession": 2
+      },
+      "Overheating": {
+        "Goldilocks": 8,
+        "Overheating": 30,
+        "Stagflation": 15,
+        "Recession": 5
+      },
+      "Stagflation": {
+        "Goldilocks": 3,
+        "Overheating": 7,
+        "Stagflation": 25,
+        "Recession": 8
+      },
+      "Recession": {
+        "Goldilocks": 5,
+        "Overheating": 2,
+        "Stagflation": 3,
+        "Recession": 20
+      }
+    },
+    "demo_expected_durations": {
+      "Goldilocks": 8.5,
+      "Overheating": 4.2,
+      "Stagflation": 3.8,
+      "Recession": 6.1
+    },
+    "demo_early_warning_signals": {
+      "vix_threshold": 35,
+      "yield_curve_inversion": true,
+      "unemployment_spike": false
+    }
+  }
+}

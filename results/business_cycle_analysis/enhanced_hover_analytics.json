@@ -1,0 +1,67 @@
+{
+  "regime_details": {
+    "Recession": {
+      "total_months": 56,
+      "frequency_percentage": 17.61006289308176,
+      "avg_vix_level": 24.26747222287084,
+      "date_range": {
+        "start": "1998-12-31",
+        "end": "2025-03-31"
+      }
+    },
+    "Overheating": {
+      "total_months": 124,
+      "frequency_percentage": 38.9937106918239,
+      "avg_vix_level": 18.900473611152385,
+      "date_range": {
+        "start": "1999-02-26",
+        "end": "2025-02-28"
+      }
+    },
+    "Goldilocks": {
+      "total_months": 41,
+      "frequency_percentage": 12.89308176100629,
+      "avg_vix_level": 16.53876799875907,
+      "date_range": {
+        "start": "1999-03-31",
+        "end": "2021-02-26"
+      }
+    },
+    "Stagflation": {
+      "total_months": 97,
+      "frequency_percentage": 30.50314465408805,
+      "avg_vix_level": 20.69768723921576,
+      "date_range": {
+        "start": "1999-09-30",
+        "end": "2025-05-30"
+      }
+    }
+  },
+  "factor_analytics": {
+    "Value": {
+      "overall_sharpe": 0.5552329930431018,
+      "best_regime": "Goldilocks",
+      "worst_regime": "Recession",
+      "volatility_rank": 4
+    },
+    "Quality": {
+      "overall_sharpe": 0.6417171534450435,
+      "best_regime": "Goldilocks",
+      "worst_regime": "Stagflation",
+      "volatility_rank": 2
+    },
+    "MinVol": {
+      "overall_sharpe": 0.7310397164840359,
+      "best_regime": "Goldilocks",
+      "worst_regime": "Stagflation",
+      "volatility_rank": 1
+    },
+    "Momentum": {
+      "overall_sharpe": 0.6962640625894078,
+      "best_regime": "Goldilocks",
+      "worst_regime": "Stagflation",
+      "volatility_rank": 3
+    }
+  },
+  "statistical_summaries": {}
+}

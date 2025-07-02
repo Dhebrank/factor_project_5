@@ -1,0 +1,71 @@
+{
+  "verification_timestamp": "2025-07-02T10:10:18.597193",
+  "overall_status": "FAIL",
+  "critical_errors": [
+    "Error verifying Phase 3 readiness: 'numpy.ndarray' object is not callable"
+  ],
+  "warnings": [],
+  "verification_summary": {
+    "data_integrity": true,
+    "phase3_readiness": false
+  },
+  "detailed_results": {
+    "data_integrity": {
+      "phase2_outputs": {
+        "phase2_regime_analysis.json": {
+          "exists": true,
+          "readable": true,
+          "size_kb": 38.6884765625,
+          "keys": 3
+        },
+        "phase2_performance_analysis.json": {
+          "exists": true,
+          "readable": true,
+          "size_kb": 23.341796875,
+          "keys": 3
+        },
+        "phase2_complete_summary.json": {
+          "exists": true,
+          "readable": true,
+          "size_kb": 53.552734375,
+          "keys": 4
+        }
+      },
+      "aligned_datasets": {
+        "aligned_master_dataset_FIXED.csv": {
+          "exists": true,
+          "readable": true,
+          "size_kb": 95.5400390625,
+          "shape": [
+            318,
+            53
+          ],
+          "date_range": "1998-12-31 00:00:00 to 2025-05-30 00:00:00",
+          "columns": 53
+        },
+        "factor_returns_aligned_FIXED.csv": {
+          "exists": true,
+          "readable": true,
+          "size_kb": 27.4033203125,
+          "shape": [
+            318,
+            4
+          ],
+          "date_range": "1998-12-31 00:00:00 to 2025-05-30 00:00:00",
+          "columns": 4
+        },
+        "regime_classifications_FIXED.csv": {
+          "exists": true,
+          "readable": true,
+          "size_kb": 27.5771484375,
+          "shape": [
+            318,
+            5
+          ],
+          "date_range": "1998-12-31 00:00:00 to 2025-05-30 00:00:00",
+          "columns": 5
+        }
+      }
+    }
+  }
+}

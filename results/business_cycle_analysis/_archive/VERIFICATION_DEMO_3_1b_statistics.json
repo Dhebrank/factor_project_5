@@ -1,0 +1,20 @@
+{
+  "demo_regime_statistics": {
+    "Recession": {
+      "months": 56,
+      "percentage": 17.6
+    },
+    "Overheating": {
+      "months": 124,
+      "percentage": 39.0
+    },
+    "Goldilocks": {
+      "months": 41,
+      "percentage": 12.9
+    },
+    "Stagflation": {
+      "months": 97,
+      "percentage": 30.5
+    }
+  }
+}

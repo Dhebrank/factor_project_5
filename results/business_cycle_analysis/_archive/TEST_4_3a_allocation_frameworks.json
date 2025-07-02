@@ -1,0 +1,118 @@
+{
+  "Recession": {
+    "risk_parity": {
+      "weights": {
+        "Value": 0.21185540784795276,
+        "Quality": 0.24839477609617674,
+        "MinVol": 0.31478604561821233,
+        "Momentum": 0.2249637704376583
+      },
+      "expected_return": 0.041655925148329324
+    },
+    "sharpe_optimized": {
+      "weights": {
+        "Value": 0.0,
+        "Quality": 0.30381837179955545,
+        "MinVol": 0.3470668071673716,
+        "Momentum": 0.34911482103307306
+      },
+      "expected_return": 0.06398297577379859
+    },
+    "equal_weight": {
+      "weights": {
+        "Value": 0.25,
+        "Quality": 0.25,
+        "MinVol": 0.25,
+        "Momentum": 0.25
+      },
+      "expected_return": 0.03875609513643327
+    }
+  },
+  "Overheating": {
+    "risk_parity": {
+      "weights": {
+        "Value": 0.21907625128039024,
+        "Quality": 0.25412263116805245,
+        "MinVol": 0.3045383337293879,
+        "Momentum": 0.22226278382216946
+      },
+      "expected_return": 0.1457768359650799
+    },
+    "sharpe_optimized": {
+      "weights": {
+        "Value": 0.2616920608151608,
+        "Quality": 0.2439141467090593,
+        "MinVol": 0.25399945319852857,
+        "Momentum": 0.2403943392772513
+      },
+      "expected_return": 0.14848334346834588
+    },
+    "equal_weight": {
+      "weights": {
+        "Value": 0.25,
+        "Quality": 0.25,
+        "MinVol": 0.25,
+        "Momentum": 0.25
+      },
+      "expected_return": 0.14832713557886557
+    }
+  },
+  "Goldilocks": {
+    "risk_parity": {
+      "weights": {
+        "Value": 0.2074197414940836,
+        "Quality": 0.24124919377045365,
+        "MinVol": 0.3018933214534886,
+        "Momentum": 0.24943774328197427
+      },
+      "expected_return": 0.27045388443833773
+    },
+    "sharpe_optimized": {
+      "weights": {
+        "Value": 0.25128736818559144,
+        "Quality": 0.21569277346035098,
+        "MinVol": 0.25191561353749337,
+        "Momentum": 0.28110424481656415
+      },
+      "expected_return": 0.27702016389061346
+    },
+    "equal_weight": {
+      "weights": {
+        "Value": 0.25,
+        "Quality": 0.25,
+        "MinVol": 0.25,
+        "Momentum": 0.25
+      },
+      "expected_return": 0.2749814376806632
+    }
+  },
+  "Stagflation": {
+    "risk_parity": {
+      "weights": {
+        "Value": 0.2129972406206235,
+        "Quality": 0.2408168563183503,
+        "MinVol": 0.31281143401976913,
+        "Momentum": 0.23337446904125717
+      },
+      "expected_return": 0.019446974597815657
+    },
+    "sharpe_optimized": {
+      "weights": {
+        "Value": 0.10550282362400894,
+        "Quality": 0.24257150231532457,
+        "MinVol": 0.3470921692924757,
+        "Momentum": 0.3048335047681907
+      },
+      "expected_return": 0.02100078846402293
+    },
+    "equal_weight": {
+      "weights": {
+        "Value": 0.25,
+        "Quality": 0.25,
+        "MinVol": 0.25,
+        "Momentum": 0.25
+      },
+      "expected_return": 0.019050252570674553
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "base_allocations": {},
+  "regime_confidence_tilts": {
+    "high_confidence": {
+      "description": "Strong regime signals, full allocation tilts",
+      "tilt_magnitude": 1.0,
+      "risk_adjustment": "Normal risk budget"
+    },
+    "moderate_confidence": {
+      "description": "Moderate regime signals, partial tilts",
+      "tilt_magnitude": 0.6,
+      "risk_adjustment": "Reduced risk budget by 20%"
+    },
+    "low_confidence": {
+      "description": "Weak regime signals, minimal tilts",
+      "tilt_magnitude": 0.3,
+      "risk_adjustment": "Reduced risk budget by 40%"
+    },
+    "transition_period": {
+      "description": "Regime transition detected, defensive positioning",
+      "tilt_magnitude": 0.2,
+      "risk_adjustment": "Maximum defensive allocation"
+    }
+  },
+  "risk_overlay_adjustments": {
+    "normal_vol": {
+      "description": "VIX < 25, normal market conditions",
+      "allocation_adjustment": "No adjustment to base allocation",
+      "max_factor_weight": 0.4
+    },
+    "elevated_vol": {
+      "description": "VIX 25-35, elevated volatility",
+      "allocation_adjustment": "Increase MinVol by 5%, reduce others proportionally",
+      "max_factor_weight": 0.35
+    },
+    "high_vol": {
+      "description": "VIX 35-50, high stress",
+      "allocation_adjustment": "Increase MinVol by 10%, increase Quality by 5%",
+      "max_factor_weight": 0.3
+    },
+    "crisis_vol": {
+      "description": "VIX > 50, crisis conditions",
+      "allocation_adjustment": "Maximum defensive: 40% MinVol, 30% Quality, 15% each Value/Momentum",
+      "max_factor_weight": 0.4
+    }
+  },
+  "optimization_framework": {
+    "rebalancing_frequency": {
+      "normal_conditions": "Monthly",
+      "high_volatility": "Bi-weekly",
+      "regime_transitions": "Weekly monitoring with trigger-based rebalancing"
+    },
+    "transaction_cost_considerations": {
+      "cost_threshold": "0.1% of portfolio value",
+      "minimum_trade_size": "2% allocation change",
+      "trading_implementation": "Gradual implementation over 3-5 days for large changes"
+    },
+    "risk_management_rules": {
+      "stop_loss": "No factor allocation below 10% or above 50%",
+      "concentration_limit": "Maximum 40% in any single factor during normal conditions",
+      "drawdown_trigger": "Reduce risk by 25% if portfolio drawdown exceeds 15%"
+    }
+  },
+  "current_recommendations": {
+    "current_economic_regime": "Stagflation",
+    "current_volatility_regime": "normal_vol",
+    "current_vix_level": 20.46227272727273,
+    "recommended_allocation_approach": {
+      "allocation": {
+        "Value": 0.4,
+        "Quality": 0.25,
+        "MinVol": 0.2,
+        "Momentum": 0.15
+      },
+      "rationale": "Base Stagflation allocation adjusted for normal_vol conditions",
+      "confidence_level": "High"
+    },
+    "next_review_triggers": [
+      "VIX moves above/below key thresholds (25, 35, 50)",
+      "Economic regime change signals",
+      "Factor momentum shifts (3-month rolling)",
+      "Monthly portfolio review"
+    ]
+  }
+}

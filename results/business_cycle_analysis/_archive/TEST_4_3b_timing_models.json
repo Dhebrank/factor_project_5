@@ -1,0 +1,79 @@
+{
+  "momentum_signals": {
+    "Value": {
+      "3_month_momentum": -0.009725448897243194,
+      "6_month_momentum": -0.007957497286462029,
+      "12_month_momentum": 0.005462691759621409,
+      "momentum_consistency": 0.45031878533765807
+    },
+    "Quality": {
+      "3_month_momentum": -0.006194786046923087,
+      "6_month_momentum": -0.005614855169800536,
+      "12_month_momentum": 0.007131344254503516,
+      "momentum_consistency": 0.5085551654674153
+    },
+    "MinVol": {
+      "3_month_momentum": -0.0022132990596388873,
+      "6_month_momentum": 0.0002527010147254747,
+      "12_month_momentum": 0.012214598499765474,
+      "momentum_consistency": 0.47972340652078116
+    },
+    "Momentum": {
+      "3_month_momentum": 0.014992624756497755,
+      "6_month_momentum": 0.010190645543682595,
+      "12_month_momentum": 0.015603291626762402,
+      "momentum_consistency": 0.5023098847030107
+    }
+  },
+  "mean_reversion_signals": {
+    "Value": {
+      "deviation_from_longterm": -0.0059766631549788484,
+      "reversion_signal": "hold",
+      "signal_strength": 0.0059766631549788484
+    },
+    "Quality": {
+      "deviation_from_longterm": -0.008692059591554765,
+      "reversion_signal": "hold",
+      "signal_strength": 0.008692059591554765
+    },
+    "MinVol": {
+      "deviation_from_longterm": -0.0009037287502135349,
+      "reversion_signal": "hold",
+      "signal_strength": 0.0009037287502135349
+    },
+    "Momentum": {
+      "deviation_from_longterm": -0.007574023555235053,
+      "reversion_signal": "hold",
+      "signal_strength": 0.007574023555235053
+    }
+  },
+  "regime_persistence": {
+    "Recession": {
+      "persistence_1_month": 1.0,
+      "persistence_3_months": 0.2222222222222222,
+      "persistence_6_months": 0.0
+    },
+    "Overheating": {
+      "persistence_1_month": 1.0,
+      "persistence_3_months": 0.37254901960784315,
+      "persistence_6_months": 0.1
+    },
+    "Goldilocks": {
+      "persistence_1_month": 1.0,
+      "persistence_3_months": 0.22727272727272727,
+      "persistence_6_months": 0.0
+    },
+    "Stagflation": {
+      "persistence_1_month": 1.0,
+      "persistence_3_months": 0.17391304347826086,
+      "persistence_6_months": 0.044444444444444446
+    }
+  },
+  "strategy_performance": {
+    "buy_and_hold_sp500": {
+      "total_return": 7.106595144763066,
+      "annualized_return": 0.0821707516241601
+    }
+  },
+  "current_regime": "Stagflation"
+}

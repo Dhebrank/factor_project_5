@@ -1,0 +1,4879 @@
+{
+  "transition_probabilities": {
+    "transition_counts": {
+      "Goldilocks": {
+        "Goldilocks": 19,
+        "Overheating": 12,
+        "Recession": 6,
+        "Stagflation": 4
+      },
+      "Overheating": {
+        "Goldilocks": 9,
+        "Overheating": 73,
+        "Recession": 11,
+        "Stagflation": 31
+      },
+      "Recession": {
+        "Goldilocks": 9,
+        "Overheating": 7,
+        "Recession": 28,
+        "Stagflation": 11
+      },
+      "Stagflation": {
+        "Goldilocks": 4,
+        "Overheating": 32,
+        "Recession": 11,
+        "Stagflation": 50
+      }
+    },
+    "transition_probabilities": {
+      "Goldilocks": {
+        "Goldilocks": 0.4634146341463415,
+        "Overheating": 0.0967741935483871,
+        "Recession": 0.10714285714285714,
+        "Stagflation": 0.041666666666666664
+      },
+      "Overheating": {
+        "Goldilocks": 0.21951219512195122,
+        "Overheating": 0.5887096774193549,
+        "Recession": 0.19642857142857142,
+        "Stagflation": 0.3229166666666667
+      },
+      "Recession": {
+        "Goldilocks": 0.21951219512195122,
+        "Overheating": 0.056451612903225805,
+        "Recession": 0.5,
+        "Stagflation": 0.11458333333333333
+      },
+      "Stagflation": {
+        "Goldilocks": 0.0975609756097561,
+        "Overheating": 0.25806451612903225,
+        "Recession": 0.19642857142857142,
+        "Stagflation": 0.5208333333333334
+      }
+    },
+    "expected_durations": {
+      "Goldilocks": 1.8636363636363635,
+      "Overheating": 2.431372549019608,
+      "Recession": 2.0,
+      "Stagflation": 2.0869565217391304
+    },
+    "regime_stability": {
+      "Goldilocks": {
+        "average_duration": 1.8636363636363635,
+        "median_duration": 2.0,
+        "max_duration": 3,
+        "total_periods": 22,
+        "frequency": 0.1289308176100629
+      },
+      "Overheating": {
+        "average_duration": 2.4313725490196076,
+        "median_duration": 2.0,
+        "max_duration": 8,
+        "total_periods": 51,
+        "frequency": 0.389937106918239
+      },
+      "Recession": {
+        "average_duration": 2.0,
+        "median_duration": 2.0,
+        "max_duration": 5,
+        "total_periods": 28,
+        "frequency": 0.1761006289308176
+      },
+      "Stagflation": {
+        "average_duration": 2.0638297872340425,
+        "median_duration": 2.0,
+        "max_duration": 10,
+        "total_periods": 47,
+        "frequency": 0.3050314465408805
+      }
+    },
+    "early_warning_signals": {
+      "vix_warnings": {
+        "high_volatility_threshold": 3.1608462678669045,
+        "crisis_level_threshold": 50,
+        "elevated_level_threshold": 25
+      },
+      "yield_curve_inversion_warning": {
+        "inversion_threshold": 0,
+        "flat_curve_threshold": 0.5
+      },
+      "unemployment_warnings": {
+        "rapid_rise_threshold": NaN,
+        "recession_level": NaN
+      }
+    },
+    "total_transitions": 317
+  },
+  "transition_performance": {
+    "Value": {
+      "average_pre_transition": 0.008349311627226373,
+      "average_post_transition": 0.00862072619901992,
+      "average_change": 0.0002714145717935476,
+      "volatility_pre": 0.01894662759881828,
+      "volatility_post": 0.016851619854871703,
+      "volatility_change": -0.0020950077439465774,
+      "statistical_significance": {
+        "t_statistic": 0.11254167674309092,
+        "p_value": 0.9105485151424753,
+        "is_significant": "False"
+      },
+      "transition_details": [
+        {
+          "date": "1999-02-26 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.023162576901767352,
+          "post_performance": 0.0116888968224709,
+          "performance_change": -0.011473680079296453
+        },
+        {
+          "date": "1999-03-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": -0.0009526806782777323,
+          "post_performance": 0.007054056947700372,
+          "performance_change": 0.008006737625978104
+        },
+        {
+          "date": "1999-04-30 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.006236558599620576,
+          "post_performance": 0.006461271156733355,
+          "performance_change": 0.00022471255711277883
+        },
+        {
+          "date": "1999-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.0224380549017133,
+          "post_performance": -0.003381687383362,
+          "performance_change": -0.0258197422850753
+        },
+        {
+          "date": "1999-06-30 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.019862562591167934,
+          "post_performance": -0.00033494870131337256,
+          "performance_change": -0.020197511292481308
+        },
+        {
+          "date": "1999-08-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.014498315048779466,
+          "post_performance": -0.0082564275320456,
+          "performance_change": -0.022754742580825067
+        },
+        {
+          "date": "1999-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.021834245599277366,
+          "post_performance": 0.008811306589687129,
+          "performance_change": -0.013022939009590237
+        },
+        {
+          "date": "1999-11-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": -0.007002523668825117,
+          "post_performance": 0.016489792949313842,
+          "performance_change": 0.02349231661813896
+        },
+        {
+          "date": "2000-06-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.016180870052630036,
+          "post_performance": -0.002271062360052484,
+          "performance_change": -0.01845193241268252
+        },
+        {
+          "date": "2000-08-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": 0.01274874781438335,
+          "post_performance": 0.0037091841024838442,
+          "performance_change": -0.009039563711899505
+        },
+        {
+          "date": "2000-10-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": -0.0056547364302951654,
+          "post_performance": 0.011390446790658057,
+          "performance_change": 0.017045183220953223
+        },
+        {
+          "date": "2000-11-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.0023387304293077324,
+          "post_performance": 0.005726317193382515,
+          "performance_change": 0.008065047622690247
+        },
+        {
+          "date": "2001-07-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": 0.011385145729387333,
+          "post_performance": -0.0038734173796818303,
+          "performance_change": -0.015258563109069163
+        },
+        {
+          "date": "2001-11-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.02231728937596492,
+          "post_performance": 0.0214073694473693,
+          "performance_change": 0.04372465882333422
+        },
+        {
+          "date": "2001-12-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": -0.004807473094943236,
+          "post_performance": -0.005184392608537186,
+          "performance_change": -0.0003769195135939502
+        },
+        {
+          "date": "2002-01-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": -0.005841022038223869,
+          "post_performance": -0.01828142031074816,
+          "performance_change": -0.01244039827252429
+        },
+        {
+          "date": "2002-02-28 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.006361217383252249,
+          "post_performance": -0.016703665772795587,
+          "performance_change": -0.01034244838954334
+        },
+        {
+          "date": "2002-04-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.02373463384088857,
+          "post_performance": -0.030512118611781526,
+          "performance_change": -0.05424675245267009
+        },
+        {
+          "date": "2002-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.0161053547875445,
+          "post_performance": -0.014385045263861732,
+          "performance_change": 0.0017203095236827688
+        },
+        {
+          "date": "2003-01-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": -0.017829961899049507,
+          "post_performance": 0.019575389990146158,
+          "performance_change": 0.037405351889195665
+        },
+        {
+          "date": "2003-02-28 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.006657037287667619,
+          "post_performance": 0.025288759115529285,
+          "performance_change": 0.031945796403196905
+        },
+        {
+          "date": "2003-03-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": -0.01543760331686637,
+          "post_performance": 0.02913996953107693,
+          "performance_change": 0.0445775728479433
+        },
+        {
+          "date": "2003-04-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.004807900639906933,
+          "post_performance": 0.03830553979773428,
+          "performance_change": 0.033497639157827344
+        },
+        {
+          "date": "2003-06-30 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.011497804604425385,
+          "post_performance": 0.026811262267784602,
+          "performance_change": 0.015313457663359217
+        },
+        {
+          "date": "2003-07-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.022458387630381133,
+          "post_performance": 0.027005355802388786,
+          "performance_change": 0.004546968172007653
+        },
+        {
+          "date": "2003-10-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.035341580610562064,
+          "post_performance": 0.023213516275130446,
+          "performance_change": -0.012128064335431617
+        },
+        {
+          "date": "2003-12-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.02037343915382757,
+          "post_performance": 0.017191182070130012,
+          "performance_change": -0.0031822570836975567
+        },
+        {
+          "date": "2004-02-27 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.03112668107799754,
+          "post_performance": -9.496383989800068e-05,
+          "performance_change": -0.03122164491789554
+        },
+        {
+          "date": "2004-03-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Recession",
+          "pre_performance": 0.030223152671749538,
+          "post_performance": 0.0019396968102379,
+          "performance_change": -0.02828345586151164
+        },
+        {
+          "date": "2004-04-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.029884208026355188,
+          "post_performance": 0.0047467336598871705,
+          "performance_change": -0.025137474366468016
+        },
+        {
+          "date": "2004-06-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.014396984051213783,
+          "post_performance": 0.0237894699008561,
+          "performance_change": 0.009392485849642316
+        },
+        {
+          "date": "2004-08-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": -0.0004239527272730508,
+          "post_performance": 0.026143107582604675,
+          "performance_change": 0.026567060309877724
+        },
+        {
+          "date": "2004-09-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.0025560347331874335,
+          "post_performance": 0.025226877266008613,
+          "performance_change": 0.027782911999196046
+        },
+        {
+          "date": "2004-11-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.008339628308571366,
+          "post_performance": 0.020067075059981825,
+          "performance_change": 0.011727446751410459
+        },
+        {
+          "date": "2004-12-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.020641941069895933,
+          "post_performance": 0.00945265157274747,
+          "performance_change": -0.011189289497148463
+        },
+        {
+          "date": "2005-02-28 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.024727982028837584,
+          "post_performance": 0.012050470514149056,
+          "performance_change": -0.012677511514688529
+        },
+        {
+          "date": "2005-03-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.030187130598980066,
+          "post_performance": 0.010898977718263243,
+          "performance_change": -0.019288152880716822
+        },
+        {
+          "date": "2005-05-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": 0.0174007950084809,
+          "post_performance": 0.019009768132305257,
+          "performance_change": 0.0016089731238243567
+        },
+        {
+          "date": "2005-06-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.010040498922192534,
+          "post_performance": 0.015787296149838856,
+          "performance_change": 0.005746797227646322
+        },
+        {
+          "date": "2005-08-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.0133114719660837,
+          "post_performance": 0.014493051715551071,
+          "performance_change": 0.0011815797494673722
+        },
+        {
+          "date": "2005-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.008286572115639367,
+          "post_performance": 0.015495784892916987,
+          "performance_change": 0.00720921277727762
+        },
+        {
+          "date": "2005-10-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.013471247793277135,
+          "post_performance": 0.015179859623825672,
+          "performance_change": 0.0017086118305485367
+        },
+        {
+          "date": "2005-11-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.01502540531844075,
+          "post_performance": 0.014820569688150527,
+          "performance_change": -0.00020483563029022323
+        },
+        {
+          "date": "2006-01-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.017430917595465816,
+          "post_performance": 0.0087951145645484,
+          "performance_change": -0.008635803030917415
+        },
+        {
+          "date": "2006-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.021556032968354132,
+          "post_performance": 0.0136950350241502,
+          "performance_change": -0.007860997944203932
+        },
+        {
+          "date": "2006-06-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.010138007133593566,
+          "post_performance": 0.01937389283138073,
+          "performance_change": 0.009235885697787162
+        },
+        {
+          "date": "2006-10-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.010367289275745968,
+          "post_performance": 0.02002223960416823,
+          "performance_change": 0.009654950328422262
+        },
+        {
+          "date": "2006-11-30 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.012315919371758882,
+          "post_performance": 0.01975953087325764,
+          "performance_change": 0.0074436115014987585
+        },
+        {
+          "date": "2007-01-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.0221181160081288,
+          "post_performance": 0.004988856243471999,
+          "performance_change": -0.0171292597646568
+        },
+        {
+          "date": "2007-02-28 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.024236022300790753,
+          "post_performance": 0.002748928715292115,
+          "performance_change": -0.021487093585498638
+        },
+        {
+          "date": "2007-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.0173503270337888,
+          "post_performance": -0.005189220444136615,
+          "performance_change": -0.022539547477925415
+        },
+        {
+          "date": "2007-07-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.013054333611942782,
+          "post_performance": -0.01548714973846777,
+          "performance_change": -0.028541483350410554
+        },
+        {
+          "date": "2007-08-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Recession",
+          "pre_performance": 0.0018129831795374342,
+          "post_performance": -0.012832915982263386,
+          "performance_change": -0.01464589916180082
+        },
+        {
+          "date": "2007-10-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.0063834494891517,
+          "post_performance": -0.013576676588605185,
+          "performance_change": -0.019960126077756886
+        },
+        {
+          "date": "2007-12-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.011756549503171168,
+          "post_performance": -0.019401402690415143,
+          "performance_change": -0.007644853187243976
+        },
+        {
+          "date": "2008-10-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": -0.01819521379868412,
+          "post_performance": -0.02803810415117911,
+          "performance_change": -0.009842890352494988
+        },
+        {
+          "date": "2009-02-27 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.06212005493308068,
+          "post_performance": 0.051089424735242694,
+          "performance_change": 0.11320947966832337
+        },
+        {
+          "date": "2009-03-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": -0.09009303954761301,
+          "post_performance": 0.07732930378191882,
+          "performance_change": 0.16742234332953182
+        },
+        {
+          "date": "2009-04-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.05741977843579136,
+          "post_performance": 0.058972016997889266,
+          "performance_change": 0.11639179543368063
+        },
+        {
+          "date": "2009-07-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.01873092083277522,
+          "post_performance": 0.033120451273162634,
+          "performance_change": 0.014389530440387415
+        },
+        {
+          "date": "2009-08-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.04854836614206901,
+          "post_performance": 0.024950014124727745,
+          "performance_change": -0.023598352017341267
+        },
+        {
+          "date": "2009-12-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Recession",
+          "pre_performance": 0.038616570179935715,
+          "post_performance": -0.007291224601305314,
+          "performance_change": -0.04590779478124103
+        },
+        {
+          "date": "2010-02-26 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.02262809225476645,
+          "post_performance": -0.005908174672923187,
+          "performance_change": -0.028536266927689638
+        },
+        {
+          "date": "2010-03-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.018052387096468236,
+          "post_performance": 0.002877452743738399,
+          "performance_change": -0.015174934352729836
+        },
+        {
+          "date": "2010-04-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.022075795132989583,
+          "post_performance": 1.552097674217228e-05,
+          "performance_change": -0.022060274156247412
+        },
+        {
+          "date": "2010-06-30 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.003608981978893968,
+          "post_performance": 0.021539942257062128,
+          "performance_change": 0.01793096027816816
+        },
+        {
+          "date": "2010-11-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.0015341696505016707,
+          "post_performance": 0.023963549669935903,
+          "performance_change": 0.025497719320437574
+        },
+        {
+          "date": "2010-12-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.011744968618313464,
+          "post_performance": 0.02248644682171496,
+          "performance_change": 0.010741478203401496
+        },
+        {
+          "date": "2011-01-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.03724534331365598,
+          "post_performance": 0.004404321270887755,
+          "performance_change": -0.03284102204276823
+        },
+        {
+          "date": "2011-03-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.04877739159648983,
+          "post_performance": -0.03163740068093077,
+          "performance_change": -0.0804147922774206
+        },
+        {
+          "date": "2011-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.030347142292922052,
+          "post_performance": -0.01843451461454561,
+          "performance_change": -0.04878165690746766
+        },
+        {
+          "date": "2011-06-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.02956815785775702,
+          "post_performance": -0.015014339258689616,
+          "performance_change": -0.044582497116446636
+        },
+        {
+          "date": "2011-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.02163993478692815,
+          "post_performance": 0.023722994956020843,
+          "performance_change": 0.04536292974294899
+        },
+        {
+          "date": "2011-10-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": -0.038094784159296714,
+          "post_performance": 0.03402307562855449,
+          "performance_change": 0.07211785978785121
+        },
+        {
+          "date": "2011-11-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.020179218409318012,
+          "post_performance": 0.004116832487744159,
+          "performance_change": 0.02429605089706217
+        },
+        {
+          "date": "2012-01-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": -0.014182759236048318,
+          "post_performance": 0.009977772156260441,
+          "performance_change": 0.02416053139230876
+        },
+        {
+          "date": "2012-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.018058604682867085,
+          "post_performance": 0.001812004982164228,
+          "performance_change": -0.016246599700702857
+        },
+        {
+          "date": "2012-08-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.0022539304262224158,
+          "post_performance": 0.025528003575167914,
+          "performance_change": 0.023274073148945498
+        },
+        {
+          "date": "2012-10-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.0001038173687184669,
+          "post_performance": 0.027939143555215182,
+          "performance_change": 0.027835326186496714
+        },
+        {
+          "date": "2012-11-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.002607928857641216,
+          "post_performance": 0.03452355932942007,
+          "performance_change": 0.03191563047177885
+        },
+        {
+          "date": "2013-01-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.0159228089634478,
+          "post_performance": 0.03679768095213521,
+          "performance_change": 0.02087487198868741
+        },
+        {
+          "date": "2013-04-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.029327373909027527,
+          "post_performance": 0.023321381802197557,
+          "performance_change": -0.00600599210682997
+        },
+        {
+          "date": "2013-07-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.03256559884122286,
+          "post_performance": 0.02001029214317903,
+          "performance_change": -0.012555306698043833
+        },
+        {
+          "date": "2013-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.023438524242999966,
+          "post_performance": 0.025120069984592118,
+          "performance_change": 0.0016815457415921518
+        },
+        {
+          "date": "2013-12-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.023780749909001333,
+          "post_performance": 0.016614702615768674,
+          "performance_change": -0.007166047293232659
+        },
+        {
+          "date": "2014-02-28 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.01298031189744065,
+          "post_performance": 0.022947493027360117,
+          "performance_change": 0.009967181129919468
+        },
+        {
+          "date": "2014-03-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.024973534593423885,
+          "post_performance": 0.014917965845456972,
+          "performance_change": -0.010055568747966913
+        },
+        {
+          "date": "2014-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.020201680144499665,
+          "post_performance": 0.005145146690972015,
+          "performance_change": -0.01505653345352765
+        },
+        {
+          "date": "2014-12-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.01557667723006737,
+          "post_performance": 0.00018468836464430118,
+          "performance_change": -0.015391988865423069
+        },
+        {
+          "date": "2015-02-27 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.004880761910193668,
+          "post_performance": -0.0033832681728437858,
+          "performance_change": -0.008264030083037454
+        },
+        {
+          "date": "2015-03-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.008370121429973435,
+          "post_performance": -0.01626253924623077,
+          "performance_change": -0.024632660676204204
+        },
+        {
+          "date": "2015-04-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.008800057797600552,
+          "post_performance": -0.003653103891663958,
+          "performance_change": -0.012453161689264509
+        },
+        {
+          "date": "2015-06-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.005554983784970717,
+          "post_performance": -0.011331588723093757,
+          "performance_change": -0.016886572508064475
+        },
+        {
+          "date": "2015-07-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": -0.001562434842798632,
+          "post_performance": -0.018396168315288428,
+          "performance_change": -0.016833733472489797
+        },
+        {
+          "date": "2015-08-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Recession",
+          "pre_performance": 0.006173271661736183,
+          "post_performance": -0.015941097632980145,
+          "performance_change": -0.02211436929471633
+        },
+        {
+          "date": "2015-11-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.005207726717925916,
+          "post_performance": -0.00043200623357078714,
+          "performance_change": 0.004775720484355129
+        },
+        {
+          "date": "2015-12-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": -0.009729136178020067,
+          "post_performance": -0.0012090325515127858,
+          "performance_change": 0.008520103626507281
+        },
+        {
+          "date": "2016-03-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.008477529375089566,
+          "post_performance": 0.020945966744782215,
+          "performance_change": 0.02942349611987178
+        },
+        {
+          "date": "2016-06-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.0006082618678854998,
+          "post_performance": 0.01903716797495147,
+          "performance_change": 0.018428906107065973
+        },
+        {
+          "date": "2016-08-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.0232419859794567,
+          "post_performance": 0.0228153860332646,
+          "performance_change": -0.0004265999461921001
+        },
+        {
+          "date": "2016-10-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.012654642690944117,
+          "post_performance": 0.018648138517725787,
+          "performance_change": 0.005993495826781671
+        },
+        {
+          "date": "2016-11-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.009344231266435517,
+          "post_performance": 0.020247587705526645,
+          "performance_change": 0.010903356439091128
+        },
+        {
+          "date": "2017-01-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.024228829148760466,
+          "post_performance": 0.011621017346985799,
+          "performance_change": -0.012607811801774668
+        },
+        {
+          "date": "2017-02-28 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.01890112789317727,
+          "post_performance": 0.010050491004072184,
+          "performance_change": -0.008850636889105085
+        },
+        {
+          "date": "2017-03-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.02454872521092527,
+          "post_performance": 0.008497192125403428,
+          "performance_change": -0.016051533085521843
+        },
+        {
+          "date": "2017-05-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.02378022767236417,
+          "post_performance": 0.019556550404013613,
+          "performance_change": -0.004223677268350556
+        },
+        {
+          "date": "2017-06-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.011949504396613382,
+          "post_performance": 0.02202774191439576,
+          "performance_change": 0.010078237517782378
+        },
+        {
+          "date": "2017-08-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.01130560508688048,
+          "post_performance": 0.0190999711948076,
+          "performance_change": 0.007794366107927121
+        },
+        {
+          "date": "2017-10-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.011796441442973149,
+          "post_performance": 0.011031046810210275,
+          "performance_change": -0.0007653946327628742
+        },
+        {
+          "date": "2018-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.008584283571810132,
+          "post_performance": 0.0020132331704706846,
+          "performance_change": -0.006571050401339448
+        },
+        {
+          "date": "2018-07-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.0003274103638969495,
+          "post_performance": -0.0010690086416608735,
+          "performance_change": -0.001396419005557823
+        },
+        {
+          "date": "2018-10-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.013780551596128966,
+          "post_performance": -0.004553595668777762,
+          "performance_change": -0.018334147264906727
+        },
+        {
+          "date": "2018-12-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.0009327569358069674,
+          "post_performance": 0.004407609513425656,
+          "performance_change": 0.005340366449232623
+        },
+        {
+          "date": "2019-01-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": -0.017897859784468634,
+          "post_performance": 0.022871251990103897,
+          "performance_change": 0.04076911177457253
+        },
+        {
+          "date": "2019-02-28 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.006915881124767903,
+          "post_performance": 0.0022729377986639996,
+          "performance_change": 0.009188818923431902
+        },
+        {
+          "date": "2019-04-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": -0.011102133155957455,
+          "post_performance": 0.011756758058224471,
+          "performance_change": 0.02285889121418193
+        },
+        {
+          "date": "2019-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Recession",
+          "pre_performance": 0.004491248617501065,
+          "post_performance": 0.0120764354114683,
+          "performance_change": 0.0075851867939672355
+        },
+        {
+          "date": "2019-07-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.023851554714749413,
+          "post_performance": 0.011696825632797501,
+          "performance_change": -0.012154729081951912
+        },
+        {
+          "date": "2019-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.0005768537739801333,
+          "post_performance": -0.02469478229658354,
+          "performance_change": -0.02411792852260341
+        },
+        {
+          "date": "2019-10-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": 0.009002002119252133,
+          "post_performance": -0.015385253575399745,
+          "performance_change": -0.024387255694651878
+        },
+        {
+          "date": "2019-12-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.030119456751749634,
+          "post_performance": -0.01916842777649233,
+          "performance_change": -0.04928788452824197
+        },
+        {
+          "date": "2020-03-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": 0.002046953579568467,
+          "post_performance": -0.0006687433315990567,
+          "performance_change": -0.0027156969111675235
+        },
+        {
+          "date": "2020-06-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": -0.02279031097234672,
+          "post_performance": 0.03054775925191287,
+          "performance_change": 0.05333807022425959
+        },
+        {
+          "date": "2021-02-26 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.03916402309370032,
+          "post_performance": 0.024839256211085188,
+          "performance_change": -0.01432476688261513
+        },
+        {
+          "date": "2021-03-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.04417210897182694,
+          "post_performance": 0.009832790426143186,
+          "performance_change": -0.034339318545683756
+        },
+        {
+          "date": "2021-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.01736597226124322,
+          "post_performance": 0.0030295212411475705,
+          "performance_change": -0.014336451020095647
+        },
+        {
+          "date": "2021-11-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.0007077567352450163,
+          "post_performance": 0.0018940884743745001,
+          "performance_change": 0.0011863317391294839
+        },
+        {
+          "date": "2022-01-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.009964926869784316,
+          "post_performance": -0.015300922420170898,
+          "performance_change": -0.025265849289955213
+        },
+        {
+          "date": "2022-02-28 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.008055163249466516,
+          "post_performance": -0.017613786295004468,
+          "performance_change": -0.025668949544470986
+        },
+        {
+          "date": "2022-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.004299001392800067,
+          "post_performance": 0.005102959947095256,
+          "performance_change": 0.009401961339895324
+        },
+        {
+          "date": "2022-08-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": -0.014671104952546433,
+          "post_performance": 0.002613128870139672,
+          "performance_change": 0.017284233822686106
+        },
+        {
+          "date": "2022-11-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.0037710283622665506,
+          "post_performance": -0.0032677590186732017,
+          "performance_change": 0.0005032693435933489
+        },
+        {
+          "date": "2023-01-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.0075456565437323165,
+          "post_performance": 0.012491788532810926,
+          "performance_change": 0.004946131989078609
+        },
+        {
+          "date": "2023-03-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.008926962740121731,
+          "post_performance": -0.0008078303603384579,
+          "performance_change": -0.009734793100460189
+        },
+        {
+          "date": "2023-07-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.008420003865637331,
+          "post_performance": 0.012910314339737284,
+          "performance_change": 0.004490310474099953
+        },
+        {
+          "date": "2023-08-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.002690236689727281,
+          "post_performance": 0.011369854004550687,
+          "performance_change": 0.008679617314823406
+        },
+        {
+          "date": "2023-10-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": -0.00024077847557363424,
+          "post_performance": 0.018861775014104583,
+          "performance_change": 0.019102553489678216
+        },
+        {
+          "date": "2024-01-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.016455322044723265,
+          "post_performance": 0.011468709177666712,
+          "performance_change": -0.004986612867056553
+        },
+        {
+          "date": "2024-02-29 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.008908283973718083,
+          "post_performance": 0.013227470973052312,
+          "performance_change": 0.004319186999334229
+        },
+        {
+          "date": "2024-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Recession",
+          "pre_performance": 0.027947104398533484,
+          "post_performance": 0.020556787502411942,
+          "performance_change": -0.0073903168961215425
+        },
+        {
+          "date": "2024-07-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.0066306241006331154,
+          "post_performance": 0.0121045867982495,
+          "performance_change": 0.0054739626976163845
+        },
+        {
+          "date": "2024-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.011075503770303315,
+          "post_performance": 0.0022743299608946727,
+          "performance_change": -0.008801173809408641
+        },
+        {
+          "date": "2024-10-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.004076571053759117,
+          "post_performance": -0.005578171630999085,
+          "performance_change": -0.009654742684758202
+        },
+        {
+          "date": "2025-01-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.006976500277653001,
+          "post_performance": 0.00478918146801228,
+          "performance_change": -0.0021873188096407214
+        },
+        {
+          "date": "2025-02-28 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.007372481324646368,
+          "post_performance": -0.004731799645441775,
+          "performance_change": -0.012104280970088144
+        },
+        {
+          "date": "2025-03-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Recession",
+          "pre_performance": 0.008422072563386703,
+          "post_performance": -0.00972544889724323,
+          "performance_change": -0.018147521460629933
+        },
+        {
+          "date": "2025-04-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.00031862853396066637,
+          "post_performance": 0.0027178894811639015,
+          "performance_change": 0.003036518015124568
+        }
+      ],
+      "total_transitions_analyzed": 147
+    },
+    "Quality": {
+      "average_pre_transition": 0.008850422880194922,
+      "average_post_transition": 0.008508158964247474,
+      "average_change": -0.00034226391594744873,
+      "volatility_pre": 0.015855179812846114,
+      "volatility_post": 0.014013276672854732,
+      "volatility_change": -0.001841903139991382,
+      "statistical_significance": {
+        "t_statistic": -0.18060794036352262,
+        "p_value": 0.8569257822442742,
+        "is_significant": "False"
+      },
+      "transition_details": [
+        {
+          "date": "1999-02-26 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.0603393767479475,
+          "post_performance": 0.0038582950013532004,
+          "performance_change": -0.0564810817465943
+        },
+        {
+          "date": "1999-03-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.0293199134220698,
+          "post_performance": 0.004196509154951788,
+          "performance_change": -0.02512340426711801
+        },
+        {
+          "date": "1999-04-30 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.0318032611924785,
+          "post_performance": 0.010636452093326785,
+          "performance_change": -0.021166809099151713
+        },
+        {
+          "date": "1999-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.030348840335821036,
+          "post_performance": 0.012500900488217713,
+          "performance_change": -0.01784793984760332
+        },
+        {
+          "date": "1999-06-30 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.020356523611814864,
+          "post_performance": 0.027044613855070683,
+          "performance_change": 0.006688090243255819
+        },
+        {
+          "date": "1999-08-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.00453224632672045,
+          "post_performance": 0.009382116996817071,
+          "performance_change": 0.004849870670096621
+        },
+        {
+          "date": "1999-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.00995451303985967,
+          "post_performance": 0.02513400012263863,
+          "performance_change": 0.01517948708277896
+        },
+        {
+          "date": "1999-11-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.008320667957349384,
+          "post_performance": 0.00961519079435137,
+          "performance_change": 0.0012945228370019862
+        },
+        {
+          "date": "2000-06-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.004954006647838649,
+          "post_performance": -0.0017515271103860294,
+          "performance_change": -0.006705533758224679
+        },
+        {
+          "date": "2000-08-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": 0.009863282366241883,
+          "post_performance": -0.016014109880778355,
+          "performance_change": -0.025877392247020237
+        },
+        {
+          "date": "2000-10-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": -0.0020194983366714652,
+          "post_performance": -0.01626333302339077,
+          "performance_change": -0.014243834686719305
+        },
+        {
+          "date": "2000-11-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.00687212491293705,
+          "post_performance": -0.016920610780595972,
+          "performance_change": -0.02379273569353302
+        },
+        {
+          "date": "2001-07-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": -0.012792714907817663,
+          "post_performance": -0.003954368671121228,
+          "performance_change": 0.008838346236696435
+        },
+        {
+          "date": "2001-11-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.020261444108831267,
+          "post_performance": 0.0013919170698578434,
+          "performance_change": 0.02165336117868911
+        },
+        {
+          "date": "2001-12-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": -0.009322059309416384,
+          "post_performance": -0.017269446125579523,
+          "performance_change": -0.00794738681616314
+        },
+        {
+          "date": "2002-01-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": -0.0026319744813199327,
+          "post_performance": -0.029401366796453665,
+          "performance_change": -0.02676939231513373
+        },
+        {
+          "date": "2002-02-28 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.005687124814687865,
+          "post_performance": -0.027166990037587994,
+          "performance_change": -0.02147986522290013
+        },
+        {
+          "date": "2002-04-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.01913270305617355,
+          "post_performance": -0.03095968200382887,
+          "performance_change": -0.05009238506000242
+        },
+        {
+          "date": "2002-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.031443409223699745,
+          "post_performance": -0.008832453288290786,
+          "performance_change": 0.02261095593540896
+        },
+        {
+          "date": "2003-01-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": -0.013798542294711133,
+          "post_performance": 0.014495536187530514,
+          "performance_change": 0.028294078482241646
+        },
+        {
+          "date": "2003-02-28 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.007979027747979083,
+          "post_performance": 0.022636642700113972,
+          "performance_change": 0.030615670448093053
+        },
+        {
+          "date": "2003-03-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": -0.0117704701861971,
+          "post_performance": 0.023372772869833042,
+          "performance_change": 0.03514324305603014
+        },
+        {
+          "date": "2003-04-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.0081978191385852,
+          "post_performance": 0.03031181262176234,
+          "performance_change": 0.022113993483177143
+        },
+        {
+          "date": "2003-06-30 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.003615949140396016,
+          "post_performance": 0.020803760539990685,
+          "performance_change": 0.01718781139959467
+        },
+        {
+          "date": "2003-07-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.013892275312199382,
+          "post_performance": 0.02099029790880483,
+          "performance_change": 0.00709802259660545
+        },
+        {
+          "date": "2003-10-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.025802293664947365,
+          "post_performance": 0.016418619981550215,
+          "performance_change": -0.00938367368339715
+        },
+        {
+          "date": "2003-12-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.015834628989206984,
+          "post_performance": 0.010752373341795015,
+          "performance_change": -0.005082255647411969
+        },
+        {
+          "date": "2004-02-27 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.02146949732035275,
+          "post_performance": -0.0017681478608368713,
+          "performance_change": -0.02323764518118962
+        },
+        {
+          "date": "2004-03-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Recession",
+          "pre_performance": 0.019042190526890417,
+          "post_performance": -0.0015320582183113714,
+          "performance_change": -0.02057424874520179
+        },
+        {
+          "date": "2004-04-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.019323415795280283,
+          "post_performance": 0.00019493338668519658,
+          "performance_change": -0.019128482408595087
+        },
+        {
+          "date": "2004-06-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.009779718627676884,
+          "post_performance": 0.011082350219475354,
+          "performance_change": 0.0013026315917984699
+        },
+        {
+          "date": "2004-08-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": -0.002802951679253266,
+          "post_performance": 0.014433843868587924,
+          "performance_change": 0.01723679554784119
+        },
+        {
+          "date": "2004-09-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.0029939548119278,
+          "post_performance": 0.01188815690881861,
+          "performance_change": 0.014882111720746409
+        },
+        {
+          "date": "2004-11-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.00039578143460442954,
+          "post_performance": 0.01176442067545144,
+          "performance_change": 0.01136863924084701
+        },
+        {
+          "date": "2004-12-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.005986330079725713,
+          "post_performance": 0.0072092361116402005,
+          "performance_change": 0.0012229060319144877
+        },
+        {
+          "date": "2005-02-28 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.01277856718759906,
+          "post_performance": 0.006242656074875815,
+          "performance_change": -0.006535911112723246
+        },
+        {
+          "date": "2005-03-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.01609937200507566,
+          "post_performance": 0.0036468726020403284,
+          "performance_change": -0.012452499403035331
+        },
+        {
+          "date": "2005-05-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": 0.00805558438228793,
+          "post_performance": 0.014561617366716514,
+          "performance_change": 0.006506032984428584
+        },
+        {
+          "date": "2005-06-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.007022899738520667,
+          "post_performance": 0.007953648072507799,
+          "performance_change": 0.0009307483339871317
+        },
+        {
+          "date": "2005-08-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.010598746176485216,
+          "post_performance": 0.0039600404130847,
+          "performance_change": -0.006638705763400516
+        },
+        {
+          "date": "2005-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.003222181428268266,
+          "post_performance": 0.0085015241053959,
+          "performance_change": 0.005279342677127635
+        },
+        {
+          "date": "2005-10-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.006484540313834333,
+          "post_performance": 0.008914269926878328,
+          "performance_change": 0.002429729613043995
+        },
+        {
+          "date": "2005-11-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.010225583700910116,
+          "post_performance": 0.004602348804735343,
+          "performance_change": -0.005623234896174774
+        },
+        {
+          "date": "2006-01-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.007891380359532867,
+          "post_performance": 0.0002068324197115288,
+          "performance_change": -0.007684547939821338
+        },
+        {
+          "date": "2006-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.0112775744973563,
+          "post_performance": 0.01083201584884247,
+          "performance_change": -0.00044555864851382986
+        },
+        {
+          "date": "2006-06-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": -0.001393562954734584,
+          "post_performance": 0.016983025983252426,
+          "performance_change": 0.01837658893798701
+        },
+        {
+          "date": "2006-10-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.004040516355762633,
+          "post_performance": 0.0168677769720886,
+          "performance_change": 0.01282726061632597
+        },
+        {
+          "date": "2006-11-30 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.008932066561422534,
+          "post_performance": 0.016644080039620555,
+          "performance_change": 0.007712013478198021
+        },
+        {
+          "date": "2007-01-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.01965783617237245,
+          "post_performance": 0.007221887539083572,
+          "performance_change": -0.012435948633288878
+        },
+        {
+          "date": "2007-02-28 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.022153028378059245,
+          "post_performance": 0.0075145741620829,
+          "performance_change": -0.014638454215976347
+        },
+        {
+          "date": "2007-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.013273482862601849,
+          "post_performance": 0.006920078784331758,
+          "performance_change": -0.006353404078270091
+        },
+        {
+          "date": "2007-07-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.012101840476976251,
+          "post_performance": -0.0063173896318265005,
+          "performance_change": -0.018419230108802753
+        },
+        {
+          "date": "2007-08-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Recession",
+          "pre_performance": 0.006490894391106133,
+          "post_performance": -0.006431260903551227,
+          "performance_change": -0.01292215529465736
+        },
+        {
+          "date": "2007-10-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.017170454166310852,
+          "post_performance": -0.008505199809043528,
+          "performance_change": -0.02567565397535438
+        },
+        {
+          "date": "2007-12-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.0019288147314315835,
+          "post_performance": -0.01254945467009863,
+          "performance_change": -0.014478269401530212
+        },
+        {
+          "date": "2008-10-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": -0.011541640567425565,
+          "post_performance": -0.028729360947974614,
+          "performance_change": -0.017187720380549047
+        },
+        {
+          "date": "2009-02-27 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.05161857539195897,
+          "post_performance": 0.03013333758878563,
+          "performance_change": 0.0817519129807446
+        },
+        {
+          "date": "2009-03-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": -0.07105451158249233,
+          "post_performance": 0.048552608382022654,
+          "performance_change": 0.11960711996451498
+        },
+        {
+          "date": "2009-04-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.04485937804392726,
+          "post_performance": 0.03513230554648359,
+          "performance_change": 0.07999168359041085
+        },
+        {
+          "date": "2009-07-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.00888860202155485,
+          "post_performance": 0.0218997367791957,
+          "performance_change": 0.01301113475764085
+        },
+        {
+          "date": "2009-08-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.030717831638503116,
+          "post_performance": 0.015895672380326416,
+          "performance_change": -0.0148221592581767
+        },
+        {
+          "date": "2009-12-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Recession",
+          "pre_performance": 0.03035253637376148,
+          "post_performance": -0.005969007903488387,
+          "performance_change": -0.036321544277249866
+        },
+        {
+          "date": "2010-02-26 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.015421427038614419,
+          "post_performance": 0.0004771503120073551,
+          "performance_change": -0.014944276726607064
+        },
+        {
+          "date": "2010-03-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.014107222228634036,
+          "post_performance": 0.010653764429806827,
+          "performance_change": -0.0034534577988272093
+        },
+        {
+          "date": "2010-04-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.01798729994311937,
+          "post_performance": 0.008422996333279786,
+          "performance_change": -0.009564303609839583
+        },
+        {
+          "date": "2010-06-30 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": -0.0012247154926133842,
+          "post_performance": 0.024717741522990628,
+          "performance_change": 0.025942457015604013
+        },
+        {
+          "date": "2010-11-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.007252080093804201,
+          "post_performance": 0.018745311890568543,
+          "performance_change": 0.011493231796764342
+        },
+        {
+          "date": "2010-12-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.020642407692149412,
+          "post_performance": 0.0185444506560854,
+          "performance_change": -0.002097957036064014
+        },
+        {
+          "date": "2011-01-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.034576492171612135,
+          "post_performance": 0.010380707551331443,
+          "performance_change": -0.024195784620280693
+        },
+        {
+          "date": "2011-03-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.03783114680888037,
+          "post_performance": -0.01049343446836097,
+          "performance_change": -0.04832458127724134
+        },
+        {
+          "date": "2011-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.023235489094326166,
+          "post_performance": -0.0024756525714159858,
+          "performance_change": -0.025711141665742152
+        },
+        {
+          "date": "2011-06-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.02189999050458015,
+          "post_performance": -0.00024601596981684113,
+          "performance_change": -0.02214600647439699
+        },
+        {
+          "date": "2011-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.0021573841056780653,
+          "post_performance": 0.02357644929444904,
+          "performance_change": 0.025733833400127106
+        },
+        {
+          "date": "2011-10-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": -0.0130237878499077,
+          "post_performance": 0.03300728800469383,
+          "performance_change": 0.04603107585460153
+        },
+        {
+          "date": "2011-11-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.00349754852466605,
+          "post_performance": 0.010360688119791375,
+          "performance_change": 0.013858236644457424
+        },
+        {
+          "date": "2012-01-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": -2.2220558972465415e-05,
+          "post_performance": 0.014732059923271316,
+          "performance_change": 0.014754280482243781
+        },
+        {
+          "date": "2012-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.02264949376638717,
+          "post_performance": 5.422643929197257e-05,
+          "performance_change": -0.022595267327095197
+        },
+        {
+          "date": "2012-08-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.009274877897930717,
+          "post_performance": 0.013493210242027655,
+          "performance_change": 0.004218332344096938
+        },
+        {
+          "date": "2012-10-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.0033839340193009848,
+          "post_performance": 0.017289266670353756,
+          "performance_change": 0.013905332651052772
+        },
+        {
+          "date": "2012-11-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": -0.0011370395288771487,
+          "post_performance": 0.0231821993236282,
+          "performance_change": 0.02431923885250535
+        },
+        {
+          "date": "2013-01-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.005404100684913266,
+          "post_performance": 0.026422261208791174,
+          "performance_change": 0.021018160523877907
+        },
+        {
+          "date": "2013-04-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.016760019918816867,
+          "post_performance": 0.018004730640471558,
+          "performance_change": 0.0012447107216546904
+        },
+        {
+          "date": "2013-07-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.021801721019775802,
+          "post_performance": 0.01840313694296646,
+          "performance_change": -0.0033985840768093432
+        },
+        {
+          "date": "2013-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.01445513635610738,
+          "post_performance": 0.02153220952448886,
+          "performance_change": 0.007077073168381479
+        },
+        {
+          "date": "2013-12-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.020782306049905015,
+          "post_performance": 0.009562175095144941,
+          "performance_change": -0.011220130954760073
+        },
+        {
+          "date": "2014-02-28 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.0124460760429803,
+          "post_performance": 0.017010379296312415,
+          "performance_change": 0.004564303253332114
+        },
+        {
+          "date": "2014-03-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.024962361696362286,
+          "post_performance": 0.008082543876614029,
+          "performance_change": -0.016879817819748257
+        },
+        {
+          "date": "2014-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.011743163706235217,
+          "post_performance": 0.008197100944234715,
+          "performance_change": -0.0035460627620005018
+        },
+        {
+          "date": "2014-12-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.013052845788901549,
+          "post_performance": 0.003829538600508714,
+          "performance_change": -0.009223307188392834
+        },
+        {
+          "date": "2015-02-27 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.01026403011507225,
+          "post_performance": 0.0012917868057067009,
+          "performance_change": -0.00897224330936555
+        },
+        {
+          "date": "2015-03-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.0114106709061269,
+          "post_performance": -0.00845812119843777,
+          "performance_change": -0.019868792104564673
+        },
+        {
+          "date": "2015-04-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.011876813618459351,
+          "post_performance": 0.005427167880976115,
+          "performance_change": -0.006449645737483236
+        },
+        {
+          "date": "2015-06-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.0072796016976908,
+          "post_performance": 0.001111062073359157,
+          "performance_change": -0.0061685396243316435
+        },
+        {
+          "date": "2015-07-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.0047253966872667,
+          "post_performance": -0.002870997787197228,
+          "performance_change": -0.007596394474463928
+        },
+        {
+          "date": "2015-08-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Recession",
+          "pre_performance": 0.011738072662680668,
+          "post_performance": -0.005589622333786715,
+          "performance_change": -0.017327694996467382
+        },
+        {
+          "date": "2015-11-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.005508218332528501,
+          "post_performance": 0.002744988264113585,
+          "performance_change": -0.002763230068414916
+        },
+        {
+          "date": "2015-12-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": 0.004053748143827633,
+          "post_performance": 0.0028832131784731706,
+          "performance_change": -0.0011705349653544626
+        },
+        {
+          "date": "2016-03-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.0037097619999383485,
+          "post_performance": 0.0147940361458329,
+          "performance_change": 0.011084274145894552
+        },
+        {
+          "date": "2016-06-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.002490415744889566,
+          "post_performance": 0.008919807805411772,
+          "performance_change": 0.006429392060522206
+        },
+        {
+          "date": "2016-08-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.018650773836982697,
+          "post_performance": 0.01232326778689653,
+          "performance_change": -0.006327506050086168
+        },
+        {
+          "date": "2016-10-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.006640673764409351,
+          "post_performance": 0.01350695456955103,
+          "performance_change": 0.006866280805141679
+        },
+        {
+          "date": "2016-11-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.0038035985835175507,
+          "post_performance": 0.018663473040339027,
+          "performance_change": 0.014859874456821477
+        },
+        {
+          "date": "2017-01-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.009533109476317933,
+          "post_performance": 0.0137326204771235,
+          "performance_change": 0.004199511000805567
+        },
+        {
+          "date": "2017-02-28 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.006502040403533401,
+          "post_performance": 0.012778364717171342,
+          "performance_change": 0.006276324313637941
+        },
+        {
+          "date": "2017-03-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.014676164340100483,
+          "post_performance": 0.009832271974544313,
+          "performance_change": -0.004843892365556169
+        },
+        {
+          "date": "2017-05-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.019142141651901833,
+          "post_performance": 0.01850233773784133,
+          "performance_change": -0.0006398039140605022
+        },
+        {
+          "date": "2017-06-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.016821257529635782,
+          "post_performance": 0.01786047477972167,
+          "performance_change": 0.001039217250085888
+        },
+        {
+          "date": "2017-08-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.013980486726652983,
+          "post_performance": 0.018189728688415775,
+          "performance_change": 0.004209241961762792
+        },
+        {
+          "date": "2017-10-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.011513618028265884,
+          "post_performance": 0.00982472937289416,
+          "performance_change": -0.0016888886553717234
+        },
+        {
+          "date": "2018-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.006654671265122265,
+          "post_performance": 0.006875652620693701,
+          "performance_change": 0.00022098135557143544
+        },
+        {
+          "date": "2018-07-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.0030704822061505335,
+          "post_performance": 0.0025762493150682303,
+          "performance_change": -0.0004942328910823033
+        },
+        {
+          "date": "2018-10-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.016591391637823683,
+          "post_performance": 0.005664761304375729,
+          "performance_change": -0.010926630333447953
+        },
+        {
+          "date": "2018-12-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.0034301898755208313,
+          "post_performance": 0.01575118936653426,
+          "performance_change": 0.012320999491013429
+        },
+        {
+          "date": "2019-01-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": -0.011003549153982132,
+          "post_performance": 0.030112369047008102,
+          "performance_change": 0.04111591820099023
+        },
+        {
+          "date": "2019-02-28 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.0032746559891507813,
+          "post_performance": 0.015697156105600775,
+          "performance_change": 0.018971812094751555
+        },
+        {
+          "date": "2019-04-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.0002792257106033335,
+          "post_performance": 0.011496995513478343,
+          "performance_change": 0.011217769802875008
+        },
+        {
+          "date": "2019-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Recession",
+          "pre_performance": 0.019083136272010085,
+          "post_performance": 0.012418634135175343,
+          "performance_change": -0.006664502136834742
+        },
+        {
+          "date": "2019-07-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.032886790284626086,
+          "post_performance": 0.014819947784319698,
+          "performance_change": -0.018066842500306386
+        },
+        {
+          "date": "2019-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.0110730124248952,
+          "post_performance": -0.01296855992598343,
+          "performance_change": -0.02404157235087863
+        },
+        {
+          "date": "2019-10-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": 0.009648729143510434,
+          "post_performance": 0.0022125539739776406,
+          "performance_change": -0.007436175169532794
+        },
+        {
+          "date": "2019-12-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.025493961343034666,
+          "post_performance": 0.0009843030210601145,
+          "performance_change": -0.02450965832197455
+        },
+        {
+          "date": "2020-03-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": 0.0038987634922141995,
+          "post_performance": 0.02211443517918597,
+          "performance_change": 0.01821567168697177
+        },
+        {
+          "date": "2020-06-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.0007103570973434337,
+          "post_performance": 0.030549505914103943,
+          "performance_change": 0.02983914881676051
+        },
+        {
+          "date": "2021-02-26 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.022457703424664632,
+          "post_performance": 0.03390606536846048,
+          "performance_change": 0.011448361943795851
+        },
+        {
+          "date": "2021-03-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.01630467717611485,
+          "post_performance": 0.02005585521146258,
+          "performance_change": 0.0037511780353477325
+        },
+        {
+          "date": "2021-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.034057003057827495,
+          "post_performance": -0.004396979248313101,
+          "performance_change": -0.0384539823061406
+        },
+        {
+          "date": "2021-11-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.020047822162363782,
+          "post_performance": -0.01797045143569657,
+          "performance_change": -0.038018273598060356
+        },
+        {
+          "date": "2022-01-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.01741003976047625,
+          "post_performance": -0.021950139356213625,
+          "performance_change": -0.039360179116689875
+        },
+        {
+          "date": "2022-02-28 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.0002883073030752493,
+          "post_performance": -0.019294222536526347,
+          "performance_change": -0.019582529839601598
+        },
+        {
+          "date": "2022-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.020684892682216034,
+          "post_performance": 0.0017581743358029997,
+          "performance_change": 0.022443067018019035
+        },
+        {
+          "date": "2022-08-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": -0.014150948782167503,
+          "post_performance": 9.672798736361182e-05,
+          "performance_change": 0.014247676769531115
+        },
+        {
+          "date": "2022-11-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.011032706170950117,
+          "post_performance": 0.01977654719419433,
+          "performance_change": 0.030809253365144444
+        },
+        {
+          "date": "2023-01-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.008113177925799634,
+          "post_performance": 0.031196449769167026,
+          "performance_change": 0.023083271843367392
+        },
+        {
+          "date": "2023-03-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.008471826829037446,
+          "post_performance": 0.01714478455932617,
+          "performance_change": 0.008672957730288722
+        },
+        {
+          "date": "2023-07-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.030150091545144714,
+          "post_performance": 0.017883091169452633,
+          "performance_change": -0.012267000375692082
+        },
+        {
+          "date": "2023-08-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.024672271645134133,
+          "post_performance": 0.021875353880170097,
+          "performance_change": -0.002796917764964036
+        },
+        {
+          "date": "2023-10-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.0119299562027238,
+          "post_performance": 0.027200019387372817,
+          "performance_change": 0.015270063184649017
+        },
+        {
+          "date": "2024-01-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.017099140459512687,
+          "post_performance": 0.023656013232023296,
+          "performance_change": 0.006556872772510609
+        },
+        {
+          "date": "2024-02-29 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.014617839845477917,
+          "post_performance": 0.025439228062949928,
+          "performance_change": 0.01082138821747201
+        },
+        {
+          "date": "2024-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Recession",
+          "pre_performance": 0.03405902492940542,
+          "post_performance": 0.025006995382293586,
+          "performance_change": -0.009052029547111835
+        },
+        {
+          "date": "2024-07-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.026357478972976647,
+          "post_performance": 0.011718368341946343,
+          "performance_change": -0.014639110631030305
+        },
+        {
+          "date": "2024-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.01877569305872105,
+          "post_performance": -0.003753395250828886,
+          "performance_change": -0.022529088309549933
+        },
+        {
+          "date": "2024-10-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.016202478944436886,
+          "post_performance": -0.006632968559694814,
+          "performance_change": -0.0228354475041317
+        },
+        {
+          "date": "2025-01-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.008729760477747267,
+          "post_performance": 0.0002774985660136606,
+          "performance_change": -0.008452261911733606
+        },
+        {
+          "date": "2025-02-28 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.012430226601220201,
+          "post_performance": -0.0070656306742681255,
+          "performance_change": -0.019495857275488325
+        },
+        {
+          "date": "2025-03-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Recession",
+          "pre_performance": 0.004972315967573217,
+          "post_performance": -0.006194786046923101,
+          "performance_change": -0.011167102014496317
+        },
+        {
+          "date": "2025-04-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.0062669747113881505,
+          "post_performance": 0.0187616522102361,
+          "performance_change": 0.02502862692162425
+        }
+      ],
+      "total_transitions_analyzed": 147
+    },
+    "MinVol": {
+      "average_pre_transition": 0.00801345708516123,
+      "average_post_transition": 0.008196625113762096,
+      "average_change": 0.00018316802860086565,
+      "volatility_pre": 0.01359487159186692,
+      "volatility_post": 0.01111306926096797,
+      "volatility_change": -0.0024818023308989506,
+      "statistical_significance": {
+        "t_statistic": 0.11163170309800008,
+        "p_value": 0.9112687572882081,
+        "is_significant": "False"
+      },
+      "transition_details": [
+        {
+          "date": "1999-02-26 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.02805161758132385,
+          "post_performance": 0.001462357749098043,
+          "performance_change": -0.02658925983222581
+        },
+        {
+          "date": "1999-03-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.0100814995822488,
+          "post_performance": 0.00010237160106337259,
+          "performance_change": -0.009979127981185427
+        },
+        {
+          "date": "1999-04-30 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.012997828261769501,
+          "post_performance": 0.005608250485368642,
+          "performance_change": -0.007389577776400859
+        },
+        {
+          "date": "1999-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.019352952751696163,
+          "post_performance": -0.0011642630486724144,
+          "performance_change": -0.02051721580036858
+        },
+        {
+          "date": "1999-06-30 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.014704467026119952,
+          "post_performance": 0.004711591633824744,
+          "performance_change": -0.009992875392295208
+        },
+        {
+          "date": "1999-08-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.004522256390269183,
+          "post_performance": -0.007025536493673728,
+          "performance_change": -0.011547792883942911
+        },
+        {
+          "date": "1999-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.006015873443264601,
+          "post_performance": 0.009001384465241045,
+          "performance_change": 0.002985511021976444
+        },
+        {
+          "date": "1999-11-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": -0.0009192828856370502,
+          "post_performance": 0.0030772062758170015,
+          "performance_change": 0.003996489161454052
+        },
+        {
+          "date": "2000-06-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.0040290979929339344,
+          "post_performance": 0.006461881725676314,
+          "performance_change": 0.00243278373274238
+        },
+        {
+          "date": "2000-08-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": 0.001894508753850884,
+          "post_performance": 0.0022982215893157997,
+          "performance_change": 0.00040371283546491565
+        },
+        {
+          "date": "2000-10-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.0023553071783388997,
+          "post_performance": -0.0031216428242297,
+          "performance_change": -0.005476950002568599
+        },
+        {
+          "date": "2000-11-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.005841114700313133,
+          "post_performance": -0.002357698637950059,
+          "performance_change": -0.008198813338263191
+        },
+        {
+          "date": "2001-07-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": -0.009337834456288567,
+          "post_performance": -0.003729667767259029,
+          "performance_change": 0.005608166689029538
+        },
+        {
+          "date": "2001-11-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.017942662310148218,
+          "post_performance": 0.010203993045528539,
+          "performance_change": 0.02814665535567676
+        },
+        {
+          "date": "2001-12-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": -0.011898472680481867,
+          "post_performance": -0.0055685848601892286,
+          "performance_change": 0.006329887820292639
+        },
+        {
+          "date": "2002-01-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": -0.0029652905657795176,
+          "post_performance": -0.01687706759156193,
+          "performance_change": -0.013911777025782413
+        },
+        {
+          "date": "2002-02-28 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.005633818189878118,
+          "post_performance": -0.014357559147301956,
+          "performance_change": -0.008723740957423839
+        },
+        {
+          "date": "2002-04-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.015781156755476398,
+          "post_performance": -0.028114019522371327,
+          "performance_change": -0.043895176277847725
+        },
+        {
+          "date": "2002-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.01878601949800375,
+          "post_performance": -0.013289200998002513,
+          "performance_change": 0.005496818500001237
+        },
+        {
+          "date": "2003-01-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": -0.016815366910015898,
+          "post_performance": 0.010988341665101058,
+          "performance_change": 0.027803708575116957
+        },
+        {
+          "date": "2003-02-28 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.011604838618790164,
+          "post_performance": 0.016918070456888385,
+          "performance_change": 0.02852290907567855
+        },
+        {
+          "date": "2003-03-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": -0.01692512297651423,
+          "post_performance": 0.0197404961966725,
+          "performance_change": 0.03666561917318673
+        },
+        {
+          "date": "2003-04-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.00046220493149968486,
+          "post_performance": 0.0248850555032692,
+          "performance_change": 0.024422850571769517
+        },
+        {
+          "date": "2003-06-30 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.0075491856432435,
+          "post_performance": 0.017563041691341673,
+          "performance_change": 0.010013856048098173
+        },
+        {
+          "date": "2003-07-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.012295583341359452,
+          "post_performance": 0.018386711590974467,
+          "performance_change": 0.006091128249615016
+        },
+        {
+          "date": "2003-10-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.02160952375060662,
+          "post_performance": 0.017576141929124555,
+          "performance_change": -0.0040333818214820655
+        },
+        {
+          "date": "2003-12-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.012557019839938002,
+          "post_performance": 0.012432767580832671,
+          "performance_change": -0.00012425225910533098
+        },
+        {
+          "date": "2004-02-27 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.0209270149215451,
+          "post_performance": 0.0036227718470021137,
+          "performance_change": -0.017304243074542987
+        },
+        {
+          "date": "2004-03-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Recession",
+          "pre_performance": 0.02283882909741197,
+          "post_performance": 0.001935264470127314,
+          "performance_change": -0.020903564627284654
+        },
+        {
+          "date": "2004-04-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.022782981950833198,
+          "post_performance": 0.004136208197683486,
+          "performance_change": -0.01864677375314971
+        },
+        {
+          "date": "2004-06-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.0122800221498615,
+          "post_performance": 0.01601470984070994,
+          "performance_change": 0.0037346876908484414
+        },
+        {
+          "date": "2004-08-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": 0.00041244502964596597,
+          "post_performance": 0.017922896857392456,
+          "performance_change": 0.01751045182774649
+        },
+        {
+          "date": "2004-09-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.0008935179158980327,
+          "post_performance": 0.013246940561176644,
+          "performance_change": 0.012353422645278611
+        },
+        {
+          "date": "2004-11-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.007103059264151951,
+          "post_performance": 0.013634922387413527,
+          "performance_change": 0.006531863123261576
+        },
+        {
+          "date": "2004-12-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.013084577224539548,
+          "post_performance": 0.007974821976287957,
+          "performance_change": -0.005109755248251592
+        },
+        {
+          "date": "2005-02-28 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.017371939669132367,
+          "post_performance": 0.008122380436317814,
+          "performance_change": -0.009249559232814553
+        },
+        {
+          "date": "2005-03-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.017095924208434702,
+          "post_performance": 0.005684891878034685,
+          "performance_change": -0.011411032330400018
+        },
+        {
+          "date": "2005-05-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": 0.012250293829912448,
+          "post_performance": 0.009266571220454727,
+          "performance_change": -0.0029837226094577216
+        },
+        {
+          "date": "2005-06-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.0084489704255202,
+          "post_performance": 0.0069603474530357725,
+          "performance_change": -0.0014886229724844283
+        },
+        {
+          "date": "2005-08-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.011298897753635016,
+          "post_performance": 0.0059881806685341,
+          "performance_change": -0.005310717085100916
+        },
+        {
+          "date": "2005-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.0059380038445452825,
+          "post_performance": 0.008502481551193672,
+          "performance_change": 0.002564477706648389
+        },
+        {
+          "date": "2005-10-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.008273534078102416,
+          "post_performance": 0.008771748341834371,
+          "performance_change": 0.000498214263731955
+        },
+        {
+          "date": "2005-11-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.005796789395475183,
+          "post_performance": 0.008013924102123744,
+          "performance_change": 0.002217134706648561
+        },
+        {
+          "date": "2006-01-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.007265416815059316,
+          "post_performance": 0.0069185186232931855,
+          "performance_change": -0.00034689819176613075
+        },
+        {
+          "date": "2006-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.012512726377102351,
+          "post_performance": 0.012886822182905327,
+          "performance_change": 0.00037409580580297606
+        },
+        {
+          "date": "2006-06-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.004335367757422365,
+          "post_performance": 0.01725946079168687,
+          "performance_change": 0.012924093034264506
+        },
+        {
+          "date": "2006-10-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.008012089552377017,
+          "post_performance": 0.015418100003065986,
+          "performance_change": 0.007406010450688968
+        },
+        {
+          "date": "2006-11-30 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.011887538840817698,
+          "post_performance": 0.014925702375574916,
+          "performance_change": 0.0030381635347572176
+        },
+        {
+          "date": "2007-01-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.018689239019852682,
+          "post_performance": 0.001771433726412943,
+          "performance_change": -0.01691780529343974
+        },
+        {
+          "date": "2007-02-28 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.018354452564437067,
+          "post_performance": 0.0022217184382511434,
+          "performance_change": -0.016132734126185922
+        },
+        {
+          "date": "2007-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.013103819446226968,
+          "post_performance": 0.001346305879154115,
+          "performance_change": -0.011757513567072853
+        },
+        {
+          "date": "2007-07-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.007213857887206816,
+          "post_performance": -0.006253514179224,
+          "performance_change": -0.013467372066430817
+        },
+        {
+          "date": "2007-08-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Recession",
+          "pre_performance": -0.0008545008231548497,
+          "post_performance": -0.006132002971512185,
+          "performance_change": -0.005277502148357335
+        },
+        {
+          "date": "2007-10-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.00975497585801445,
+          "post_performance": -0.008239571326731506,
+          "performance_change": -0.017994547184745954
+        },
+        {
+          "date": "2007-12-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.0027388097995973,
+          "post_performance": -0.01458931795869019,
+          "performance_change": -0.01185050815909289
+        },
+        {
+          "date": "2008-10-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": -0.0008056570658659997,
+          "post_performance": -0.034736151286284316,
+          "performance_change": -0.033930494220418314
+        },
+        {
+          "date": "2009-02-27 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.04932951059773805,
+          "post_performance": 0.027270777102633655,
+          "performance_change": 0.0766002877003717
+        },
+        {
+          "date": "2009-03-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": -0.06849450267640736,
+          "post_performance": 0.0460038193497904,
+          "performance_change": 0.11449832202619775
+        },
+        {
+          "date": "2009-04-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.05264467580234323,
+          "post_performance": 0.03295481332144594,
+          "performance_change": 0.08559948912378917
+        },
+        {
+          "date": "2009-07-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.0014301594168703512,
+          "post_performance": 0.022004921179380854,
+          "performance_change": 0.020574761762510503
+        },
+        {
+          "date": "2009-08-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.026785194184220346,
+          "post_performance": 0.016048500893963372,
+          "performance_change": -0.010736693290256973
+        },
+        {
+          "date": "2009-12-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Recession",
+          "pre_performance": 0.028522237960160648,
+          "post_performance": -0.002013750802940972,
+          "performance_change": -0.03053598876310162
+        },
+        {
+          "date": "2010-02-26 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.01518747802040475,
+          "post_performance": 0.003809654408714329,
+          "performance_change": -0.011377823611690421
+        },
+        {
+          "date": "2010-03-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.013692538607438352,
+          "post_performance": 0.010936423648697529,
+          "performance_change": -0.0027561149587408233
+        },
+        {
+          "date": "2010-04-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.014028802294285181,
+          "post_performance": 0.01030169894680577,
+          "performance_change": -0.0037271033474794105
+        },
+        {
+          "date": "2010-06-30 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.0003368763976653993,
+          "post_performance": 0.023302106300972843,
+          "performance_change": 0.022965229903307443
+        },
+        {
+          "date": "2010-11-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.010578011544844348,
+          "post_performance": 0.019662294368682044,
+          "performance_change": 0.009084282823837695
+        },
+        {
+          "date": "2010-12-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.018924532666855932,
+          "post_performance": 0.019229558439016945,
+          "performance_change": 0.00030502577216101265
+        },
+        {
+          "date": "2011-01-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.029872043018898186,
+          "post_performance": 0.007395329413169271,
+          "performance_change": -0.022476713605728914
+        },
+        {
+          "date": "2011-03-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.029045338597870365,
+          "post_performance": -0.0010330679290177721,
+          "performance_change": -0.030078406526888136
+        },
+        {
+          "date": "2011-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.021109199117728916,
+          "post_performance": 0.002027457740206499,
+          "performance_change": -0.019081741377522415
+        },
+        {
+          "date": "2011-06-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.024333264224720486,
+          "post_performance": 0.004216957857433528,
+          "performance_change": -0.020116306367286958
+        },
+        {
+          "date": "2011-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.003279958992163583,
+          "post_performance": 0.019885416413662944,
+          "performance_change": 0.01660545742149936
+        },
+        {
+          "date": "2011-10-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": -0.003829653253456433,
+          "post_performance": 0.025683046757125468,
+          "performance_change": 0.0295127000105819
+        },
+        {
+          "date": "2011-11-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.00042435365435848177,
+          "post_performance": 0.012751027830026502,
+          "performance_change": 0.012326674175668021
+        },
+        {
+          "date": "2012-01-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.006818563546206499,
+          "post_performance": 0.015620037130802528,
+          "performance_change": 0.008801473584596028
+        },
+        {
+          "date": "2012-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.019004590915767134,
+          "post_performance": 0.005758129685610329,
+          "performance_change": -0.013246461230156804
+        },
+        {
+          "date": "2012-08-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.015778753119882503,
+          "post_performance": 0.010987816798444214,
+          "performance_change": -0.004790936321438288
+        },
+        {
+          "date": "2012-10-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.010311605520484117,
+          "post_performance": 0.020081499584857773,
+          "performance_change": 0.009769894064373655
+        },
+        {
+          "date": "2012-11-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.0063936292737813176,
+          "post_performance": 0.017999462967718285,
+          "performance_change": 0.011605833693936966
+        },
+        {
+          "date": "2013-01-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.0029825580063985667,
+          "post_performance": 0.023629059579627316,
+          "performance_change": 0.02064650157322875
+        },
+        {
+          "date": "2013-04-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.018869816958961567,
+          "post_performance": 0.010978497549007201,
+          "performance_change": -0.007891319409954366
+        },
+        {
+          "date": "2013-07-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.021487099687633033,
+          "post_performance": 0.010447981920447729,
+          "performance_change": -0.011039117767185304
+        },
+        {
+          "date": "2013-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.009192932401711982,
+          "post_performance": 0.017261986591673887,
+          "performance_change": 0.008069054189961905
+        },
+        {
+          "date": "2013-12-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.01455087246348505,
+          "post_performance": 0.010452140805543856,
+          "performance_change": -0.004098731657941194
+        },
+        {
+          "date": "2014-02-28 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.006109175751923518,
+          "post_performance": 0.0165885113841025,
+          "performance_change": 0.010479335632178982
+        },
+        {
+          "date": "2014-03-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.018755150257882634,
+          "post_performance": 0.009267722778842927,
+          "performance_change": -0.009487427479039707
+        },
+        {
+          "date": "2014-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.012081063161920732,
+          "post_performance": 0.013654573986689131,
+          "performance_change": 0.0015735108247683996
+        },
+        {
+          "date": "2014-12-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.018086979011327598,
+          "post_performance": 0.0012363031346015855,
+          "performance_change": -0.016850675876726014
+        },
+        {
+          "date": "2015-02-27 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.017810702337999553,
+          "post_performance": 0.0010145544219837582,
+          "performance_change": -0.016796147916015795
+        },
+        {
+          "date": "2015-03-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.017137736938131868,
+          "post_performance": -0.005027039622523599,
+          "performance_change": -0.022164776560655467
+        },
+        {
+          "date": "2015-04-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.0171990562377413,
+          "post_performance": 0.004595931206120986,
+          "performance_change": -0.012603125031620314
+        },
+        {
+          "date": "2015-06-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.005142014129981283,
+          "post_performance": 0.00426122113540083,
+          "performance_change": -0.0008807929945804528
+        },
+        {
+          "date": "2015-07-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.0012484003126844,
+          "post_performance": 0.005443396029393086,
+          "performance_change": 0.004194995716708685
+        },
+        {
+          "date": "2015-08-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Recession",
+          "pre_performance": 0.008693406625309034,
+          "post_performance": 0.0013100214552917283,
+          "performance_change": -0.007383385170017306
+        },
+        {
+          "date": "2015-11-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.006288608499576118,
+          "post_performance": 0.010211535895283428,
+          "performance_change": 0.00392292739570731
+        },
+        {
+          "date": "2015-12-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": 0.004113265405127518,
+          "post_performance": 0.01708810033056003,
+          "performance_change": 0.012974834925432511
+        },
+        {
+          "date": "2016-03-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.009038118164168331,
+          "post_performance": 0.01517842841634087,
+          "performance_change": 0.006140310252172539
+        },
+        {
+          "date": "2016-06-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.012305671960020817,
+          "post_performance": 0.005248126374013827,
+          "performance_change": -0.00705754558600699
+        },
+        {
+          "date": "2016-08-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.02386171302066657,
+          "post_performance": 0.004989742593127485,
+          "performance_change": -0.018871970427539082
+        },
+        {
+          "date": "2016-10-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.007687159497964383,
+          "post_performance": 0.010947225642564671,
+          "performance_change": 0.003260066144600288
+        },
+        {
+          "date": "2016-11-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.003759271701560867,
+          "post_performance": 0.017924234857051902,
+          "performance_change": 0.014164963155491036
+        },
+        {
+          "date": "2017-01-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": -0.0015076309892830843,
+          "post_performance": 0.01591570939144601,
+          "performance_change": 0.017423340380729097
+        },
+        {
+          "date": "2017-02-28 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.0017675627129343666,
+          "post_performance": 0.015210287547187841,
+          "performance_change": 0.016977850260122208
+        },
+        {
+          "date": "2017-03-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.0090724183050234,
+          "post_performance": 0.009471289406127284,
+          "performance_change": 0.00039887110110388424
+        },
+        {
+          "date": "2017-05-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.017448993685241315,
+          "post_performance": 0.0144699155602555,
+          "performance_change": -0.0029790781249858147
+        },
+        {
+          "date": "2017-06-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.019848405488637998,
+          "post_performance": 0.011796843674918086,
+          "performance_change": -0.008051561813719911
+        },
+        {
+          "date": "2017-08-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.01636496055577345,
+          "post_performance": 0.008487197042324044,
+          "performance_change": -0.007877763513449406
+        },
+        {
+          "date": "2017-10-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.010851471103200018,
+          "post_performance": 0.006314377055494572,
+          "performance_change": -0.004537094047705446
+        },
+        {
+          "date": "2018-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.0041437973601093,
+          "post_performance": 0.014552871379946899,
+          "performance_change": 0.010409074019837598
+        },
+        {
+          "date": "2018-07-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.0032114052142653005,
+          "post_performance": 0.008676255507079716,
+          "performance_change": 0.005464850292814415
+        },
+        {
+          "date": "2018-10-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.017582074932230768,
+          "post_performance": 0.010054032647591386,
+          "performance_change": -0.007528042284639382
+        },
+        {
+          "date": "2018-12-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.015146665558826251,
+          "post_performance": 0.015382107714131385,
+          "performance_change": 0.00023544215530513397
+        },
+        {
+          "date": "2019-01-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.0005130490653050013,
+          "post_performance": 0.02786849067208783,
+          "performance_change": 0.027355441606782827
+        },
+        {
+          "date": "2019-02-28 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.0045174099796929336,
+          "post_performance": 0.022013895085766556,
+          "performance_change": 0.01749648510607362
+        },
+        {
+          "date": "2019-04-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.008061124762507784,
+          "post_performance": 0.013843912380268728,
+          "performance_change": 0.005782787617760944
+        },
+        {
+          "date": "2019-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Recession",
+          "pre_performance": 0.01843275657800998,
+          "post_performance": 0.01259702838699337,
+          "performance_change": -0.005835728191016612
+        },
+        {
+          "date": "2019-07-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.029778996691440584,
+          "post_performance": 0.013719816838525842,
+          "performance_change": -0.016059179852914742
+        },
+        {
+          "date": "2019-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.0193731272272951,
+          "post_performance": -0.019579232456671918,
+          "performance_change": -0.038952359683967014
+        },
+        {
+          "date": "2019-10-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": 0.016434954632031883,
+          "post_performance": -0.007601321885943757,
+          "performance_change": -0.02403627651797564
+        },
+        {
+          "date": "2019-12-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.017367432567717948,
+          "post_performance": -0.004526444894425215,
+          "performance_change": -0.021893877462143163
+        },
+        {
+          "date": "2020-03-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": -0.003015959074627416,
+          "post_performance": 0.009242793427622584,
+          "performance_change": 0.01225875250225
+        },
+        {
+          "date": "2020-06-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": -0.003521149443000568,
+          "post_performance": 0.016873585663195297,
+          "performance_change": 0.020394735106195865
+        },
+        {
+          "date": "2021-02-26 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.009477117444506083,
+          "post_performance": 0.0247197194166638,
+          "performance_change": 0.015242601972157715
+        },
+        {
+          "date": "2021-03-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.0040605470352224485,
+          "post_performance": 0.018159489672159402,
+          "performance_change": 0.014098942636936954
+        },
+        {
+          "date": "2021-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.029473131491534268,
+          "post_performance": 0.0026533978717612435,
+          "performance_change": -0.026819733619773023
+        },
+        {
+          "date": "2021-11-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.014328322082363315,
+          "post_performance": -0.005584781548562142,
+          "performance_change": -0.01991310363092546
+        },
+        {
+          "date": "2022-01-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.017923527834277402,
+          "post_performance": -0.011018978328158487,
+          "performance_change": -0.02894250616243589
+        },
+        {
+          "date": "2022-02-28 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.002280852475372451,
+          "post_performance": -0.00695945375623997,
+          "performance_change": -0.00924030623161242
+        },
+        {
+          "date": "2022-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.006495405289212916,
+          "post_performance": 0.0062523961622669875,
+          "performance_change": 0.012747801451479903
+        },
+        {
+          "date": "2022-08-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": -0.0030285207021614816,
+          "post_performance": -0.003300794885228998,
+          "performance_change": -0.0002722741830675163
+        },
+        {
+          "date": "2022-11-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.0023406032530702303,
+          "post_performance": 0.0024665723569830445,
+          "performance_change": 0.004807175610053275
+        },
+        {
+          "date": "2023-01-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.00792276394739027,
+          "post_performance": 0.007928489158933658,
+          "performance_change": 5.7252115433885364e-06
+        },
+        {
+          "date": "2023-03-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.0012399146473513177,
+          "post_performance": 0.0059099475540357145,
+          "performance_change": 0.004670032906684397
+        },
+        {
+          "date": "2023-07-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.006989652810338435,
+          "post_performance": 0.011349703133455128,
+          "performance_change": 0.004360050323116693
+        },
+        {
+          "date": "2023-08-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.006790422204737685,
+          "post_performance": 0.012403820203995998,
+          "performance_change": 0.005613397999258313
+        },
+        {
+          "date": "2023-10-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.0012705152945977002,
+          "post_performance": 0.01645271238852607,
+          "performance_change": 0.01518219709392837
+        },
+        {
+          "date": "2024-01-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.009484097602526699,
+          "post_performance": 0.017356328024447698,
+          "performance_change": 0.007872230421920999
+        },
+        {
+          "date": "2024-02-29 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.010981069113946815,
+          "post_performance": 0.021201761775690397,
+          "performance_change": 0.010220692661743582
+        },
+        {
+          "date": "2024-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Recession",
+          "pre_performance": 0.02061520124003838,
+          "post_performance": 0.024729578527735885,
+          "performance_change": 0.004114377287697504
+        },
+        {
+          "date": "2024-07-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.014022305003346799,
+          "post_performance": 0.0153165646018406,
+          "performance_change": 0.0012942595984938004
+        },
+        {
+          "date": "2024-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.02124533428092362,
+          "post_performance": 0.006061379973632014,
+          "performance_change": -0.015183954307291605
+        },
+        {
+          "date": "2024-10-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.016712545884635503,
+          "post_performance": 0.0037459678185737125,
+          "performance_change": -0.012966578066061791
+        },
+        {
+          "date": "2025-01-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.011874197390354868,
+          "post_performance": 0.011471665543465279,
+          "performance_change": -0.0004025318468895891
+        },
+        {
+          "date": "2025-02-28 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.011642581010305181,
+          "post_performance": 0.005346889961642851,
+          "performance_change": -0.00629569104866233
+        },
+        {
+          "date": "2025-03-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Recession",
+          "pre_performance": 0.0080702617515991,
+          "post_performance": -0.0022132990596389,
+          "performance_change": -0.010283560811238
+        },
+        {
+          "date": "2025-04-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.006342251432216599,
+          "post_performance": -0.00032399324237309974,
+          "performance_change": -0.006666244674589698
+        }
+      ],
+      "total_transitions_analyzed": 147
+    },
+    "Momentum": {
+      "average_pre_transition": 0.009829288970641059,
+      "average_post_transition": 0.011829764710879886,
+      "average_change": 0.0020004757402388267,
+      "volatility_pre": 0.020117870919539264,
+      "volatility_post": 0.01573628402549665,
+      "volatility_change": -0.004381586894042614,
+      "statistical_significance": {
+        "t_statistic": 0.8908568368140005,
+        "p_value": 0.3744716920029726,
+        "is_significant": "False"
+      },
+      "transition_details": [
+        {
+          "date": "1999-02-26 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.0726690903325424,
+          "post_performance": 0.00745293540337217,
+          "performance_change": -0.06521615492917024
+        },
+        {
+          "date": "1999-03-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.04022890835881243,
+          "post_performance": 0.010637769757260286,
+          "performance_change": -0.029591138601552144
+        },
+        {
+          "date": "1999-04-30 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.04464214130971425,
+          "post_performance": 0.014201537726534442,
+          "performance_change": -0.030440603583179807
+        },
+        {
+          "date": "1999-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.03630408566505784,
+          "post_performance": 0.019696310850419556,
+          "performance_change": -0.016607774814638286
+        },
+        {
+          "date": "1999-06-30 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.02566607797429375,
+          "post_performance": 0.04426079901149234,
+          "performance_change": 0.01859472103719859
+        },
+        {
+          "date": "1999-08-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.009413387554429798,
+          "post_performance": 0.03266130247571763,
+          "performance_change": 0.023247914921287832
+        },
+        {
+          "date": "1999-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.012803667235375451,
+          "post_performance": 0.0465623036986495,
+          "performance_change": 0.033758636463274046
+        },
+        {
+          "date": "1999-11-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.016076483499884817,
+          "post_performance": 0.01878448540492334,
+          "performance_change": 0.002708001905038525
+        },
+        {
+          "date": "2000-06-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.015012687146805903,
+          "post_performance": -0.0032150305112039696,
+          "performance_change": -0.018227717658009873
+        },
+        {
+          "date": "2000-08-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": 0.009493659566007418,
+          "post_performance": -0.026598608410387574,
+          "performance_change": -0.03609226797639499
+        },
+        {
+          "date": "2000-10-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": -0.013782213955442097,
+          "post_performance": -0.025573326632702002,
+          "performance_change": -0.011791112677259906
+        },
+        {
+          "date": "2000-11-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.01256333159715728,
+          "post_performance": -0.01897078981601481,
+          "performance_change": -0.006407458218857529
+        },
+        {
+          "date": "2001-07-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": -0.02632699483876294,
+          "post_performance": -0.00040344352905045657,
+          "performance_change": 0.025923551309712484
+        },
+        {
+          "date": "2001-11-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.021913230007917783,
+          "post_performance": 0.020573840956413614,
+          "performance_change": 0.042487070964331394
+        },
+        {
+          "date": "2001-12-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": -0.011141631725984452,
+          "post_performance": 0.0038863157331537135,
+          "performance_change": 0.015027947459138165
+        },
+        {
+          "date": "2002-01-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": -0.0025990439447005492,
+          "post_performance": -0.007288116253155929,
+          "performance_change": -0.00468907230845538
+        },
+        {
+          "date": "2002-02-28 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.000126445395866834,
+          "post_performance": -0.007258061275516657,
+          "performance_change": -0.007131615879649823
+        },
+        {
+          "date": "2002-04-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.022560377861044967,
+          "post_performance": -0.02143019828970127,
+          "performance_change": -0.04399057615074624
+        },
+        {
+          "date": "2002-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.010184446675108066,
+          "post_performance": -0.014328788321960459,
+          "performance_change": -0.004144341646852392
+        },
+        {
+          "date": "2003-01-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": -0.022120232082699972,
+          "post_performance": 0.019514048905477557,
+          "performance_change": 0.04163428098817753
+        },
+        {
+          "date": "2003-02-28 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.014962107288678436,
+          "post_performance": 0.024086919504910386,
+          "performance_change": 0.03904902679358882
+        },
+        {
+          "date": "2003-03-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": -0.018508408090986885,
+          "post_performance": 0.024240703783656028,
+          "performance_change": 0.04274911187464291
+        },
+        {
+          "date": "2003-04-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Goldilocks",
+          "pre_performance": -0.0059147676922299995,
+          "post_performance": 0.03170088309682635,
+          "performance_change": 0.03761565078905635
+        },
+        {
+          "date": "2003-06-30 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.012129241475758315,
+          "post_performance": 0.020800907527121573,
+          "performance_change": 0.008671666051363257
+        },
+        {
+          "date": "2003-07-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.018204657928451152,
+          "post_performance": 0.02204424511771037,
+          "performance_change": 0.003839587189259218
+        },
+        {
+          "date": "2003-10-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.026489332698899012,
+          "post_performance": 0.012113305653135759,
+          "performance_change": -0.014376027045763254
+        },
+        {
+          "date": "2003-12-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.02061691823882635,
+          "post_performance": 0.009678078748617643,
+          "performance_change": -0.010938839490208706
+        },
+        {
+          "date": "2004-02-27 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.02115655350938943,
+          "post_performance": -0.0030163753843089154,
+          "performance_change": -0.024172928893698348
+        },
+        {
+          "date": "2004-03-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Recession",
+          "pre_performance": 0.021099381663871385,
+          "post_performance": 0.0028058656722595283,
+          "performance_change": -0.01829351599161186
+        },
+        {
+          "date": "2004-04-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.021509453608281853,
+          "post_performance": 0.004598504749315371,
+          "performance_change": -0.016910948858966483
+        },
+        {
+          "date": "2004-06-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.0061058701774824005,
+          "post_performance": 0.021296337000599703,
+          "performance_change": 0.015190466823117303
+        },
+        {
+          "date": "2004-08-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": -0.004816134655716951,
+          "post_performance": 0.029569151638338703,
+          "performance_change": 0.034385286294055656
+        },
+        {
+          "date": "2004-09-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.00581511836993465,
+          "post_performance": 0.027066274143413505,
+          "performance_change": 0.03288139251334815
+        },
+        {
+          "date": "2004-11-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.012742185887158067,
+          "post_performance": 0.018102052020362573,
+          "performance_change": 0.005359866133204506
+        },
+        {
+          "date": "2004-12-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.02152195860830435,
+          "post_performance": 0.012300406940193015,
+          "performance_change": -0.009221551668111333
+        },
+        {
+          "date": "2005-02-28 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.02448071674714722,
+          "post_performance": 0.020784073579210728,
+          "performance_change": -0.0036966431679364906
+        },
+        {
+          "date": "2005-03-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.03320031353737194,
+          "post_performance": 0.017982026356410642,
+          "performance_change": -0.015218287180961299
+        },
+        {
+          "date": "2005-05-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": 0.014695329360511081,
+          "post_performance": 0.025064940523622476,
+          "performance_change": 0.010369611163111395
+        },
+        {
+          "date": "2005-06-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.008196949508593085,
+          "post_performance": 0.0220574505137461,
+          "performance_change": 0.013860501005153016
+        },
+        {
+          "date": "2005-08-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.02139199357661607,
+          "post_performance": 0.01485544539739893,
+          "performance_change": -0.006536548179217139
+        },
+        {
+          "date": "2005-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.014231459011497916,
+          "post_performance": 0.014994523451154845,
+          "performance_change": 0.0007630644396569297
+        },
+        {
+          "date": "2005-10-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.022602024452535268,
+          "post_performance": 0.010896535242269243,
+          "performance_change": -0.011705489210266025
+        },
+        {
+          "date": "2005-11-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.023998582930212318,
+          "post_performance": 0.009340287339518957,
+          "performance_change": -0.01465829559069336
+        },
+        {
+          "date": "2006-01-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.019580167011071688,
+          "post_performance": -0.0009972147157260134,
+          "performance_change": -0.0205773817267977
+        },
+        {
+          "date": "2006-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.01781140576561305,
+          "post_performance": 0.005259603731219142,
+          "performance_change": -0.012551802034393909
+        },
+        {
+          "date": "2006-06-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.005653154215424884,
+          "post_performance": 0.013205177529802483,
+          "performance_change": 0.007552023314377599
+        },
+        {
+          "date": "2006-10-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": -0.006833630524327716,
+          "post_performance": 0.0248438421990046,
+          "performance_change": 0.031677472723332316
+        },
+        {
+          "date": "2006-11-30 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": -0.0007388022824047005,
+          "post_performance": 0.023076648947284128,
+          "performance_change": 0.02381545122968883
+        },
+        {
+          "date": "2007-01-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.013869555570661616,
+          "post_performance": 0.006615910420252571,
+          "performance_change": -0.007253645150409045
+        },
+        {
+          "date": "2007-02-28 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.025668754941894096,
+          "post_performance": 0.0030007746233388414,
+          "performance_change": -0.022667980318555256
+        },
+        {
+          "date": "2007-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.02092306882963438,
+          "post_performance": 0.010062515492492529,
+          "performance_change": -0.010860553337141853
+        },
+        {
+          "date": "2007-07-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.013127938487733233,
+          "post_performance": -0.0032391324635888874,
+          "performance_change": -0.01636707095132212
+        },
+        {
+          "date": "2007-08-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Recession",
+          "pre_performance": 0.001357426065219215,
+          "post_performance": 0.0008231523559347525,
+          "performance_change": -0.0005342737092844624
+        },
+        {
+          "date": "2007-10-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.016299535253515,
+          "post_performance": 0.00031423836264868533,
+          "performance_change": -0.015985296890866314
+        },
+        {
+          "date": "2007-12-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.005739913132377517,
+          "post_performance": 0.002613669107823202,
+          "performance_change": -0.003126244024554315
+        },
+        {
+          "date": "2008-10-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": -0.023898923337563164,
+          "post_performance": -0.040360919043129155,
+          "performance_change": -0.01646199570556599
+        },
+        {
+          "date": "2009-02-27 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.07786176863476572,
+          "post_performance": 0.023999435523764902,
+          "performance_change": 0.10186120415853063
+        },
+        {
+          "date": "2009-03-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": -0.0931174611691772,
+          "post_performance": 0.043623122521329084,
+          "performance_change": 0.1367405836905063
+        },
+        {
+          "date": "2009-04-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.05672040850209753,
+          "post_performance": 0.030351468708708872,
+          "performance_change": 0.0870718772108064
+        },
+        {
+          "date": "2009-07-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Goldilocks",
+          "pre_performance": -0.0001748392802121522,
+          "post_performance": 0.017093714014084504,
+          "performance_change": 0.017268553294296655
+        },
+        {
+          "date": "2009-08-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.025921481714678386,
+          "post_performance": 0.014594616316365373,
+          "performance_change": -0.011326865398313013
+        },
+        {
+          "date": "2009-12-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Recession",
+          "pre_performance": 0.02976231846823262,
+          "post_performance": -0.004367613674304943,
+          "performance_change": -0.03412993214253756
+        },
+        {
+          "date": "2010-02-26 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.009007898052604586,
+          "post_performance": 0.005493796242991829,
+          "performance_change": -0.0035141018096127566
+        },
+        {
+          "date": "2010-03-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.014949192639378934,
+          "post_performance": 0.013415324363032357,
+          "performance_change": -0.0015338682763465766
+        },
+        {
+          "date": "2010-04-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.020844347111063515,
+          "post_performance": 0.009925028032615172,
+          "performance_change": -0.010919319078448344
+        },
+        {
+          "date": "2010-06-30 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.004014836034581734,
+          "post_performance": 0.027580158094864034,
+          "performance_change": 0.0235653220602823
+        },
+        {
+          "date": "2010-11-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.01063268501889037,
+          "post_performance": 0.023103386509412824,
+          "performance_change": 0.012470701490522455
+        },
+        {
+          "date": "2010-12-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.025187068687567205,
+          "post_performance": 0.019402560770712944,
+          "performance_change": -0.00578450791685426
+        },
+        {
+          "date": "2011-01-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.04128723643194554,
+          "post_performance": 0.010751094132467812,
+          "performance_change": -0.03053614229947773
+        },
+        {
+          "date": "2011-03-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.043315937347245904,
+          "post_performance": -0.011070645508117585,
+          "performance_change": -0.05438658285536349
+        },
+        {
+          "date": "2011-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.027782266363555016,
+          "post_performance": -0.007224058749122299,
+          "performance_change": -0.03500632511267732
+        },
+        {
+          "date": "2011-06-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.023752478442689032,
+          "post_performance": -0.004750626228815026,
+          "performance_change": -0.02850310467150406
+        },
+        {
+          "date": "2011-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.004594234793206083,
+          "post_performance": 0.023214640616775455,
+          "performance_change": 0.02780887540998154
+        },
+        {
+          "date": "2011-10-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": -0.0163565669853593,
+          "post_performance": 0.03292194542570563,
+          "performance_change": 0.04927851241106493
+        },
+        {
+          "date": "2011-11-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.009113059184957683,
+          "post_performance": 0.014494746614980555,
+          "performance_change": 0.023607805799938236
+        },
+        {
+          "date": "2012-01-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": -0.004426239723426932,
+          "post_performance": 0.018473539587764286,
+          "performance_change": 0.022899779311191217
+        },
+        {
+          "date": "2012-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.024678365600381714,
+          "post_performance": 0.003441629375137571,
+          "performance_change": -0.021236736225244142
+        },
+        {
+          "date": "2012-08-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.018318192901908784,
+          "post_performance": 0.011527480599258658,
+          "performance_change": -0.006790712302650126
+        },
+        {
+          "date": "2012-10-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.007960170351543684,
+          "post_performance": 0.0182824564737511,
+          "performance_change": 0.010322286122207416
+        },
+        {
+          "date": "2012-11-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.0010292536919018994,
+          "post_performance": 0.021554329420096198,
+          "performance_change": 0.0205250757281943
+        },
+        {
+          "date": "2013-01-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.004929962515134333,
+          "post_performance": 0.028057369379366145,
+          "performance_change": 0.02312740686423181
+        },
+        {
+          "date": "2013-04-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.016477180327770218,
+          "post_performance": 0.018741440945829715,
+          "performance_change": 0.0022642606180594965
+        },
+        {
+          "date": "2013-07-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.02224724095757595,
+          "post_performance": 0.021533289765035612,
+          "performance_change": -0.0007139511925403387
+        },
+        {
+          "date": "2013-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.016260789599635336,
+          "post_performance": 0.02214618938717516,
+          "performance_change": 0.0058853997875398245
+        },
+        {
+          "date": "2013-12-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.02225116100159862,
+          "post_performance": 0.013239539996968171,
+          "performance_change": -0.009011621004630448
+        },
+        {
+          "date": "2014-02-28 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.014635814740857,
+          "post_performance": 0.017283865057474385,
+          "performance_change": 0.002648050316617386
+        },
+        {
+          "date": "2014-03-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.031472666592262985,
+          "post_performance": 0.006905452139062728,
+          "performance_change": -0.02456721445320026
+        },
+        {
+          "date": "2014-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.009058585229687983,
+          "post_performance": 0.011703286568294427,
+          "performance_change": 0.0026447013386064443
+        },
+        {
+          "date": "2014-12-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.018680576502790498,
+          "post_performance": 0.006921093738969629,
+          "performance_change": -0.01175948276382087
+        },
+        {
+          "date": "2015-02-27 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.014248641507233184,
+          "post_performance": 0.006275178983249916,
+          "performance_change": -0.007973462523983267
+        },
+        {
+          "date": "2015-03-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.015574480995916915,
+          "post_performance": -0.0042730798462265705,
+          "performance_change": -0.019847560842143487
+        },
+        {
+          "date": "2015-04-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.0146560587304583,
+          "post_performance": 0.007783854144963286,
+          "performance_change": -0.006872204585495013
+        },
+        {
+          "date": "2015-06-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.008493776649879534,
+          "post_performance": 0.004984919456807771,
+          "performance_change": -0.0035088571930717623
+        },
+        {
+          "date": "2015-07-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.009819301653786083,
+          "post_performance": 7.737392817214294e-05,
+          "performance_change": -0.00974192772561394
+        },
+        {
+          "date": "2015-08-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Recession",
+          "pre_performance": 0.017253751949661066,
+          "post_performance": -0.0073383376003933,
+          "performance_change": -0.024592089550054368
+        },
+        {
+          "date": "2015-11-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.010535079652680418,
+          "post_performance": 0.003640664942990028,
+          "performance_change": -0.0068944147096903895
+        },
+        {
+          "date": "2015-12-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": 0.005905391173632983,
+          "post_performance": 0.007200022782699071,
+          "performance_change": 0.0012946316090660876
+        },
+        {
+          "date": "2016-03-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.0013713159354106505,
+          "post_performance": 0.016888607479433958,
+          "performance_change": 0.015517291544023308
+        },
+        {
+          "date": "2016-06-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.0033948194527641494,
+          "post_performance": 0.0046840560331953005,
+          "performance_change": 0.001289236580431151
+        },
+        {
+          "date": "2016-08-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.01911227071421012,
+          "post_performance": 0.0066097324079314275,
+          "performance_change": -0.01250253830627869
+        },
+        {
+          "date": "2016-10-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.010910201344986383,
+          "post_performance": 0.01466881374338613,
+          "performance_change": 0.003758612398399747
+        },
+        {
+          "date": "2016-11-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.0087347186335874,
+          "post_performance": 0.024359856193787915,
+          "performance_change": 0.015625137560200515
+        },
+        {
+          "date": "2017-01-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.00045952491167641687,
+          "post_performance": 0.029113869207581442,
+          "performance_change": 0.028654344295905024
+        },
+        {
+          "date": "2017-02-28 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.0015069296419148992,
+          "post_performance": 0.026521627767620647,
+          "performance_change": 0.025014698125705746
+        },
+        {
+          "date": "2017-03-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.010128550773898317,
+          "post_performance": 0.025275777616415203,
+          "performance_change": 0.015147226842516886
+        },
+        {
+          "date": "2017-05-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.02038016029744305,
+          "post_performance": 0.029735609781388176,
+          "performance_change": 0.009355449483945125
+        },
+        {
+          "date": "2017-06-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.0293915684444976,
+          "post_performance": 0.0229824786195659,
+          "performance_change": -0.006409089824931699
+        },
+        {
+          "date": "2017-08-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.02844082075605912,
+          "post_performance": 0.027216758973020012,
+          "performance_change": -0.0012240617830391078
+        },
+        {
+          "date": "2017-10-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.025902749339874093,
+          "post_performance": 0.016902098598255613,
+          "performance_change": -0.00900065074161848
+        },
+        {
+          "date": "2018-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.011384135564051634,
+          "post_performance": 0.005159269068045672,
+          "performance_change": -0.006224866496005962
+        },
+        {
+          "date": "2018-07-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.012140200859340767,
+          "post_performance": -0.0010885022246322148,
+          "performance_change": -0.013228703083972983
+        },
+        {
+          "date": "2018-10-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Recession",
+          "pre_performance": 0.021325003686449562,
+          "post_performance": -0.0019432690383758,
+          "performance_change": -0.023268272724825362
+        },
+        {
+          "date": "2018-12-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.00019101388088643353,
+          "post_performance": 0.015745780408421527,
+          "performance_change": 0.015554766527535093
+        },
+        {
+          "date": "2019-01-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": -0.012382746572640083,
+          "post_performance": 0.02933267567747223,
+          "performance_change": 0.041715422250112315
+        },
+        {
+          "date": "2019-02-28 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.004382350880310103,
+          "post_performance": 0.020204987387736843,
+          "performance_change": 0.024587338268046946
+        },
+        {
+          "date": "2019-04-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": -0.006126904558609233,
+          "post_performance": 0.0111516126316732,
+          "performance_change": 0.017278517190282432
+        },
+        {
+          "date": "2019-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Recession",
+          "pre_performance": 0.014062463788714749,
+          "post_performance": 0.012658150440154099,
+          "performance_change": -0.0014043133485606499
+        },
+        {
+          "date": "2019-07-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.0311756155836173,
+          "post_performance": 0.014827594422742901,
+          "performance_change": -0.0163480211608744
+        },
+        {
+          "date": "2019-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.017580546794119117,
+          "post_performance": -0.014969027370131355,
+          "performance_change": -0.03254957416425047
+        },
+        {
+          "date": "2019-10-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": 0.011967842487173632,
+          "post_performance": 0.0035206273608903577,
+          "performance_change": -0.008447215126283275
+        },
+        {
+          "date": "2019-12-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.01854741681443035,
+          "post_performance": 0.012590077491650944,
+          "performance_change": -0.005957339322779406
+        },
+        {
+          "date": "2020-03-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Recession",
+          "pre_performance": 0.0015466498790186675,
+          "post_performance": 0.033301407296417763,
+          "performance_change": 0.031754757417399096
+        },
+        {
+          "date": "2020-06-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.007424671104396051,
+          "post_performance": 0.03804196743664234,
+          "performance_change": 0.03061729633224629
+        },
+        {
+          "date": "2021-02-26 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Goldilocks",
+          "pre_performance": 0.028515584117275738,
+          "post_performance": 0.015241476884952244,
+          "performance_change": -0.013274107232323494
+        },
+        {
+          "date": "2021-03-31 00:00:00",
+          "from_regime": "Goldilocks",
+          "to_regime": "Overheating",
+          "pre_performance": 0.011416167922291984,
+          "post_performance": 0.011107302045297628,
+          "performance_change": -0.0003088658769943558
+        },
+        {
+          "date": "2021-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.01875701196433707,
+          "post_performance": -0.009162734046909744,
+          "performance_change": -0.02791974601124681
+        },
+        {
+          "date": "2021-11-30 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.01745328001117978,
+          "post_performance": -0.034024358905693955,
+          "performance_change": -0.051477638916873736
+        },
+        {
+          "date": "2022-01-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.009564651189272548,
+          "post_performance": -0.02951259249764759,
+          "performance_change": -0.039077243686920136
+        },
+        {
+          "date": "2022-02-28 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": -0.007079521165742684,
+          "post_performance": -0.01929345609414821,
+          "performance_change": -0.012213934928405525
+        },
+        {
+          "date": "2022-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": -0.04014682880746656,
+          "post_performance": 0.01033432396381204,
+          "performance_change": 0.0504811527712786
+        },
+        {
+          "date": "2022-08-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": -0.019347822142977183,
+          "post_performance": -0.0002734932047662889,
+          "performance_change": 0.019074328938210892
+        },
+        {
+          "date": "2022-11-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.006000980202416931,
+          "post_performance": -0.009683977305438228,
+          "performance_change": -0.01568495750785516
+        },
+        {
+          "date": "2023-01-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.0160051977325034,
+          "post_performance": 0.0030576470127847287,
+          "performance_change": -0.012947550719718672
+        },
+        {
+          "date": "2023-03-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.002842134561301729,
+          "post_performance": 0.0032571853162954864,
+          "performance_change": 0.0004150507549937573
+        },
+        {
+          "date": "2023-07-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.0006778868803071167,
+          "post_performance": 0.0220262099634212,
+          "performance_change": 0.02134832308311408
+        },
+        {
+          "date": "2023-08-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.004643108655610751,
+          "post_performance": 0.03397230678831931,
+          "performance_change": 0.02932919813270856
+        },
+        {
+          "date": "2023-10-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.003154600550915551,
+          "post_performance": 0.038388093736322626,
+          "performance_change": 0.035233493185407076
+        },
+        {
+          "date": "2024-01-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.016339528741389015,
+          "post_performance": 0.031182945761373346,
+          "performance_change": 0.014843417019984331
+        },
+        {
+          "date": "2024-02-29 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.022807876989383,
+          "post_performance": 0.027287731981468888,
+          "performance_change": 0.0044798549920858875
+        },
+        {
+          "date": "2024-05-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Recession",
+          "pre_performance": 0.04749895721474876,
+          "post_performance": 0.02628159017689283,
+          "performance_change": -0.02121736703785593
+        },
+        {
+          "date": "2024-07-31 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Overheating",
+          "pre_performance": 0.03987796886996429,
+          "post_performance": 0.015535968355694615,
+          "performance_change": -0.02434200051426967
+        },
+        {
+          "date": "2024-09-30 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.015009206381390833,
+          "post_performance": 0.004441520159196555,
+          "performance_change": -0.010567686222194277
+        },
+        {
+          "date": "2024-10-31 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.014364473553063951,
+          "post_performance": 0.003757344072339772,
+          "performance_change": -0.010607129480724179
+        },
+        {
+          "date": "2025-01-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Stagflation",
+          "pre_performance": 0.009043048686021118,
+          "post_performance": 0.018967414154556418,
+          "performance_change": 0.0099243654685353
+        },
+        {
+          "date": "2025-02-28 00:00:00",
+          "from_regime": "Stagflation",
+          "to_regime": "Overheating",
+          "pre_performance": 0.021623161896672433,
+          "post_performance": 0.010085896099761625,
+          "performance_change": -0.011537265796910808
+        },
+        {
+          "date": "2025-03-31 00:00:00",
+          "from_regime": "Overheating",
+          "to_regime": "Recession",
+          "pre_performance": 0.016037480112217447,
+          "post_performance": 0.014992624756497765,
+          "performance_change": -0.001044855355719682
+        },
+        {
+          "date": "2025-04-30 00:00:00",
+          "from_regime": "Recession",
+          "to_regime": "Stagflation",
+          "pre_performance": 5.159929313148376e-05,
+          "post_performance": 0.055056056914211046,
+          "performance_change": 0.05500445762107956
+        }
+      ],
+      "total_transitions_analyzed": 147
+    }
+  },
+  "analysis_timestamp": "2025-07-02T12:39:41.669060"
+}

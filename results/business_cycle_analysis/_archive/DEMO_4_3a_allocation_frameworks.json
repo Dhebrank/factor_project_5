@@ -1,0 +1,28 @@
+{
+  "DEMO_allocation_frameworks": {
+    "regime_specific_allocations": {
+      "Goldilocks": {
+        "risk_parity": {
+          "weights": {
+            "Value": 0.3,
+            "Quality": 0.2,
+            "MinVol": 0.2,
+            "Momentum": 0.3
+          },
+          "expected_return": 0.085,
+          "expected_volatility": 0.12
+        },
+        "sharpe_optimized": {
+          "weights": {
+            "Value": 0.4,
+            "Quality": 0.1,
+            "MinVol": 0.1,
+            "Momentum": 0.4
+          },
+          "expected_return": 0.095,
+          "expected_volatility": 0.15
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "demo_timestamp": "2025-07-02T11:53:45.358296",
+  "total_demos": 15,
+  "demos_completed": [
+    "5.1a.1",
+    "5.1a.2",
+    "5.1a.3",
+    "5.1a.4",
+    "5.1a.5",
+    "5.1a.6",
+    "5.1a.7",
+    "5.1b.1",
+    "5.1b.2",
+    "5.1b.3",
+    "5.2a.1",
+    "5.2a.2",
+    "5.2b.1",
+    "5.2b.2",
+    "5.2b.3"
+  ],
+  "demo_files_created": [
+    "results/phase5_demos/demo_5_1a_4_analytics.html",
+    "results/phase5_demos/demo_5_1a_7_full_dashboard.html",
+    "results/phase5_demos/demo_5_1b_2_hover.html",
+    "results/phase5_demos/demo_5_1a_1_timeline_panel.html",
+    "results/phase5_demos/demo_5_1b_1_view_toggles.html",
+    "results/phase5_demos/demo_5_2b_3_report_generation.md",
+    "results/phase5_demos/demo_5_2a_1_regime_hover.html",
+    "results/phase5_demos/demo_5_2b_1_export_sample.html",
+    "results/phase5_demos/demo_5_1a_5_transition.html",
+    "results/phase5_demos/demo_5_2a_2_factor_distributions.html",
+    "results/phase5_demos/demo_5_1b_3_legend.html",
+    "results/phase5_demos/demo_5_1a_3_heatmaps.html",
+    "results/phase5_demos/demo_5_1a_2_regime_stats_panel.html",
+    "results/phase5_demos/demo_5_2b_2_csv_downloads.json",
+    "results/phase5_demos/demo_5_1a_6_rolling.html",
+    "results/phase5_demos/demo_5_2b_1_export_capabilities.json"
+  ],
+  "roadmap_compliance": "All substeps demonstrated individually"
+}

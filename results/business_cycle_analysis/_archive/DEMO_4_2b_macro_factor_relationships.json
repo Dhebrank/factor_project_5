@@ -1,0 +1,26 @@
+{
+  "DEMO_macro_factor_relationships": {
+    "regime_specific_relationships": {
+      "Goldilocks": {
+        "Value": {
+          "DGS10": {
+            "correlation": 0.45,
+            "beta_sensitivity": 0.8
+          },
+          "INFLATION_COMPOSITE": {
+            "correlation": 0.32,
+            "beta_sensitivity": 0.6
+          }
+        }
+      }
+    },
+    "cross_regime_sensitivity": {
+      "Value": {
+        "DGS10": {
+          "average_sensitivity": 0.35,
+          "sensitivity_stability": 0.15
+        }
+      }
+    }
+  }
+}

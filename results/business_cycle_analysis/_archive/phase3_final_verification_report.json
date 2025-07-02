@@ -1,0 +1,90 @@
+{
+  "timestamp": "2025-07-02T10:46:49.547543",
+  "total_files": 10,
+  "existing_files": 10,
+  "success_rate": 100.0,
+  "step_details": {
+    "3.1": {
+      "total_files": 2,
+      "existing_files": 2,
+      "file_checks": [
+        {
+          "file": "interactive_timeline_regime_overlay.html",
+          "exists": true,
+          "size": 3796931
+        },
+        {
+          "file": "regime_statistics_panel.json",
+          "exists": true,
+          "size": 3364
+        }
+      ]
+    },
+    "3.2": {
+      "total_files": 3,
+      "existing_files": 3,
+      "file_checks": [
+        {
+          "file": "primary_performance_heatmap.html",
+          "exists": true,
+          "size": 3695155,
+          "content_verified": true
+        },
+        {
+          "file": "risk_adjusted_heatmap.html",
+          "exists": true,
+          "size": 3695734,
+          "content_verified": true
+        },
+        {
+          "file": "relative_performance_heatmap.html",
+          "exists": true,
+          "size": 3695388,
+          "content_verified": true
+        }
+      ]
+    },
+    "3.3": {
+      "total_files": 3,
+      "existing_files": 3,
+      "file_checks": [
+        {
+          "file": "factor_rotation_wheel.html",
+          "exists": true,
+          "size": 3693034,
+          "content_verified": true
+        },
+        {
+          "file": "risk_return_scatter_plots.html",
+          "exists": true,
+          "size": 3694483,
+          "content_verified": true
+        },
+        {
+          "file": "rolling_regime_analysis.html",
+          "exists": true,
+          "size": 3876889,
+          "content_verified": true
+        }
+      ]
+    },
+    "3.4": {
+      "total_files": 2,
+      "existing_files": 2,
+      "file_checks": [
+        {
+          "file": "correlation_matrices_by_regime.html",
+          "exists": true,
+          "size": 3706115,
+          "content_verified": true
+        },
+        {
+          "file": "momentum_persistence_analysis.html",
+          "exists": true,
+          "size": 3697423,
+          "content_verified": true
+        }
+      ]
+    }
+  }
+}

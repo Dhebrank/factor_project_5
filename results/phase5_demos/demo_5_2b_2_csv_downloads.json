@@ -1,0 +1,28 @@
+{
+  "csv_files": [
+    "performance_summary_export.csv",
+    "regime_summary_export.csv",
+    "portfolio_recommendations_export.csv"
+  ],
+  "file_status": {
+    "performance_summary_export.csv": {
+      "exists": true,
+      "rows": 20,
+      "columns": 7,
+      "size_bytes": 1173
+    },
+    "regime_summary_export.csv": {
+      "exists": true,
+      "rows": 4,
+      "columns": 6,
+      "size_bytes": 248
+    },
+    "portfolio_recommendations_export.csv": {
+      "exists": true,
+      "rows": 12,
+      "columns": 8,
+      "size_bytes": 859
+    }
+  },
+  "demo_timestamp": "2025-07-02T11:53:45.356191"
+}

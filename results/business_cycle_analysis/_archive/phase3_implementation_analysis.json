@@ -1,0 +1,326 @@
+{
+  "analysis_timestamp": "2025-07-02T10:01:33.399294",
+  "phase3_overview": {
+    "total_requirements": 48,
+    "total_substeps": 8,
+    "estimated_effort_hours": 348,
+    "implementation_phases": 4
+  },
+  "complexity_analysis": {
+    "matrix": {
+      "step_3_1": {
+        "name": "Master Business Cycle Dashboard Layout",
+        "substeps": {
+          "3_1a": {
+            "name": "Interactive timeline with regime overlay",
+            "requirement_count": 6,
+            "priority": "HIGH",
+            "complexity": "MEDIUM",
+            "dependencies": [
+              "Phase 2 regime data",
+              "Plotly timeline components"
+            ],
+            "estimated_effort_hours": 24
+          },
+          "3_1b": {
+            "name": "Dynamic regime statistics panel",
+            "requirement_count": 6,
+            "priority": "HIGH",
+            "complexity": "MEDIUM",
+            "dependencies": [
+              "Phase 2 regime statistics",
+              "Interactive controls"
+            ],
+            "estimated_effort_hours": 24
+          }
+        }
+      },
+      "step_3_2": {
+        "name": "Multi-Layer Performance Heatmaps",
+        "substeps": {
+          "3_2a": {
+            "name": "Primary performance heatmap (Factor \u00d7 Regime)",
+            "requirement_count": 6,
+            "priority": "CRITICAL",
+            "complexity": "HIGH",
+            "dependencies": [
+              "Phase 2 performance metrics",
+              "Statistical significance data"
+            ],
+            "estimated_effort_hours": 36
+          },
+          "3_2b": {
+            "name": "Risk-adjusted performance heatmap",
+            "requirement_count": 6,
+            "priority": "CRITICAL",
+            "complexity": "HIGH",
+            "dependencies": [
+              "Phase 2 Sharpe ratios",
+              "Bootstrap confidence intervals"
+            ],
+            "estimated_effort_hours": 36
+          },
+          "3_2c": {
+            "name": "Relative performance heatmap (vs S&P 500)",
+            "requirement_count": 6,
+            "priority": "HIGH",
+            "complexity": "HIGH",
+            "dependencies": [
+              "Phase 2 S&P 500 data",
+              "Excess return calculations"
+            ],
+            "estimated_effort_hours": 36
+          }
+        }
+      },
+      "step_3_3": {
+        "name": "Advanced Analytical Charts",
+        "substeps": {
+          "3_3a": {
+            "name": "Factor rotation wheel by regime",
+            "requirement_count": 6,
+            "priority": "MEDIUM",
+            "complexity": "VERY_HIGH",
+            "dependencies": [
+              "Custom circular chart components",
+              "Animation libraries"
+            ],
+            "estimated_effort_hours": 60
+          },
+          "3_3b": {
+            "name": "Risk-return scatter plots with regime clustering",
+            "requirement_count": 6,
+            "priority": "HIGH",
+            "complexity": "HIGH",
+            "dependencies": [
+              "Scatter plot components",
+              "Efficient frontier calculations"
+            ],
+            "estimated_effort_hours": 36
+          },
+          "3_3c": {
+            "name": "Rolling regime analysis",
+            "requirement_count": 6,
+            "priority": "MEDIUM",
+            "complexity": "HIGH",
+            "dependencies": [
+              "Rolling window calculations",
+              "Time series components"
+            ],
+            "estimated_effort_hours": 36
+          }
+        }
+      },
+      "step_3_4": {
+        "name": "Correlation & Dependency Analysis",
+        "substeps": {
+          "3_4a": {
+            "name": "Dynamic correlation matrices",
+            "requirement_count": 6,
+            "priority": "HIGH",
+            "complexity": "MEDIUM",
+            "dependencies": [
+              "Correlation calculations",
+              "Significance testing"
+            ],
+            "estimated_effort_hours": 24
+          },
+          "3_4b": {
+            "name": "Factor momentum persistence",
+            "requirement_count": 6,
+            "priority": "MEDIUM",
+            "complexity": "HIGH",
+            "dependencies": [
+              "Momentum calculations",
+              "Time series analysis"
+            ],
+            "estimated_effort_hours": 36
+          }
+        }
+      }
+    },
+    "summary": {
+      "total_requirements": 60,
+      "total_substeps": 8,
+      "priority_breakdown": {
+        "HIGH": 5,
+        "CRITICAL": 2,
+        "MEDIUM": 3
+      },
+      "complexity_breakdown": {
+        "MEDIUM": 3,
+        "HIGH": 6,
+        "VERY_HIGH": 1
+      },
+      "estimated_total_effort_hours": 348
+    }
+  },
+  "implementation_strategy": {
+    "phase_3_alpha": {
+      "name": "Foundation & Core Heatmaps",
+      "priority": 1,
+      "substeps": [
+        "3_2a",
+        "3_2b"
+      ],
+      "rationale": "Core performance visualization foundation",
+      "dependencies": [
+        "Phase 2 data verified"
+      ],
+      "estimated_duration": "3-4 days"
+    },
+    "phase_3_beta": {
+      "name": "Dashboard Layout & Timeline",
+      "priority": 2,
+      "substeps": [
+        "3_1a",
+        "3_1b"
+      ],
+      "rationale": "Create interactive dashboard framework",
+      "dependencies": [
+        "Core heatmaps completed"
+      ],
+      "estimated_duration": "2-3 days"
+    },
+    "phase_3_gamma": {
+      "name": "Advanced Analytics & Correlations",
+      "priority": 3,
+      "substeps": [
+        "3_2c",
+        "3_3b",
+        "3_4a"
+      ],
+      "rationale": "Add analytical depth and insights",
+      "dependencies": [
+        "Dashboard framework completed"
+      ],
+      "estimated_duration": "3-4 days"
+    },
+    "phase_3_delta": {
+      "name": "Specialized Visualizations",
+      "priority": 4,
+      "substeps": [
+        "3_3a",
+        "3_3c",
+        "3_4b"
+      ],
+      "rationale": "Advanced and specialized visualizations",
+      "dependencies": [
+        "Core analytics completed"
+      ],
+      "estimated_duration": "4-5 days"
+    }
+  },
+  "verification_framework": {
+    "step_3_1a_tests": {
+      "name": "Interactive Timeline Verification",
+      "tests": [
+        "timeline_data_accuracy",
+        "color_coding_correct",
+        "regime_transitions_marked",
+        "hover_functionality",
+        "economic_events_displayed",
+        "interactive_responsiveness"
+      ]
+    },
+    "step_3_1b_tests": {
+      "name": "Dynamic Statistics Panel Verification",
+      "tests": [
+        "regime_statistics_accuracy",
+        "confidence_levels_correct",
+        "responsive_to_selection",
+        "summary_box_functional",
+        "transition_frequency_correct",
+        "real_time_updates"
+      ]
+    },
+    "step_3_2a_tests": {
+      "name": "Primary Performance Heatmap Verification",
+      "tests": [
+        "factor_regime_matrix_correct",
+        "color_coding_accurate",
+        "significance_indicators_correct",
+        "hover_details_comprehensive",
+        "return_percentages_accurate",
+        "data_labels_correct"
+      ]
+    },
+    "step_3_2b_tests": {
+      "name": "Risk-Adjusted Heatmap Verification",
+      "tests": [
+        "sharpe_ratios_accurate",
+        "significance_overlay_correct",
+        "confidence_intervals_accurate",
+        "color_scale_appropriate",
+        "toggle_functionality",
+        "risk_metrics_comprehensive"
+      ]
+    },
+    "step_3_2c_tests": {
+      "name": "Relative Performance Heatmap Verification",
+      "tests": [
+        "excess_returns_accurate",
+        "outperformance_frequency_correct",
+        "alpha_metrics_accurate",
+        "color_coding_logical",
+        "significance_testing_correct",
+        "tracking_error_accurate"
+      ]
+    },
+    "step_3_3a_tests": {
+      "name": "Factor Rotation Wheel Verification",
+      "tests": [
+        "circular_layout_correct",
+        "factor_leadership_accurate",
+        "transition_arrows_logical",
+        "performance_momentum_correct",
+        "interactive_selection_works",
+        "animation_smooth"
+      ]
+    },
+    "step_3_3b_tests": {
+      "name": "Risk-Return Scatter Verification",
+      "tests": [
+        "scatter_points_accurate",
+        "efficient_frontier_correct",
+        "regime_clustering_logical",
+        "color_coding_consistent",
+        "interactive_highlighting_works",
+        "quadrant_analysis_accurate"
+      ]
+    },
+    "step_3_3c_tests": {
+      "name": "Rolling Analysis Verification",
+      "tests": [
+        "rolling_calculations_accurate",
+        "regime_markers_correct",
+        "lead_lag_analysis_logical",
+        "time_series_smooth",
+        "correlation_analysis_accurate",
+        "adjustable_window_functional"
+      ]
+    },
+    "step_3_4a_tests": {
+      "name": "Correlation Matrix Verification",
+      "tests": [
+        "correlations_accurate",
+        "regime_specific_correct",
+        "stability_analysis_logical",
+        "crisis_convergence_shown",
+        "change_analysis_accurate",
+        "significance_testing_correct"
+      ]
+    },
+    "step_3_4b_tests": {
+      "name": "Momentum Persistence Verification",
+      "tests": [
+        "momentum_effects_accurate",
+        "mean_reversion_logical",
+        "decay_rates_correct",
+        "persistence_charts_accurate",
+        "signal_strength_correct",
+        "reversal_analysis_logical"
+      ]
+    }
+  }
+}
