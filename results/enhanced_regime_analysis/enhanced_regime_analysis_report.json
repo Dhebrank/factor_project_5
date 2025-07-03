@@ -1,0 +1,295 @@
+{
+  "analysis_date": "2025-07-03T10:22:08.622034",
+  "approaches_compared": [
+    "Original Monthly",
+    "Rolling Quarterly",
+    "Persistence-Required"
+  ],
+  "key_findings": {
+    "regime_stability": {
+      "scores": {
+        "Original Monthly": 0.3873414230557088,
+        "Rolling Quarterly": 4213.5,
+        "Persistence-Required": 10.37807881773399
+      },
+      "best_approach": "Rolling Quarterly",
+      "interpretation": "Higher scores indicate more stable, economically coherent regime classification"
+    },
+    "performance_consistency": {
+      "coefficient_of_variation": {
+        "Original Monthly": 0.9660927023152436,
+        "Rolling Quarterly": 1.0094776343477876,
+        "Persistence-Required": 0.6056074592605442
+      },
+      "best_approach": "Persistence-Required",
+      "interpretation": "Lower CV indicates more consistent factor performance across regimes"
+    },
+    "economic_coherence": {
+      "Original Monthly": {
+        "transitions_per_year": 5.547169811320755,
+        "avg_duration": 2.1486486486486487,
+        "assessment": "Too frequent transitions, captures noise rather than genuine regime changes"
+      },
+      "Rolling Quarterly": {
+        "transitions_per_year": 0.03773584905660377,
+        "avg_duration": 159.0,
+        "assessment": "More economically coherent, aligns with business cycle frequencies"
+      },
+      "Persistence-Required": {
+        "transitions_per_year": 1.0566037735849056,
+        "avg_duration": 10.96551724137931,
+        "assessment": "Most stable classification, reduces whipsawing while maintaining responsiveness"
+      }
+    }
+  },
+  "recommendations": {
+    "primary_recommendation": "Persistence-Required Monthly",
+    "rationale": [
+      "Balances stability with responsiveness",
+      "Reduces false signals and transaction costs",
+      "Maintains monthly monitoring capability",
+      "Average regime duration aligns with economic reality"
+    ],
+    "secondary_recommendation": "Rolling Quarterly Updated Monthly",
+    "secondary_rationale": [
+      "Good alternative for more conservative approach",
+      "Natural smoothing of economic indicators",
+      "Well-established in academic literature"
+    ],
+    "implementation_guidance": {
+      "rebalancing_frequency": "Only on confirmed regime changes",
+      "confirmation_period": "3 months for persistence-required approach",
+      "risk_management": "Use regime probabilities for position sizing",
+      "monitoring": "Track provisional vs confirmed regimes"
+    }
+  },
+  "detailed_statistics": {
+    "Original Monthly": {
+      "total_transitions": 147,
+      "transitions_per_year": 5.547169811320755,
+      "average_duration_months": 2.1486486486486487,
+      "min_duration_months": 1,
+      "max_duration_months": 10,
+      "regime_distribution": {
+        "Overheating": 124,
+        "Stagflation": 97,
+        "Recession": 56,
+        "Goldilocks": 41
+      }
+    },
+    "Rolling Quarterly": {
+      "total_transitions": 1,
+      "transitions_per_year": 0.03773584905660377,
+      "average_duration_months": 159.0,
+      "min_duration_months": 1,
+      "max_duration_months": 317,
+      "regime_distribution": {
+        "Recession": 317,
+        "Goldilocks": 1
+      }
+    },
+    "Persistence-Required": {
+      "total_transitions": 28,
+      "transitions_per_year": 1.0566037735849056,
+      "average_duration_months": 10.96551724137931,
+      "min_duration_months": 3,
+      "max_duration_months": 53,
+      "regime_distribution": {
+        "Overheating": 157,
+        "Stagflation": 64,
+        "Recession": 50,
+        "Goldilocks": 47
+      }
+    }
+  },
+  "performance_summary": {
+    "Original Monthly": {
+      "Goldilocks": {
+        "Value": {
+          "annual_return": 28.68,
+          "sharpe_ratio": 2.253
+        },
+        "Quality": {
+          "annual_return": 21.85,
+          "sharpe_ratio": 1.997
+        },
+        "MinVol": {
+          "annual_return": 20.52,
+          "sharpe_ratio": 2.347
+        },
+        "Momentum": {
+          "annual_return": 26.9,
+          "sharpe_ratio": 2.541
+        }
+      },
+      "Overheating": {
+        "Value": {
+          "annual_return": 16.16,
+          "sharpe_ratio": 1.04
+        },
+        "Quality": {
+          "annual_return": 13.17,
+          "sharpe_ratio": 0.983
+        },
+        "MinVol": {
+          "annual_return": 11.53,
+          "sharpe_ratio": 1.032
+        },
+        "Momentum": {
+          "annual_return": 14.73,
+          "sharpe_ratio": 0.962
+        }
+      },
+      "Stagflation": {
+        "Value": {
+          "annual_return": 0.96,
+          "sharpe_ratio": 0.054
+        },
+        "Quality": {
+          "annual_return": 1.94,
+          "sharpe_ratio": 0.123
+        },
+        "MinVol": {
+          "annual_return": 2.14,
+          "sharpe_ratio": 0.176
+        },
+        "Momentum": {
+          "annual_return": 2.51,
+          "sharpe_ratio": 0.155
+        }
+      },
+      "Recession": {
+        "Value": {
+          "annual_return": -3.7,
+          "sharpe_ratio": -0.171
+        },
+        "Quality": {
+          "annual_return": 5.88,
+          "sharpe_ratio": 0.318
+        },
+        "MinVol": {
+          "annual_return": 5.31,
+          "sharpe_ratio": 0.364
+        },
+        "Momentum": {
+          "annual_return": 7.4,
+          "sharpe_ratio": 0.363
+        }
+      }
+    },
+    "Rolling Quarterly": {
+      "Goldilocks": {
+        "Value": {
+          "annual_return": 27.15,
+          "sharpe_ratio": 0
+        },
+        "Quality": {
+          "annual_return": 77.09,
+          "sharpe_ratio": 0
+        },
+        "MinVol": {
+          "annual_return": 49.11,
+          "sharpe_ratio": 0
+        },
+        "Momentum": {
+          "annual_return": 122.78,
+          "sharpe_ratio": 0
+        }
+      },
+      "Overheating": {},
+      "Stagflation": {},
+      "Recession": {
+        "Value": {
+          "annual_return": 9.58,
+          "sharpe_ratio": 0.551
+        },
+        "Quality": {
+          "annual_return": 9.37,
+          "sharpe_ratio": 0.628
+        },
+        "MinVol": {
+          "annual_return": 8.6,
+          "sharpe_ratio": 0.72
+        },
+        "Momentum": {
+          "annual_return": 10.93,
+          "sharpe_ratio": 0.678
+        }
+      }
+    },
+    "Persistence-Required": {
+      "Goldilocks": {
+        "Value": {
+          "annual_return": 9.55,
+          "sharpe_ratio": 0.629
+        },
+        "Quality": {
+          "annual_return": 10.71,
+          "sharpe_ratio": 0.843
+        },
+        "MinVol": {
+          "annual_return": 12.18,
+          "sharpe_ratio": 1.303
+        },
+        "Momentum": {
+          "annual_return": 11.35,
+          "sharpe_ratio": 0.92
+        }
+      },
+      "Overheating": {
+        "Value": {
+          "annual_return": 11.02,
+          "sharpe_ratio": 0.695
+        },
+        "Quality": {
+          "annual_return": 9.84,
+          "sharpe_ratio": 0.698
+        },
+        "MinVol": {
+          "annual_return": 9.95,
+          "sharpe_ratio": 0.903
+        },
+        "Momentum": {
+          "annual_return": 11.28,
+          "sharpe_ratio": 0.703
+        }
+      },
+      "Stagflation": {
+        "Value": {
+          "annual_return": 2.2,
+          "sharpe_ratio": 0.107
+        },
+        "Quality": {
+          "annual_return": 1.54,
+          "sharpe_ratio": 0.087
+        },
+        "MinVol": {
+          "annual_return": 0.54,
+          "sharpe_ratio": 0.037
+        },
+        "Momentum": {
+          "annual_return": 0.95,
+          "sharpe_ratio": 0.052
+        }
+      },
+      "Recession": {
+        "Value": {
+          "annual_return": 14.92,
+          "sharpe_ratio": 0.763
+        },
+        "Quality": {
+          "annual_return": 18.0,
+          "sharpe_ratio": 1.15
+        },
+        "MinVol": {
+          "annual_return": 12.14,
+          "sharpe_ratio": 0.934
+        },
+        "Momentum": {
+          "annual_return": 24.46,
+          "sharpe_ratio": 1.474
+        }
+      }
+    }
+  }
+}
