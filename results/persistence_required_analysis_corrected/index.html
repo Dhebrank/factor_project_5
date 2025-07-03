@@ -1,0 +1,67 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Corrected Persistence-Required Analysis</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 40px; }
+                h1 { color: #333; }
+                .warning { background-color: #fff3cd; border: 1px solid #ffeaa7; padding: 15px; margin-bottom: 20px; border-radius: 5px; }
+                .viz-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+                .viz-link { 
+                    padding: 20px;
+                    border: 1px solid #ddd;
+                    border-radius: 8px;
+                    text-decoration: none;
+                    color: #333;
+                    transition: all 0.3s;
+                }
+                .viz-link:hover { 
+                    background-color: #f5f5f5;
+                    border-color: #999;
+                }
+                .viz-title { font-weight: bold; margin-bottom: 5px; }
+                .viz-desc { font-size: 14px; color: #666; }
+            </style>
+        </head>
+        <body>
+            <h1>Corrected Persistence-Required Monthly Regime Analysis</h1>
+            
+            <div class="warning">
+                <strong>Important:</strong> This analysis corrects calculation errors in the original analysis:
+                <ul>
+                    <li>Sharpe ratios now properly account for risk-free rate (2.3%)</li>
+                    <li>SP500 data converted from price levels to returns</li>
+                    <li>All metrics recalculated with proper methodology</li>
+                </ul>
+            </div>
+            
+            <div class="viz-grid">
+                <a href="executive_summary_visual.html" class="viz-link">
+                    <div class="viz-title">Executive Summary</div>
+                    <div class="viz-desc">Corrected findings with proper Sharpe ratios</div>
+                </a>
+                
+                <a href="sharpe_comparison.html" class="viz-link">
+                    <div class="viz-title">Sharpe Ratio Comparison</div>
+                    <div class="viz-desc">Impact of risk-free rate on Sharpe calculations</div>
+                </a>
+                
+                <a href="regime_duration_analysis.html" class="viz-link">
+                    <div class="viz-title">Regime Duration Analysis</div>
+                    <div class="viz-desc">Duration patterns and transitions</div>
+                </a>
+                
+                <a href="factor_performance_heatmap.html" class="viz-link">
+                    <div class="viz-title">Performance Heatmap</div>
+                    <div class="viz-desc">Corrected metrics by factor and regime</div>
+                </a>
+                
+                <a href="risk_return_detailed.html" class="viz-link">
+                    <div class="viz-title">Risk-Return Analysis</div>
+                    <div class="viz-desc">Scatter plot with proper Sharpe ratio lines</div>
+                </a>
+            </div>
+        </body>
+        </html>
+        
