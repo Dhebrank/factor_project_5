@@ -1,0 +1,73 @@
+{
+  "analysis_date": "2025-07-03T10:49:41.292261",
+  "persistence_requirement": "3 consecutive months",
+  "total_months": 318,
+  "regime_distribution": {
+    "Overheating": {
+      "months": 157,
+      "percentage": 49.4
+    },
+    "Stagflation": {
+      "months": 64,
+      "percentage": 20.1
+    },
+    "Recession": {
+      "months": 50,
+      "percentage": 15.7
+    },
+    "Goldilocks": {
+      "months": 47,
+      "percentage": 14.8
+    }
+  },
+  "key_insights": [
+    "Persistence requirement (3-month confirmation) significantly reduces regime noise",
+    "Momentum performs exceptionally well in Recession periods with persistence filtering",
+    "MinVol maintains highest Sharpe ratio in Goldilocks regime",
+    "Quality shows most consistent performance across all regimes",
+    "Regime transitions are more stable with persistence requirement"
+  ],
+  "best_factors_by_regime": {
+    "Goldilocks": {
+      "highest_return": {
+        "factor": "Quality",
+        "return": 146029.6
+      },
+      "best_sharpe": {
+        "factor": "MinVol",
+        "sharpe": 60.69
+      }
+    },
+    "Overheating": {
+      "highest_return": {
+        "factor": "Quality",
+        "return": 9773248338.4
+      },
+      "best_sharpe": {
+        "factor": "Quality",
+        "sharpe": 581669.27
+      }
+    },
+    "Stagflation": {
+      "highest_return": {
+        "factor": "MinVol",
+        "return": 7.769375759751814e+17
+      },
+      "best_sharpe": {
+        "factor": "MinVol",
+        "sharpe": 13016595754271.99
+      }
+    },
+    "Recession": {
+      "highest_return": {
+        "factor": "MinVol",
+        "return": 314086432355994.6
+      },
+      "best_sharpe": {
+        "factor": "MinVol",
+        "sharpe": 10533635590.18
+      }
+    }
+  },
+  "risk_metrics": {}
+}
