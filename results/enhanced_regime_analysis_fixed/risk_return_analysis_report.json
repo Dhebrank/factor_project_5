@@ -1,0 +1,357 @@
+{
+  "analysis_date": "2025-07-03T10:42:00.887275",
+  "key_findings": {
+    "best_overall_sharpe": "MinVol",
+    "sharpe_rankings": {
+      "MinVol": 0.7310397164840358,
+      "Momentum": 0.696264062589408,
+      "Quality": 0.6417171534450437,
+      "Value": 0.555232993043102
+    }
+  },
+  "factor_performance": {
+    "Overall Period": {
+      "Value": {
+        "annual_return": 9.639858544032087,
+        "annual_volatility": 17.3618258727715,
+        "sharpe_ratio": 0.555232993043102,
+        "max_drawdown": -54.95594464144775,
+        "observations": 318
+      },
+      "Quality": {
+        "annual_return": 9.579296623322108,
+        "annual_volatility": 14.927599444546363,
+        "sharpe_ratio": 0.6417171534450437,
+        "max_drawdown": -43.817611085714056,
+        "observations": 318
+      },
+      "MinVol": {
+        "annual_return": 8.728962456149114,
+        "annual_volatility": 11.940476364446244,
+        "sharpe_ratio": 0.7310397164840358,
+        "max_drawdown": -40.97564969044864,
+        "observations": 318
+      },
+      "Momentum": {
+        "annual_return": 11.282292343792841,
+        "annual_volatility": 16.204042331057508,
+        "sharpe_ratio": 0.696264062589408,
+        "max_drawdown": -51.720513758593945,
+        "observations": 318
+      },
+      "SP500": {
+        "annual_return": 256852.8754716981,
+        "annual_volatility": 45215.89159201216,
+        "sharpe_ratio": 5.68058853708579,
+        "max_drawdown": 0.0,
+        "observations": 318
+      }
+    },
+    "Original Monthly": {
+      "Goldilocks": {
+        "Value": {
+          "annual_return": 28.67858007631382,
+          "annual_volatility": 12.729455769842776,
+          "sharpe_ratio": 2.252930572590224,
+          "max_drawdown": -16.176726517499898,
+          "observations": 41
+        },
+        "Quality": {
+          "annual_return": 21.853091288148306,
+          "annual_volatility": 10.944452845108442,
+          "sharpe_ratio": 1.9967276205968953,
+          "max_drawdown": -13.879384650908131,
+          "observations": 41
+        },
+        "MinVol": {
+          "annual_return": 20.523177202998905,
+          "annual_volatility": 8.745938507115817,
+          "sharpe_ratio": 2.346595186588719,
+          "max_drawdown": -8.176535721146285,
+          "observations": 41
+        },
+        "Momentum": {
+          "annual_return": 26.90118834478391,
+          "annual_volatility": 10.585168027905121,
+          "sharpe_ratio": 2.541403997921027,
+          "max_drawdown": -11.154968583811113,
+          "observations": 41
+        },
+        "SP500": {
+          "annual_return": 201152.42926829268,
+          "annual_volatility": 22509.09760014663,
+          "sharpe_ratio": 8.936494605051704,
+          "max_drawdown": 0.0,
+          "observations": 41
+        }
+      },
+      "Overheating": {
+        "Value": {
+          "annual_return": 16.160948092487086,
+          "annual_volatility": 15.535155413390065,
+          "sharpe_ratio": 1.0402823571727926,
+          "max_drawdown": -20.354107706100148,
+          "observations": 124
+        },
+        "Quality": {
+          "annual_return": 13.167595229456627,
+          "annual_volatility": 13.39268208966829,
+          "sharpe_ratio": 0.9831932947631673,
+          "max_drawdown": -26.544890261648856,
+          "observations": 124
+        },
+        "MinVol": {
+          "annual_return": 11.52930287887315,
+          "annual_volatility": 11.175550773348606,
+          "sharpe_ratio": 1.0316541092872278,
+          "max_drawdown": -17.65245116025455,
+          "observations": 124
+        },
+        "Momentum": {
+          "annual_return": 14.730519061846852,
+          "annual_volatility": 15.312431314397527,
+          "sharpe_ratio": 0.9619973967162531,
+          "max_drawdown": -23.54139016147624,
+          "observations": 124
+        },
+        "SP500": {
+          "annual_return": 290648.48709677416,
+          "annual_volatility": 49928.96983478895,
+          "sharpe_ratio": 5.821239413881505,
+          "max_drawdown": 0.0,
+          "observations": 124
+        }
+      },
+      "Stagflation": {
+        "Value": {
+          "annual_return": 0.9590302330082937,
+          "annual_volatility": 17.80124193692547,
+          "sharpe_ratio": 0.05387434407140763,
+          "max_drawdown": -34.54335183816231,
+          "observations": 97
+        },
+        "Quality": {
+          "annual_return": 1.9414969867625718,
+          "annual_volatility": 15.744809022724235,
+          "sharpe_ratio": 0.12331029128142738,
+          "max_drawdown": -31.742082587402738,
+          "observations": 97
+        },
+        "MinVol": {
+          "annual_return": 2.1367640673077597,
+          "annual_volatility": 12.121089576110647,
+          "sharpe_ratio": 0.1762848177872631,
+          "max_drawdown": -20.62230040949952,
+          "observations": 97
+        },
+        "Momentum": {
+          "annual_return": 2.5110595573563237,
+          "annual_volatility": 16.246916073389958,
+          "sharpe_ratio": 0.15455607365813057,
+          "max_drawdown": -37.7309541219429,
+          "observations": 97
+        },
+        "SP500": {
+          "annual_return": 257301.15463917522,
+          "annual_volatility": 47093.27896208543,
+          "sharpe_ratio": 5.463649172662773,
+          "max_drawdown": 0.0,
+          "observations": 97
+        }
+      },
+      "Recession": {
+        "Value": {
+          "annual_return": -3.702326110658316,
+          "annual_volatility": 21.679118031428704,
+          "sharpe_ratio": -0.17077844704249362,
+          "max_drawdown": -42.53838670516632,
+          "observations": 56
+        },
+        "Quality": {
+          "annual_return": 5.877367272031411,
+          "annual_volatility": 18.490076419940163,
+          "sharpe_ratio": 0.3178660346526805,
+          "max_drawdown": -24.28173165783664,
+          "observations": 56
+        },
+        "MinVol": {
+          "annual_return": 5.311787932559653,
+          "annual_volatility": 14.590349401646128,
+          "sharpe_ratio": 0.3640617360376826,
+          "max_drawdown": -26.151075694777674,
+          "observations": 56
+        },
+        "Momentum": {
+          "annual_return": 7.404698258168055,
+          "annual_volatility": 20.415902451301584,
+          "sharpe_ratio": 0.362692674293023,
+          "max_drawdown": -27.69940210118229,
+          "observations": 56
+        },
+        "SP500": {
+          "annual_return": 222023.93571428573,
+          "annual_volatility": 38194.29015568134,
+          "sharpe_ratio": 5.813013798903133,
+          "max_drawdown": 0.0,
+          "observations": 56
+        }
+      }
+    },
+    "Persistence-Required": {
+      "Goldilocks": {
+        "Value": {
+          "annual_return": 9.546289120620125,
+          "annual_volatility": 15.185796649777789,
+          "sharpe_ratio": 0.628632750772401,
+          "max_drawdown": -27.048248482947084,
+          "observations": 47
+        },
+        "Quality": {
+          "annual_return": 10.708060730584249,
+          "annual_volatility": 12.698208406746812,
+          "sharpe_ratio": 0.8432733490887456,
+          "max_drawdown": -20.03385431226868,
+          "observations": 47
+        },
+        "MinVol": {
+          "annual_return": 12.184791132658454,
+          "annual_volatility": 9.347939424537435,
+          "sharpe_ratio": 1.3034734800136334,
+          "max_drawdown": -11.073636227298575,
+          "observations": 47
+        },
+        "Momentum": {
+          "annual_return": 11.353233989142192,
+          "annual_volatility": 12.338450759279748,
+          "sharpe_ratio": 0.9201506907667013,
+          "max_drawdown": -21.409288764544574,
+          "observations": 47
+        },
+        "SP500": {
+          "annual_return": 262336.1617021276,
+          "annual_volatility": 20440.085774752093,
+          "sharpe_ratio": 12.834396322649937,
+          "max_drawdown": 0.0,
+          "observations": 47
+        }
+      },
+      "Overheating": {
+        "Value": {
+          "annual_return": 11.017320382865789,
+          "annual_volatility": 15.851136420648249,
+          "sharpe_ratio": 0.6950492438204139,
+          "max_drawdown": -31.689800322580748,
+          "observations": 157
+        },
+        "Quality": {
+          "annual_return": 9.835671133385668,
+          "annual_volatility": 14.10028031021578,
+          "sharpe_ratio": 0.697551461176246,
+          "max_drawdown": -28.35534151836888,
+          "observations": 157
+        },
+        "MinVol": {
+          "annual_return": 9.946122429866321,
+          "annual_volatility": 11.01773456784237,
+          "sharpe_ratio": 0.9027375245448569,
+          "max_drawdown": -19.322186519905568,
+          "observations": 157
+        },
+        "Momentum": {
+          "annual_return": 11.276402745872229,
+          "annual_volatility": 16.05039572254198,
+          "sharpe_ratio": 0.7025622882328739,
+          "max_drawdown": -27.587775564288357,
+          "observations": 157
+        },
+        "SP500": {
+          "annual_return": 287887.43694267515,
+          "annual_volatility": 54761.38164590415,
+          "sharpe_ratio": 5.25712515444189,
+          "max_drawdown": 0.0,
+          "observations": 157
+        }
+      },
+      "Stagflation": {
+        "Value": {
+          "annual_return": 2.200506542865529,
+          "annual_volatility": 20.530918852712556,
+          "sharpe_ratio": 0.1071801295719795,
+          "max_drawdown": -38.54598793780203,
+          "observations": 64
+        },
+        "Quality": {
+          "annual_return": 1.5400438235744964,
+          "annual_volatility": 17.62035776312859,
+          "sharpe_ratio": 0.08740139356291102,
+          "max_drawdown": -30.72495363697747,
+          "observations": 64
+        },
+        "MinVol": {
+          "annual_return": 0.5424832589018085,
+          "annual_volatility": 14.638852550159232,
+          "sharpe_ratio": 0.03705777191504724,
+          "max_drawdown": -23.706104037033743,
+          "observations": 64
+        },
+        "Momentum": {
+          "annual_return": 0.9521665800924617,
+          "annual_volatility": 18.372740773482782,
+          "sharpe_ratio": 0.05182496132894421,
+          "max_drawdown": -41.10227672997159,
+          "observations": 64
+        },
+        "SP500": {
+          "annual_return": 244477.5,
+          "annual_volatility": 39487.28627943792,
+          "sharpe_ratio": 6.191296567455079,
+          "max_drawdown": 0.0,
+          "observations": 64
+        }
+      },
+      "Recession": {
+        "Value": {
+          "annual_return": 14.924954189594708,
+          "annual_volatility": 19.56561882890376,
+          "sharpe_ratio": 0.7628153405271536,
+          "max_drawdown": -21.87199023765734,
+          "observations": 50
+        },
+        "Quality": {
+          "annual_return": 18.003485984573057,
+          "annual_volatility": 15.648566393645655,
+          "sharpe_ratio": 1.150487880594842,
+          "max_drawdown": -22.418536364731516,
+          "observations": 50
+        },
+        "MinVol": {
+          "annual_return": 12.137294555234856,
+          "annual_volatility": 12.989044926120458,
+          "sharpe_ratio": 0.9344254811858596,
+          "max_drawdown": -20.569470901309824,
+          "observations": 50
+        },
+        "Momentum": {
+          "annual_return": 24.456661512171674,
+          "annual_volatility": 16.589677203670085,
+          "sharpe_ratio": 1.4742096070899555,
+          "max_drawdown": -18.105516362554244,
+          "observations": 50
+        },
+        "SP500": {
+          "annual_return": 170090.544,
+          "annual_volatility": 19130.433261569888,
+          "sharpe_ratio": 8.891097325102711,
+          "max_drawdown": 0.0,
+          "observations": 50
+        }
+      }
+    }
+  },
+  "visualization_files": [
+    "risk_return_overall_comparison.html",
+    "risk_return_by_regime.html",
+    "risk_return_factor_trajectories.html",
+    "efficient_frontier_comparison.html"
+  ]
+}
